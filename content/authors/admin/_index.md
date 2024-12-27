@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Valentin Barriere
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation:
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Valentin
+last_name: Barriere
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🦥
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,93 +20,90 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Researcher and Teacher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Universidad de Chile | Centro Nacional de Inteligencia Artificial
+    url: https://dcc.uchile.cl/pregrado/academico/valentin-barriere/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:vbarriere@dcc.uchile.cl'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/valbarriere
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/valentin-barriere-81a45aa7/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.fr/citations?user=5HX-EfcAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/my-orcid?orcid=0000-0002-0663-355X
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Multimodal Machine Learning
+  - Natural Language Processing
+  - Fairness
+  - Explainability
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD in Computer Science
+    institution: Télécom Paris
+    date_start: 2015-10-10
+    date_end: 2019-04-19
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Opinion Analysis in Speech Interacions_. Supervised by [Chloé Clavel](https://scholar.google.fr/citations?user=TAZbfksAAAAJ&hl=fr&oi=ao).
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Engineering in Aeronautics/Aerospatial Telecommunications
+    institution: ENAC | IRIT
+    date_end: 2015-09-01
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis on _Deep Learning Approaches for Audio Signal Processing_. Supervised by [Thomas Pellegrini](https://scholar.google.fr/citations?user=5FvYex4AAAAJ&hl=fr&oi=ao).
+    button:
+      text: 'Read Thesis (in French)'
+      url: 'https://example.com'
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Assistant Professor
+    company_name: Universidad de Chile
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-12-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Teaching: Data Mining, Deep Learning
+      - Research: Fairness, Explicability, Social Computing, Multilingual Stance Recognition
+      - Applied projects: Wildfire detection, Remote Sensing Processing
+  - position: Researcher
+    company_name: CENIA
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-12-01
+    date_end: 2023-11-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+      - Research: Multilingual Stance Recognition, Fairness, Explicability
+      - Applied projects: Crop Classification
+  - position: Researcher
+    company_name: European Commission's JRC
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-04-01
+    date_end: 2022-10-01
+    summary: |
+      - Research: Multilingual Sentiment, Multilingual Stance Recognition, 
+      - Applied projects: Disaster-related Text Classification, Participatory Democracy Platform
+  - position: Researcher
+    company_name: Cour de Cassation
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-03-01
+    date_end: 2020-01-01
+    summary: |
+      - Named Entity Recognition in Legal Texts
+      - Privacy Preserving in Language Models
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -143,13 +140,13 @@ skills:
 
 languages:
   - name: English
+    percent: 90
+  - name: Français
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Español
+    percent: 67
 
-# Awards.
+# Grants Awarded.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
@@ -181,6 +178,8 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+## Coucou!
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Valentin Barriere is an AI profesor in the CS department of the University of Chile, specialized in multimodal machine learning for social interactions studies, with a focus on natural language processing. He also work on multilingual debates analysis, social biases detection, explainable IA, and also multimodal satellite data processing. Before this, he worked for public institutions such as the Supreme Court (Cour de Cassation) and the European Commission's Joint Research Center. 
+
+He is director of several projects focused on the use of Machine Learning for social good with public Chilean institutions, and involved as IA advisor of the CopernicusLAC program in Chile with the aim to develop general multi-modal and multi-resolution models for satellite data processing. 

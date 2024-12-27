@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote Sensing | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/remote-sensing/</link>
+      <atom:link href="http://localhost:1313/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Remote Sensing</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Remote Sensing</title>
+      <link>http://localhost:1313/tags/remote-sensing/</link>
+    </image>
+    
+    <item>
+      <title>fAIrefighter</title>
+      <link>http://localhost:1313/project/fairefighter/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/fairefighter/</guid>
+      <description>&lt;p&gt;Here put some text about the project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Boosting crop classification by hierarchically fusing satellite, rotational, and contextual data</title>
+      <link>http://localhost:1313/publication/rse24-boosting/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rse24-boosting/</guid>
+      <description>&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

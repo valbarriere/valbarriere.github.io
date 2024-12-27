@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>\*ACL | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/%5Cacl/</link>
+      <atom:link href="http://localhost:1313/tags/%5Cacl/index.xml" rel="self" type="application/rss+xml" />
+    <description>\*ACL</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>\*ACL</title>
+      <link>http://localhost:1313/tags/%5Cacl/</link>
+    </image>
+    
+    <item>
+      <title>CoFE: A New Dataset of Intra-Multilingual Multi-target Stance Classification from an Online European Participatory Democracy Platform</title>
+      <link>http://localhost:1313/publication/aacl22-cofe/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/aacl22-cofe/</guid>
+      <description>&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

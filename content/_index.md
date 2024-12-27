@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/CV_English_VB_11_2024.pdf
     design:
       css_class: dark
       background:
@@ -35,13 +35,15 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am interested in many things! I started on studying Multimodal Machine Learning for the understanding of social behaviours in humans interactions, meaning that I worked with different types of modalities i.e., audio, text, video, which means different data and model types. 
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        I applied this knowledge in projects with different public institutions, with the aim to develop systems that will improve the life of others. That is why here in Chile I still continue to be involved on public projects with entities such as the Agriculture Ministry, the National Office of Parks <s>and Rec</s>, the European Commission, the NGO PyroNear. 
+
+        Beside this, I also research in NLP where my interests lie in topics such as bias detection in language models, debates analysis from participatory democracy platforms, explicability in language models. 
+
+        I am slowly going back to multimodal social interactions by studying humor detection in stand-up or multimodal argumentation mining in groups, so please reach out if you want to collaborate 😃
     design:
-      columns: '1'
+      columns: '2'
   - block: collection
     id: papers
     content:

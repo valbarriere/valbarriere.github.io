@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fairness_and_Biases | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/fairness_and_biases/</link>
+      <atom:link href="http://localhost:1313/tags/fairness_and_biases/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fairness_and_Biases</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Fairness_and_Biases</title>
+      <link>http://localhost:1313/tags/fairness_and_biases/</link>
+    </image>
+    
+    <item>
+      <title>TIDA</title>
+      <link>http://localhost:1313/publication/todo_gem23-tida/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/todo_gem23-tida/</guid>
+      <description>&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

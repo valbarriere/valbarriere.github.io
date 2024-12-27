@@ -1,6 +1,6 @@
 ---
 title: 'Experience'
-date: 2023-10-24
+date: 2024-12-14
 type: landing
 
 design:
@@ -26,7 +26,7 @@ sections:
       show_skill_percentage: false
   - block: resume-awards
     content:
-      title: Awards
+      title: Awarded Grants
       username: admin
   - block: resume-languages
     content:
