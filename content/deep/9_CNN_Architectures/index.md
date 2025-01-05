@@ -1,6 +1,6 @@
 ---
 title: Computer Vision Architectures
-summary: Deep Learning
+summary: ImageNet, Revolution of depth, Classical classifiers architectures
 date: 2024-03-21
 type: docs
 math: true

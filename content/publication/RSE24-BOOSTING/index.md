@@ -10,7 +10,9 @@ authors:
   - Maja Schneider
   - Guido Lemoine
   - Raphaël d'Andrimont
-
+author_notes:
+  - "Equal Contribution"
+  - "Equal Contribution"
 date: '2024-04-01T00:00:00Z'
 doi: '10.1016/j.rse.2024.114110'
 
@@ -77,4 +79,3 @@ projects:
 slides: ""
 ---
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

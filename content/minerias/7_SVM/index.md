@@ -1,7 +1,7 @@
 ---
 title: SVM
 summary: Hinge loss, Lagrangian, KKT conditions, non-linear SVM, Kernel trick, SV Regressor  
-date: 2024-03-24
+date: 2024-03-22
 type: docs
 math: true
 tags:

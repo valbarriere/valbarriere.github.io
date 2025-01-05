@@ -73,6 +73,5 @@ projects:
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publication/LREC24-XENOPHOBIA/) on country-level bias detection in LLMs.
+This work is driven by the results of a [previous paper](/publication/LREC24-XENOPHOBIA/) on country-level bias detection in LLMs.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

@@ -1,7 +1,7 @@
 ---
 title: Clasificadores
 summary: KNN, Naive Bayes, Decision Tree, Boosting, Bagging, Random Forests
-date: 2024-03-24
+date: 2024-03-23
 type: docs
 math: true
 tags:

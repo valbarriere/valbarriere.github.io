@@ -1,6 +1,6 @@
 ---
 title: Regularization
-summary: Deep Learning
+summary: Penalization, Dropout, Data augmentation
 date: 2024-03-24
 type: docs
 math: true

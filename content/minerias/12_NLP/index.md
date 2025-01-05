@@ -1,7 +1,7 @@
 ---
 title: Intro a la NLP
 summary: Procesamiento de Lenguaje Natural
-date: 2024-03-20
+date: 2024-03-18
 type: docs
 math: true
 tags:

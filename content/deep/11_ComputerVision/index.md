@@ -1,6 +1,6 @@
 ---
 title: Object Detection
-summary: Deep Learning
+summary: Principle, IoU and mAP, Classical Object Detection, Segmentation and Mask-RCNN, SoTA
 date: 2024-03-19
 type: docs
 math: true

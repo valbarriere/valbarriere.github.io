@@ -30,6 +30,7 @@ summary: We've developed a machine learning approach to automatically recognize 
 
 tags:
   - Stance Recognition
+  - Argumentation
   - Social Interactions
   - Natural Language Processing
 
@@ -73,4 +74,3 @@ projects:
 slides: example
 ---
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

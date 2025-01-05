@@ -1,6 +1,6 @@
 ---
 title: Large Multimodal Models
-summary: Deep Learning
+summary: Multimodality, Fusion, Original tasks, datasets and models, CLIP and text2image Diffusion, Fusion of Large Pre-trained Models, LMM Assistants and Open-source recent datasets
 date: 2024-03-10
 type: docs
 math: true

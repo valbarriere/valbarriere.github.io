@@ -1,7 +1,7 @@
 ---
-title: Dimension Reduction
+title: (TODO) Dimensionality Reduction
 summary: Principal Component Analysis, Independant Component Analysis, t-SNE, UMAP,...
-date: 2024-03-24
+date: 2024-03-20
 type: docs
 math: true
 tags:

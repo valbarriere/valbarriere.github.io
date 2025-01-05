@@ -42,6 +42,7 @@ summary: We've created the Touché23-ValueEval dataset, a large collection of ov
 
 tags:
   - Stance Recognition
+  - Argumentation
   - Participatory Democracy
   - Natural Language Processing
   - Dataset
@@ -86,4 +87,3 @@ projects:
 slides: example
 ---
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

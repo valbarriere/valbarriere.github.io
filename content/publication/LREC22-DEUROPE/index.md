@@ -31,7 +31,7 @@ summary: A new dataset of 2,600 online debate comments has been created to impro
 
 tags:
   - Stance Recognition
-  - Participatory Democracy
+  - Argumentation
   - Natural Language Processing
   - Social Interactions
   - Dataset
@@ -75,4 +75,3 @@ projects: []
 slides: ""
 ---
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

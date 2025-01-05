@@ -1,6 +1,6 @@
 ---
 title: Introduccion
-summary: Deep Learning
+summary: Overview of the class, reminders from Machine Learning,…
 date: 2024-03-30
 type: docs
 math: true

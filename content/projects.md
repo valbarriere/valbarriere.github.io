@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy doing research, but also applying knowledge to good causes. Here are a selection of projects for which I have been awarded grants, or I have been invited in.
+      text: I enjoy doing research, but also applying my knowledge to good causes. Here are a selection of projects for which I have been awarded grants, or I have been invited in.
       filters:
         folders:
           - project

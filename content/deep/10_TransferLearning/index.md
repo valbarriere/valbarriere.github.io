@@ -1,6 +1,6 @@
 ---
 title: Transfer Learning
-summary: Deep Learning
+summary: Motivation, Principle, Types of TL, Weights unfreezing, Pre-training datasets, SoTA
 date: 2024-03-20
 type: docs
 math: true
