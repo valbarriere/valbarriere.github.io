@@ -67,6 +67,7 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
   - DeepCrop
+  - Copernicus
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

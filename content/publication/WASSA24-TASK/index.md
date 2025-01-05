@@ -1,5 +1,5 @@
 ---
-title: 'WASSA 2022 Shared Task: Predicting Empathy, Emotion and Personality in Reaction to News Stories'
+title: 'Findings of WASSA 2024 Shared Task on Empathy and Personality Detection in Interactions'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here

@@ -45,7 +45,7 @@ url_code: 'https://github.com/valbarriere/Bias_COLING24/'
 url_dataset: ''
 url_poster: 'COLING2024_AI_Xenophobia_poster.pdf'
 url_project: ''
-url_slides: ''
+url_slides: 'LREC_COLING24_Bias.pdf'
 url_source: ''
 url_video: ''
 
@@ -62,14 +62,14 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - Xenophobias
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

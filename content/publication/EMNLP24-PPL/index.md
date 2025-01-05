@@ -46,7 +46,7 @@ url_code: 'https://github.com/valbarriere/biases_ppl/'
 url_dataset: ''
 url_poster: 'EMNLP2024_Affect_PPL_poster.pdf'
 url_project: ''
-url_slides: ''
+url_slides: 'EMNLP24_Affect_PPL_Pres.pdf'
 url_source: ''
 url_video: ''
 
@@ -63,14 +63,14 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - Xenophobias
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 This work is driven by the results in my [previous paper](/publication/LREC24-XENOPHOBIA/) on country-level bias detection in LLMs.
