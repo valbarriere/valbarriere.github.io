@@ -18,7 +18,7 @@ A wildfire early detection and spread prediction AI-driven decision support tool
 
 **I am the Director of this project**, which is a collaboration between the University of Chile, the [Centre of Artificial Intelligence](https://www.cenia.cl), the [Catholic University](https://www.puc.cl), the [National Forestry Corporation](https://www.conaf.cl), and the Non-Governmental Organization [PyroNear](https://pyronear.org/). 
 
-This is a 2 years [*IDeA*](https://anid.cl/concursos/concurso-idea-id-2024/) project with a total budget of 315.666.000,00 CLP (footnote ~ 320k dollars), 220.000.000,00 coming as funding from the National Research and Development Agency (ANID). 
+This is a 2 years [*IDeA*](https://anid.cl/concursos/concurso-idea-id-2024/) project project funded to the tune of 220,000,000 CLP[^1] coming as grant from the National Research and Development Agency (ANID). 
 
 ### The project 
 
@@ -70,4 +70,6 @@ Integrated, technology-driven wildfire management system active at two levels: *
 2. Wildfire Spread Prediction 
 3. Decision Support Tool
 4. Impact Assessment
+
+[^1]: ~ 220k dollars
 

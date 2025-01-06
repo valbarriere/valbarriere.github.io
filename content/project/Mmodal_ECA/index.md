@@ -1,5 +1,5 @@
 ---
-title: Fondecyt de Iniciacion
+title: Fondecyt de Iniciacion🗣️💬🤖
 date: 2024-12-31
 external_link: ""
 tags:
@@ -16,7 +16,7 @@ Multimodal Argumentation Mining in Groups Assisted by an Embodied Conversational
 
 #### My role
 
-**I am the Principal Investigator of this project**. This is a 3 years [Fondecyt](https://anid.cl/concursos/concurso-de-proyectos-fondecyt-de-iniciacion-en-investigacion-2025/) grant from the Chilean National Research Agency with a total budget of 90.000.000,00 CLP.(footnote ~ 100k dollars). 
+**I am the Principal Investigator of this project**. This is a 3 years [Fondecyt](https://anid.cl/concursos/concurso-de-proyectos-fondecyt-de-iniciacion-en-investigacion-2025/) grant of of 90.000.000,00 CLP[^1] from the Chilean National Research Agency. This is a colaboration with the Université Paris Saclay, the European Commission's DGIT, Sorbonne Université and Bamberg University. 
 
 ### The project 
 
@@ -54,3 +54,5 @@ In particlar, this project aims to explore the dynamics of how a group of indivi
 Another goal is to explore the polarization of society's attitudes towards hot political topics and study the **difference in terms of the difficulty of finding a consensus** regarding the type of topics, and the human values involved in classical argumentation (Kiesel, Weimar, Handke, & Weimar, 2022; Mirzakhmedova et al., 2023)⁠. In today's society, the polarization of opinions on political topics is a common phenomenon that can be observed in many different areas. Debates about societal topics and issues can be especially polarizing and lead to a lack of understanding and cooperation between groups with different perspectives (Livingstone, Fernández Rodriguez, & Rothers, 2020)⁠. Therefore, **it is crucial to understand how individuals with polarized opinions can reach a consensus**, and this is the aim of this research project. To achieve it, this project plans to develop an automatic approach to **detect and retrieve the stance and arguments** of individuals involved in real-time multimodal debates about hot societal topics. 
 
 This research aims to delve into the complexities of group dynamics in polarized debates on societal issues. To achieve this, we will not only automatically detect and retrieve stances and their arguments toward the debate question, but also take into account the multimodal aspects of the debate, such as **body language, facial expressions and acoustics**, which are shown to be important for persuasion in a Vlog (Nojavanasghari, Gopinath, Koushik, Baltrušaitis, & Morency, 2016; S. Park, Shim, Chatterjee, Sagae, & Morency, 2014; Siddiquie, Chisholm, & Divakaran, 2015)⁠ or within a debate (Brilman & Scherer, 2015; Mestre et al., 2021)⁠. Real-time interaction within the group will be analyzed to understand **how individuals respond to each other and how the group as whole moves toward a consensus**. 
+
+[^1]: ~ 100k dollars

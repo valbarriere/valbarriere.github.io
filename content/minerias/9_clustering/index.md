@@ -10,4 +10,4 @@ tags:
   - Spanish
 ---
 
-## The slides are not available [here](todo.pdf)!
+## The slides are not available [here](https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/todo.pdf)!

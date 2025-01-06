@@ -10,7 +10,7 @@ tags:
   - Spanish
 ---
 
-## The slides are available [here](DM_Intro_SL.pdf)!
+## The slides are available [here](https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/DM_Intro_SL.pdf)!
 
 Esta clase es bastante interesante ya que descubriran las bases del conocimiento utilizado para construir Machine Learning, Deep Learning e Inteligencia Artificial en general: Aprendizaje Supervisado! 
 
@@ -24,13 +24,13 @@ El aprendizaje supervisado utiliza datos y etiquetas para aprender a un modelo a
 * El modelo entrenado puede ser usado para predicir la etiquetas de nuevos datos que nunca ha visto antes
 * El documento puede ser cualquier dato: audio, texto, imagen, video, usuario, red,...
 
-![predictive_modeling_data_flow](figures/predictive_modeling_data_flow.png)
+![predictive_modeling_data_flow](figures/predictive_modeling_data_flow.png "El aprendizaje de maquinas predictivo supervisado sigue eso")
 
 ### Features y etiquetas
 
-Se puede representar en un espacio los documentos como vectores. Aca cada punto es una cancion, que esta representando con su intensidad y tempo promedios. La etiqueta es la color del punto. Aca tenemos una tarea de **clasificacion binaria de musica**, sengundo las preferencias de un usuario. 
+Se puede representar en un espacio los documentos como vectores. Aca cada punto es una cancion, que esta representando con su intensidad y tempo promedios. La etiqueta es la color del punto. Aca tenemos una tarea de **clasificacion binaria de musica**, segundo las preferencias de un usuario. 
 
-![classif](figures/classif.jpg)
+![classif](figures/classif.jpg "Para las tareas de clasificaciones, los ejemplos se representan como puntos en un espacio de dimension de las observaciones, y una color o forma para representar las diferentes clases")
 
 El objetivo del juego, va a ser de encontrar **una funcion que separa el espacio en dos partes**. Una donde hay las canciones que le gustan a la persona, y la otra parte que no le gustan. De este manera, cuando vamos a tener un nuevo punto en este espacio, podemos decir si la persona va a gustar o no esta cancion, lo que sea **predicir su etiqueta**! 
 
@@ -77,11 +77,11 @@ Hay que minimizar esta función sobre el conjunto de entrenamiento (riesgo empí
 $$ f_{\hat{\theta}} =\underset{f_\theta, \theta \in \Theta}{\arg\min} \frac{1}{n}\sum_{i=1}^n \ell(Y_i, f_\theta(\mathbf{X}_i) )$$
 
 Los parametros van a cambiar para tener un valor minimum de costo: 
-![convergence_algo_optim](figures/convergence_algo_optim.png)
+![convergence_algo_optim](figures/convergence_algo_optim.png "Los pesos cambian poco a poco para llegar a los que van a dar un valor de costo minimum sobre el ensemble de entrenamiento")
 
 * La funcion de costo expresa el error desde una perspectiva **numérica**
 * Transmite al algoritmo de aprendizaje lo que es importante y tiene sentido para la tarea
-* Debe ser una función que se pueda optimizar eficientemente (convexa). **La función {{< math >}} $\ell^{0/1} = \mathds{1}_{f(\mathbf{X}) = Y}$ {{< /math >}} no es utilizable** (ni siquiera continua).
+* Debe ser una función que se pueda optimizar eficientemente (convexa). **La función {{< math >}} $\ell^{0/1} = \mathbf{1}_{f(\mathbf{X}) = Y}$ {{< /math >}} no es utilizable** (ni siquiera continua).
 
 ### Complejidad de los modelos y sobre/soto-aprendizaje
 
@@ -96,13 +96,11 @@ Se pueden encontrar dos maneras de no tener el riesgo minimum optimum:
 
 $$ \mathcal{R}(\hat{f_\mathcal{S}}) - \mathcal{R}(f^*) = \textcolor{red}{\underbrace{ \mathcal{R}(f_\mathcal{S}^*) - \mathcal{R}(f^*) }_{\text{error de aproximacion}}} +  \textcolor{blue}{\underbrace{ \mathcal{R}(\hat{f_\mathcal{S}}) - \mathcal{R}(f_\mathcal{S}^*) }_{\text{error de estimacion}}}$$ 
 
-![approx_estim_errors](figures/approx_estim_errors.png)
+![approx_estim_errors](figures/approx_estim_errors.png "Los 2 tipos de errores: el error de aproximacion viene de la eleccion de los modelos que se utilizan, y el error de estimacion viene de un mal entrenamiento del modelo")
 
-El error de aproximación puede ser grande si el modelo $\mathcal{S}$ no es adaptado, y el error de estimación puede ser grande si el modelo es complejo. 
+El error de aproximación puede ser grande si el modelo $\mathcal{S}$ no es adaptado, y el error de estimación puede ser grande si el modelo es complejo.  
 
-Un ejemplo simple seria un polinomio de grado P que quiere estimar un polinomio de grado N con ruido: 
-
-![underfitting](figures/ex_over-underfitting.png)
+![underfitting](figures/ex_over-underfitting.png "Un ejemplo simple seria un polinomio de grado P que quiere estimar un polinomio de grado N con ruido. Si P es mas grande o mas pequeno que N, no es adaptado.")
 
 * **Soto-aprentizaje**: Si no hay demasiado parametros, es imposible de estimar bien la curva, 
 * **Sobre-aprentizaje**: Si hay demasiado parametros va a enfocar en memorizar el ruido del ensemble de entrenamiento
@@ -160,13 +158,13 @@ En este ejemplo se puede ver los parametros {{< math >}}$a,b${{< /math >}} del m
 
 Porque la valor del costo empirico {{< math >}} $ \frac{1}{n}\sum_{i=1}^n \ell(Y_i, f_\theta(\mathbf{X}_i) )$ {{< /math >}} es un nombre real positivo, podemos representarlo en un eje, y los parametros con unos otros ejes. Eso se llama el *loss landscape*: 
 
-![LossAlps](figures/LossAlps.png)
+![LossAlps](figures/LossAlps.png "La *loss landscape* parece a un paisaje con desnivel, con el objetivo de encontrar el lugar con menos altura.")
 
 El objetivo del algoritmo de optimizacion es de encontrar la "ruta" para conducir en una "valle", que representa un minimum local o global. Este ollo significa que los parametros sean los que dan un error pequeña.   
 
-### Gradiente deciendente  
+### Gradiente descendiente  
 
-El gradiente El gradiente de una función {{< math >}} $\nabla_xf(x)=(\frac{\partial f}{\partial\x_i})_{i=1..n}$ {{< /math >}} es su derivativa según cada dimensión. Es una **aproximación lineal de la función al nivel local**. Este indica la direccion donde aumenta una funcion: 
+El gradiente de una función {{< math >}} $\nabla_xf(x)=(\frac{\partial f}{\partial x_i})_{i=1..n}$ {{< /math >}} es su derivativa según cada dimensión. Es una **aproximación lineal de la función al nivel local**. Este indica la direccion donde aumenta una funcion: 
 
 ![gradient_curve1D](figures/gradient_curve1D.png)
 
@@ -177,11 +175,11 @@ $$	\theta \leftarrow \theta - \alpha*\nabla_\theta \ell(Y_i, f_\theta(\mathbf{X}
 
 La tasa de aprendizaje {{< math >}} $\alpha$ {{< /math >}} en la ecuacion precedente representa la cantidad de acutalizacion de los parametros. Es importante porque va a influir sobre la convergencia.  
 
-![learningrates](figures/learningrates.jpeg)
+![learningrates](figures/learningrates.jpeg "La tasa de aprendizaje es crucial para el exito de la fase de entrenamiento.")
 
 En en *loss landscape*, se puede representar el modelo durante la optimizacion como un vector moviendo en cada iteracion. Con este vision, la tasa de aprendizaje define mas o menos la "velocidad" de como se mueve este punto. Por eso, es simple de entender que a veces tiene que ser mas grande y otra veces mas pequeño, por ejemplo para pasar topografias particular del *landscape*.
 
-Hay varios algoritmos de tipo gradiente decendiente para converger, con una mejora aproximacion de la tasa de aprendizaje, o la utilizacion de un momentum para ayudar el modelo 
+Hay varios algoritmos de tipo gradiente descendiente para converger, con una mejora aproximacion de la tasa de aprendizaje, o la utilizacion de un momentum para ayudar el modelo 
 ![OtherOptimizers](figures/OtherOptimizers.gif)
 
 ## Metricas
@@ -194,7 +192,7 @@ Un clasificador binario debe detectar un evento. A cada prediccion puede tener u
 
 Con eso se puede crear una matriz de confusion. 
 
-![confusion_matrix](figures/confusion_matrix.png)
+![confusion_matrix](figures/confusion_matrix.png "La matriz de confusion tiene las etiquetas en un eje, y las predicciones en el otro. Se puede representar los True/False Postive/Negative.")
 
 Las matrices de confusion pueden abarcar mas de 2 clases: 
 
@@ -209,7 +207,7 @@ array([[2, 0, 0],
 ```
 
 Se puede cada vez volver a una binaria: 
-![conf_mat_multi](figures/conf_mat_multi.png)
+![conf_mat_multi](figures/conf_mat_multi.png "La matriz de confusion tiene las etiquetas en un eje, y las predicciones en el otro. Una matriz diagonal significa predicciones perfectas.")
 
 
 ### Tipos de metricas y costo
@@ -266,7 +264,7 @@ Para una regresion, se utilizan metricas que que evaluan las distancias, y si el
 
 Para obtener una mejora estimacion de las performancias del modelo. Para estar seguro de testear sobre cada datos, se puede hacer {{<math >}}$V${{< /math >}} experiencias, cortando el dataset en {{<math >}}$V${{< /math >}} partes, entrenar sobre {{<math >}}$V-1${{< /math >}} y testear sobre {{<math >}}$1${{< /math >}}. Es un tipo de bootstrapping con los datos.
 
-![cross-val_final](figures/cross-val_final.png)
+![cross-val_final](figures/cross-val_final.png "Separar en 3 parte, y hacer 3 entrenamiento permite de hacer el test sobre todo el ensemble y tener una mejora estimacion de las performancias del modelo.")
 
 Eso sirve para obtener los hiperparametros optimum, antes de entrenar el model final sobre todos los datos, y estimar las performancias sobre el ensemble de test.  
 
@@ -274,7 +272,7 @@ Eso sirve para obtener los hiperparametros optimum, antes de entrenar el model f
 
 Si es imposible de hacer una validacion cruzada (porque el entrenaimento es largo), se puede crear un set de entrenamiento, de validacion, y de test.  
 
-![train_val_test](figures/train_val_test.png)
+![train_val_test](figures/train_val_test.png "Usar un ensemble de validacion permite de encontrar los hiperparametros sin usar el test, y sin usar de validacion cruzada.")
 
 ### Tamaño de la particion 
 

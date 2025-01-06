@@ -20,7 +20,7 @@ Multicultural Bias Recognition to Detect and Mitigate Racism, Xenophobia and Geo
 
 #### My role
 
-**I am the Principal Investigator of this project**. This is a 2 years [U-inicia](https://uchile.cl/convocatorias/216327/concurso-u-inicia-2024) grant from the University with a total budget of 8.000.000,00 CLP.(footnote ~ 8k dollars). 
+**I am the Principal Investigator of this project**. This is a 2 years [U-inicia](https://uchile.cl/convocatorias/216327/concurso-u-inicia-2024) grant from the University with a total budget of 8,000,000 CLP.[^1] 
 
 ### The project 
 
@@ -55,3 +55,5 @@ Milestones will follow the project objectives and milestones are defined as a gr
 The last **Milestone 3** contains the final objective concerning the reduction of bias, with the aggregation of all previous results in a journal publication.  Working on bias reduction based on our method will be quite straightforward. The writing of a journal paper where we will have all the results of the project will be longer than the previous conference papers, which will have more specific and limited contents. For that I plan 4 months for the reduction and 3 months for the writing, with 2 overlapping months.  
 
 ![gantt](gantt.png)
+
+[^1]: ~ 8k dollars

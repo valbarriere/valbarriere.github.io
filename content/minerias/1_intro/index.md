@@ -8,7 +8,7 @@ tags:
   - Machine Learning
   - Course
   - Spanish
-url_slides: 'DataMining_Intro_general.pdf'
+url_slides: 'https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/DM_Intro_general.pdf'
 ---
 
-## The slides are available [here](DataMining_Intro_general.pdf)!
+## The slides are available [here](https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/DM_Intro_general.pdf)!

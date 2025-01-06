@@ -10,4 +10,4 @@ tags:
   - Spanish
 ---
 
-## The slides are available [here](DM_Modelos_Lin.pdf)!
+## The slides are available [here](https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/DM_Modelos_Lin.pdf)!

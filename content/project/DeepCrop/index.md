@@ -18,7 +18,7 @@ We are creating an AI system for nation-wide agricultural production monitoring 
 
 **I am the Director of this project**, which is a collaboration between the University of Chile, (the Centre of Artificial Intelligence)[https://www.cenia.cl], (the Center of Natural Ressources)[https://www.ciren.cl] as principal institutions, and the [Technical University of Munich](https://www.eurocrops.tum.de/), the [European Commission's Joint Research Center](https://www.jrc.eu.todo), and the [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch). 
 
-This is a 4 years [*Tecnologia Avanzada*](https://anid.cl/concursos/concurso-idea-id-tecnologias-avanzadas-2024/) project with a total budget of 956.550.000,00 CLP (footnote ~ a million dollars), 660.000.000,00 coming as funding from the National Research and Development Agency (ANID). 
+This is a 4 years [*Tecnologia Avanzada*](https://anid.cl/concursos/concurso-idea-id-tecnologias-avanzadas-2024/) project funded to the tune of 660,000,000 CLP[^1] coming as grant from the National Research and Development Agency (ANID). 
 
 ### The project
 
@@ -32,4 +32,4 @@ The objectives are:
 * Train the model to learn to learn various tasks using meta-learning algorithms
 * Implement a dashboard using the model's predictions
 
-
+[^1]: ~ 670k dollars
