@@ -35,13 +35,13 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am interested in many things! I started on studying Multimodal Machine Learning for the understanding of social behaviours in humans interactions, meaning that I worked with different types of modalities i.e., audio, text, video, which means different data and model types. 
+        I am interested in many things! I started on studying Multimodal Machine Learning for the understanding of social behaviours in humans interactions, hence I worked with different types of modalities i.e., audio, text, video, which means different data and model types. 
 
-        I applied this knowledge in projects with different public institutions, with the aim to develop systems that will improve the life of others. That is why here in Chile I still continue to be involved on public projects with entities such as the Agriculture Ministry, the National Office of Parks <s>and Rec</s>, the European Commission, the NGO PyroNear. 
+        I applied this knowledge in projects with different public institutions, with the aim to develop systems that will improve the life of others. That is why here in Chile I still continue to be involved on public projects with entities such as the [Agriculture Ministry](https://www.odepa.gob.cl/), the [National Office of Parks <s>and Rec</s>](https://www.conaf.cl/), the [European Commission](https://commission.europa.eu/about/departments-and-executive-agencies/joint-research-centre_en), the NGO [PyroNear](https://pyronear.org/). 
 
         Beside this, I also research in NLP where my interests lie in topics such as bias detection in language models, debates analysis from participatory democracy platforms, explicability in language models. 
 
-        I am going back to multimodal social interactions by studying humor detection in stand-up or multimodal argumentation mining in groups, so please reach out if you want to collaborate 😃
+        I am going back to the modeling of multimodal social interactions by studying humor detection in stand-up or multimodal argumentation mining in groups, so please reach out if you want to collaborate 😃
     design:
       columns: '2'
   - block: collection

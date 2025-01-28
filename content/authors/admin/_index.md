@@ -47,6 +47,7 @@ interests:
   - Natural Language Processing
   - Fairness
   - Explainability
+  - Remote Sensing
 
 education:
   - area: PhD in Computer Science
@@ -180,6 +181,6 @@ awards:
 
 ## Coucou!
 
-Valentin Barriere is an AI profesor in the CS department of the University of Chile, specialized in multimodal machine learning for social interactions studies, with a focus on natural language processing. He also work on multilingual debates analysis, social biases detection, explainable AI, and also multimodal satellite data processing. Before this, he worked for public institutions such as the Supreme Court (Cour de Cassation) and the European Commission's Joint Research Center. 
+Valentin Barriere is an AI profesor in the CS department of the University of Chile, specialized in multimodal machine learning for social interactions studies, with a focus on natural language processing. His research spans on multilingual debates analysis, social biases detection, explainable AI, and also multimodal satellite data processing. Prior to his academic role, he worked for public institutions such as the Supreme Court (Cour de Cassation) and the European Commission's Joint Research Center. 
 
-He is director of several projects focused on the use of Machine Learning for social good with public Chilean institutions, and involved as AI advisor of the CopernicusLAC program in Chile with the aim to develop general multi-modal and multi-resolution models for satellite data processing. 
+He is director of several projects with public Chilean institutions focused on the use of Machine Learning for social good, and involved as AI advisor of the CopernicusLAC program in Chile with the aim to develop general multi-modal and multi-resolution models self-supervised model for satellite data processing. 
