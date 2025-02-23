@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote Sensing | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/remote-sensing/</link>
+      <atom:link href="http://localhost:1313/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Remote Sensing</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Remote Sensing</title>
+      <link>http://localhost:1313/tags/remote-sensing/</link>
+    </image>
+    
+    <item>
+      <title>[Tesis postgrado] [Pagada] Deteccion de Fuego en la naturaleza usando IA</title>
+      <link>http://localhost:1313/job_offers/thesis-fairefighter/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/thesis-fairefighter/</guid>
+      <description>&lt;p&gt;Early wildfire detection is of the utmost importance to enable rapid response efforts, and thus minimize the negative impacts of wildfire spreads. To this extent, we propose to install a networks of stations composed of cameras connected to Raspberry Pi that process the images in real time in order to automatically detect smoke plumes using Computer Vision algorithms. We scrapped the web in order to create &lt;a href=&#34;https://arxiv.org/abs/2402.05349&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a new database&lt;/a&gt; of smoke plumes&amp;rsquo; sequence of images (videos).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-overview-of-the-fairefighter-solution-using-object-detection-models-to-detect-smoke-plumes-in-the-wild&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;overview_EWD&#34; srcset=&#34;
+               /job_offers/thesis-fairefighter/overview_EWD_hu9830338541403336544.webp 400w,
+               /job_offers/thesis-fairefighter/overview_EWD_hu2557711783386077624.webp 760w,
+               /job_offers/thesis-fairefighter/overview_EWD_hu7278080974264488546.webp 1200w&#34;
+               src=&#34;http://localhost:1313/job_offers/thesis-fairefighter/overview_EWD_hu9830338541403336544.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;427&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Overview of the fAIrefighter solution, using object detection models to detect smoke plumes in the wild
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The challenges are various:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The detection is currently tackled using a classical state-of-the-art object detection model (Yolov8) that do not take into account the sequentiality&lt;/li&gt;
+&lt;li&gt;The images are processed on a light computer, this makes space to work more frugal models&lt;/li&gt;
+&lt;li&gt;A benchmark of the SOTA models is needed&lt;/li&gt;
+&lt;li&gt;How to improve the quality of the dataset by using bigger models offline (even though they cannot be used online)&lt;/li&gt;
+&lt;li&gt;Improve the model for early detection (&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S092427162200332X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;an exemple&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a project in collaboration with the non-profit association PyroNear and the Corporacion Nacional Forestal.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Tesis pre/postgrado] [Pagada] Aprender a aprender -- IA y Meta-learning para datos Satelitales</title>
+      <link>http://localhost:1313/job_offers/thesis-meta-deepcrop/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/thesis-meta-deepcrop/</guid>
+      <description>&lt;p&gt;Recent trend in Deep Learning is to train in a self-supervised way models that create high-quality dense vector representation to be fine-tuned on downstream tasks, allowing to reach high results in text [1], computer vision [2] but also in speech [3]. This trend is also true when processing Remote Sensing data [4], [5], [6]. These models are pre-trained on a huge quantity of data without labels using techniques such as Masked Image Modeling  of the U-BARN [7]. They have been shown to reach higher results than the state-of-the-art approach for crop classification. Moreover, recent work [8] showed that they can also be pre-train using meta-learning methods, with available labeled data in order to adapt easily to a new unseen task with only a few training examples.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-meteor-model-learned-using-meta-learning-and-various-tasks-from-8&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;metalearning&#34; srcset=&#34;
+               /job_offers/thesis-meta-deepcrop/metalearning_hu8736316492409248854.webp 400w,
+               /job_offers/thesis-meta-deepcrop/metalearning_hu5378775358810166572.webp 760w,
+               /job_offers/thesis-meta-deepcrop/metalearning_hu11622278346872266028.webp 1200w&#34;
+               src=&#34;http://localhost:1313/job_offers/thesis-meta-deepcrop/metalearning_hu8736316492409248854.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;505&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      METEOR model learned using Meta learning and various tasks from [8]
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Therefore, the development of state-of-the-art classification and estimation models, as well as technologies to collect necessary in-situ (ground truth) data, are crucially lacking in Chile. Importantly, given the violent climate changes and drought episodes Chile is currently facing, this technology is becoming imperative. In the project we describe below we propose an innovative way of developing such a technology, based on state-of-the-art deep learning models and remote sensing, that can efficiently, quickly and accurately generate estimates of field areas, crop types and yield estimations.&lt;/p&gt;
+&lt;h3 id=&#34;task&#34;&gt;Task&lt;/h3&gt;
+&lt;p&gt;Intensive pre-training of models of billions of parameters will be implemented, and we will further fine-tune them over several task using labels from chilean landsape delivered from our project partner the Centro de Información de Recursos Naturales (CIREN).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collect a huge dataset of open-source Sentinel2 data at the level of the whole country and for several years&lt;/li&gt;
+&lt;li&gt;Train a foundational model in an auto-supervised way using the various spectrum of data from Chile (climate, vegetation, soil is very different)&lt;/li&gt;
+&lt;li&gt;Use meta-learning algorithm in order to fine-tune the model for a broad set of different tasks using annotated dataset from Chile and from abroad&lt;/li&gt;
+&lt;li&gt;Deliver the model as an open-source tool for the community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h3&gt;
+&lt;p&gt;[1]  J. Devlin, M. Chang, K. Lee, and K. Toutanova, ‘BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding’, 2018.
+[2]  A. Dosovitskiy et al., ‘An image is worth 16x16 words: Transformers for image recognition at scale’, arXiv preprint arXiv:2010.11929, 2020.  
+[3]  V. Pratap et al., ‘Scaling speech technology to 1,000+ languages’, arXiv preprint arXiv:2305.13516, 2023.  
+[4]  M. J. Smith, L. Fleming, and J. E. Geach, ‘EarthPT: a foundation model for Earth Observation’, arXiv preprint arXiv:2309.07207, 2023.  
+[5]  A. Lacoste et al., ‘Geo-bench: Toward foundation models for earth monitoring’, Adv Neural Inf Process Syst, vol. 36, 2024.  
+[6]  Z. Xiong, Y. Wang, F. Zhang, and X. X. Zhu, ‘One for All: Toward Unified Foundation Models for Earth Vision’, arXiv preprint arXiv:2401.07527, 2024.  
+[7]  I. Dumeur, S. Valero, and J. Inglada, ‘Self-supervised spatio-temporal representation learning of Satellite Image Time Series’, IEEE J Sel Top Appl Earth Obs Remote Sens, 2024.
+[8]  M. Rußwurm, S. Wang, B. Kellenberger, R. Roscher, and D. Tuia, ‘Meta-learning to address diverse Earth observation problems across resolutions’, Commun Earth Environ, vol. 5, no. 1, p. 37, 2024.  &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[FOUND] Data Engineer for Geographic and Remote Sensing data</title>
+      <link>http://localhost:1313/job_offers/data-eng-deepcrop/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/data-eng-deepcrop/</guid>
+      <description>&lt;p&gt;CIREN, in collaboration with CENIA, is looking for a Data Engineer to be part of the FONDEF Advanced Technologies project team: an ai system for nation-wide agricultural production monitoring based on crowd-sourced and remote-sensing data.&lt;/p&gt;
+&lt;h3 id=&#34;what-are-we-looking-for&#34;&gt;What are we looking for?&lt;/h3&gt;
+&lt;p&gt;We are looking for a professional with strong technical competencies and interpersonal skills that include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Professionals in the areas of Computer Engineering, Mathematics, Statistics, Physics, Industrial Engineering or related disciplines, preferably with a Master&amp;rsquo;s degree.&lt;/li&gt;
+&lt;li&gt;1 to 3 years of professional or project experience.&lt;/li&gt;
+&lt;li&gt;Experience in Python, R or SQL&lt;/li&gt;
+&lt;li&gt;Knowledge in Machine Learning libraries (scikit-learn, TensorFlow, PyTorch).&lt;/li&gt;
+&lt;li&gt;Knowledge in tools to manage geographic data: geopandas, postGIS, geoSQL.&lt;/li&gt;
+&lt;li&gt;Knowledge in spatial data processing: Sentinel2, LANDSAT, etc.&lt;/li&gt;
+&lt;li&gt;Familiarity with data visualization tools (Power BI, Tableau, Matplotlib, Seaborn).&lt;/li&gt;
+&lt;li&gt;Experience in data cleansing and data management in large volumes.&lt;/li&gt;
+&lt;li&gt;Knowledge in statistics and advanced probability.&lt;/li&gt;
+&lt;li&gt;Familiarity with relational and non-relational databases (PostgreSQL, MongoDB).&lt;/li&gt;
+&lt;li&gt;Intermediate or advanced technical English (desirable).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-will-you-do&#34;&gt;What will you do?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Design, implement and optimize Machine Learning and predictive analytics models.&lt;/li&gt;
+&lt;li&gt;Collect, clean and structure large volumes of data for analysis.&lt;/li&gt;
+&lt;li&gt;Generate actionable insights to support strategic decision making.&lt;/li&gt;
+&lt;li&gt;Collaborate with cross-functional teams (developers, analysts, business leaders).&lt;/li&gt;
+&lt;li&gt;Visualize data using tools such as Power BI, Tableau or similar.&lt;/li&gt;
+&lt;li&gt;Document processes, methodologies and key findings of the projects.&lt;/li&gt;
+&lt;li&gt;Ensure the quality and security of the data handled.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-do-we-offer&#34;&gt;What do we offer?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Total gross remuneration of &lt;strong&gt;$2.500.000&lt;/strong&gt;. 2 year fixed term project contract with CIREN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Offer in the CENIA website &lt;a href=&#34;https://cenia.cl/2024/12/07/buscamos-ingenieroa-de-datos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[FOUND] Machine Learning Engineer for Geographic and Remote Sensing data</title>
+      <link>http://localhost:1313/job_offers/ml-eng-deepcrop/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/ml-eng-deepcrop/</guid>
+      <description>&lt;p&gt;We are looking for a Machine Learning / Deep Learning research engineer to work on large multi-modal and multi-resolution representation parsing models with satellite data (image sequences).&lt;/p&gt;
+&lt;h3 id=&#34;what-will-you-do&#34;&gt;What will you do?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Participate in FONDEF Advanced Technologies project: an ai system for nation-wide agricultural production monitoring based on crowd-sourced and remote-sensing data.&lt;/li&gt;
+&lt;li&gt;Develop end-to-end AI solutions.&lt;/li&gt;
+&lt;li&gt;Collection of relevant information and design of solutions focused on the optimization of industrial processes.&lt;/li&gt;
+&lt;li&gt;Industrial data processing and analysis.&lt;/li&gt;
+&lt;li&gt;Development and implementation of advanced predictive models to model subsections of the process.&lt;/li&gt;
+&lt;li&gt;Integration and deployment of solutions in production environments.&lt;/li&gt;
+&lt;li&gt;Design and build machine learning pipelines focused on optimization and prediction.&lt;/li&gt;
+&lt;li&gt;Collaborate on projects within asset-intensive industries such as mining, energy, pulp and paper, among others, applying ML techniques to improve efficiency and productivity.&lt;/li&gt;
+&lt;li&gt;Utilize cloud and high performance computing technologies.&lt;/li&gt;
+&lt;li&gt;Continuously improve ML solutions through experimentation and iteration.&lt;/li&gt;
+&lt;li&gt;Keep up to date with the latest trends and developments in ML and optimization technologies.&lt;/li&gt;
+&lt;li&gt;Work closely with the CopernicusLAC team, the European Space Agency&amp;rsquo;s satellite constellation data hub.&lt;/li&gt;
+&lt;li&gt;Work on the creation of a satellite data dataset (Sentinel2, Sentinel3, Sentinel5) throughout Latin America and the Caribbean.&lt;/li&gt;
+&lt;li&gt;Design and create foundational models for satellite data processing in conjunction with researchers from CENIA and profe from the University of Chile:&lt;/li&gt;
+&lt;li&gt;Use multi-scale self-supervised learning techniques on satellite data.&lt;/li&gt;
+&lt;li&gt;Use meta-learning algorithms to learn the model to learn new tasks: crop-land mapping, land-use mapping, drought detection, illegal deforestation, etc.&lt;/li&gt;
+&lt;li&gt;Participate in writing scientific papers on data creation and modeling, participate in presentation at appropriate conferences: CVPR, ICCV, ECCV, WACAV, NeurIPS, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-are-we-looking-for&#34;&gt;What are we looking for?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bachelor&amp;rsquo;s degree in Computer Science, Mathematics, Statistics, Engineering or a related field.&lt;/li&gt;
+&lt;li&gt;1 to 3 years of professional or ML project experience.&lt;/li&gt;
+&lt;li&gt;Verifiable experience in software and/or software development based on machine learning, computer vision and satellite data management.&lt;/li&gt;
+&lt;li&gt;Knowledge and previous experience with Python and some of the following libraries: PyTorch, Huggingface, TensorFlow, Scikit-Learn or other related libraries (Excluded)&lt;/li&gt;
+&lt;li&gt;Knowledge in tools to manage geographic data: geopandas, postGIS, geoSQL, etc&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Knowledge in spatial data processing: Sentinel2 data, LANDSAT, GEE, etc&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Demonstrated experience in the design and construction of machine learning pipelines (Excluded).&lt;/li&gt;
+&lt;li&gt;Demonstrated experience in the use and development of vision projects (Excluding)&lt;/li&gt;
+&lt;li&gt;Familiarity with Machine Learning Operations (MLOps) development practices (Required).&lt;/li&gt;
+&lt;li&gt;Experience in consulting projects (Desirable).&lt;/li&gt;
+&lt;li&gt;Development experience in Cloud platforms (Desirable).&lt;/li&gt;
+&lt;li&gt;Experience with cloud computing platforms, in particular GCP. (Desirable)&lt;/li&gt;
+&lt;li&gt;Knowledge of deploying ML models in production environments (Desirable).&lt;/li&gt;
+&lt;li&gt;Development experience with code versioning in Git (Desirable).&lt;/li&gt;
+&lt;li&gt;Experience with Docker (desirable).&lt;/li&gt;
+&lt;li&gt;Experience with Python packages and environments (desirable).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-do-we-offer&#34;&gt;What do we offer?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Total gross remuneration of &lt;strong&gt;$2.500.000&lt;/strong&gt;. Fixed term project contract 2 years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some of our benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🏡Hybrid work system: Home office combined with face-to-face workday.&lt;/li&gt;
+&lt;li&gt;👣Comfortable offices close to San Joaquín subway station.&lt;/li&gt;
+&lt;li&gt;🚲Access to bike rack and dressing rooms.&lt;/li&gt;
+&lt;li&gt;Parking at preferential price.&lt;/li&gt;
+&lt;li&gt;Casual Dress Code.&lt;/li&gt;
+&lt;li&gt;🎁Birthday free day.&lt;/li&gt;
+&lt;li&gt;🎄Advance disconnection for the holidays.&lt;/li&gt;
+&lt;li&gt;✉️ Day off for Vocal de mesa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CENIA site offer &lt;a href=&#34;https://cenia.cl/2024/12/06/buscamos-igenieroa-en-machine-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aca&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CopernicusLAC🛰️🇪🇺</title>
+      <link>http://localhost:1313/project/copernicus/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/copernicus/</guid>
+      <description>&lt;p&gt;Our project is located in Santiago de Chile and operates as a centre dedicated to the storage, processing, and distribution of satellite data of the Copernicus Programme and the provision of services of regional interest for the benefit of all countries in Latin America and the Caribbean (LAC).&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;I act as &lt;strong&gt;Scientific Advisor and Researcher Artificial Intelligence for Earth Observation&lt;/strong&gt; within the CopernicusLAC project, where I aim to be part of the team developing novel, large-scale, and generalizable vision models for remote sensing data processing.&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.copernicuslac-chile.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copernicus Regional Centre for Latin America and the Caribbean&lt;/a&gt; (CopernicusLAC Chile) is a project funded by the European Union and the University of Chile and implemented by the Center for Mathematical Modeling (CMM).&lt;/p&gt;
+&lt;p&gt;This project provides Copernicus data storage, processing, and distribution services for the region, as well as developing monitoring services in the areas of land use and land cover, urban areas and oceans and coasts, including the coordination of access to in situ data, i.e. data from land-based meteorological stations, ocean buoys and air quality monitoring networks, among others.&lt;/p&gt;
+&lt;p&gt;Our mission is to meet the region’s needs for the storage, processing, and distribution of advanced Earth observation data for both the specialist community and the public. Our commitment is to offer innovative solutions, promoting collaboration and open access to information to drive socio-economic and environmental progress in Latin America and the Caribbean.&lt;/p&gt;
+&lt;p&gt;Our vision is to be recognised as a leader in the Earth observation community for Latin America and the Caribbean. We seek to be a key source of information, contributing significantly to informed decision-making that transforms and promotes meaningful sustainable development for the region.&lt;/p&gt;
+&lt;h3 id=&#34;copernicus-eu&#34;&gt;Copernicus EU&lt;/h3&gt;
+&lt;p&gt;Copernicus is the European Earth observation system, which offers free and open access data and services through its network of Sentinel satellites, providing images of our planet with valuable information to be applied in areas such as agriculture, mining, urban planning, disaster management, environmental protection, among others.&lt;/p&gt;
+&lt;p&gt;The programme is coordinated and managed by the European Commission and implemented in collaboration with the Member States, the European Space Agency (ESA), the European Organisation for the Exploitation of Meteorological Satellites (Eumetsat), the European Centre for Medium-Range Weather Forecasts, EU agencies and Mercator Ocean, among others.&lt;/p&gt;
+&lt;p&gt;It uses vast amounts of global data from satellites and measurement systems on land, air and sea to provide information that helps service providers, public administrations and other international organisations to improve the quality of life of Europe’s citizens. The information services provided are freely and openly accessible to its users.&lt;/p&gt;
+&lt;p&gt;(Source and more information: &lt;a href=&#34;https://www.copernicus.eu/en/about-copernicus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copernicus EU&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DeepCrop🛰️🌾🌽</title>
+      <link>http://localhost:1313/project/deepcrop/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/deepcrop/</guid>
+      <description>&lt;p&gt;We are creating an AI system for nation-wide agricultural production monitoring based on crowd-sourced and remote-sensing.&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I am the Director of this project&lt;/strong&gt;, which is a collaboration between the University of Chile, (the Centre of Artificial Intelligence)[https://www.cenia.cl], (the Center of Natural Ressources)[https://www.ciren.cl] as principal institutions, and the &lt;a href=&#34;https://www.eurocrops.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Technical University of Munich&lt;/a&gt;, the &lt;a href=&#34;https://www.jrc.eu.todo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Commission&amp;rsquo;s Joint Research Center&lt;/a&gt;, and the &lt;a href=&#34;https://www.epfl.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;École Polytechnique Fédérale de Lausanne&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a 4 years &lt;a href=&#34;https://anid.cl/concursos/concurso-idea-id-tecnologias-avanzadas-2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Tecnologia Avanzada&lt;/em&gt;&lt;/a&gt; project funded to the tune of 660,000,000 CLP&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; coming as grant from the National Research and Development Agency (ANID).&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;This project aims to develop a crop map (like land-use but for crop i.e., which crop are cultivated where) at the country-level. To this aim we will leverage the capacity of general purpose model that we will trained over Chile. This is quite fun as Chile is a very long country with many different climates, making it the perfect place to test a model claiming to be general.&lt;/p&gt;
+&lt;p&gt;The objectives are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gathering existing general crop data at the polygon- and pixel-level from open-source and in-house datasets&lt;/li&gt;
+&lt;li&gt;Collecting Chilean crop data at the polygon- and pixel-level, including yield&lt;/li&gt;
+&lt;li&gt;Implementing a parcel delineation model, with a polygon-level crop classifier&lt;/li&gt;
+&lt;li&gt;Pre-training a large vision model on Worldwide, South American, and Chilean multimodal and multiresolution data&lt;/li&gt;
+&lt;li&gt;Train the model to learn to learn various tasks using meta-learning algorithms&lt;/li&gt;
+&lt;li&gt;Implement a dashboard using the model&amp;rsquo;s predictions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;~ 670k dollars&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>fAIrefighter🧯</title>
+      <link>http://localhost:1313/project/fairefighter/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/fairefighter/</guid>
+      <description>&lt;p&gt;A wildfire early detection and spread prediction AI-driven decision support tool.&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I am the Director of this project&lt;/strong&gt;, which is a collaboration between the University of Chile, the &lt;a href=&#34;https://www.cenia.cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centre of Artificial Intelligence&lt;/a&gt;, the &lt;a href=&#34;https://www.puc.cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Catholic University&lt;/a&gt;, the &lt;a href=&#34;https://www.conaf.cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Forestry Corporation&lt;/a&gt;, and the Non-Governmental Organization &lt;a href=&#34;https://pyronear.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyroNear&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a 2 years &lt;a href=&#34;https://anid.cl/concursos/concurso-idea-id-2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;IDeA&lt;/em&gt;&lt;/a&gt; project project funded to the tune of 220,000,000 CLP&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; coming as grant from the National Research and Development Agency (ANID).&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;In Chile, there are no technologies to perform early wildfire detection based on on computer vision. Moreover there is no decision support tool to inform authorities regarding predictive propagation of ongoing wildfires. However, there are huge consequences of not containing wildfires: economical, ecological, and societal.&lt;/p&gt;
+&lt;p&gt;We propose a two-level plan to fight wildfire at different levels that are complementary. The first one to tackle the wildfire as soon as possible, the second to get information in order to distribute human, machine and water resources efficiently:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Early Wildfire Prediction (EWD): Perform early wildfire detection using computer vision&lt;/li&gt;
+&lt;li&gt;Wildfire Spread Prediction (WSP): If the wildfire is getting out of control, an AI-based tool predict the wildfire spread using remote sensing and physics informed neural networks (PINNs).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A global overview of both the systems and how they are interacting is visible below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image_all&#34; srcset=&#34;
+               /project/fairefighter/fAIrefighter_all_hu1213781944679647980.webp 400w,
+               /project/fairefighter/fAIrefighter_all_hu5711198834479959995.webp 760w,
+               /project/fairefighter/fAIrefighter_all_hu17062598067408856427.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/fairefighter/fAIrefighter_all_hu1213781944679647980.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;422&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;: The first part consists in installing stations that detect smoke plumes in the wild. The algorithms are frugal Computer Vision methods such as small neural networks implemented on mini-computers, in order to process the information locally and send flags and data when a wildfire is detected. It is necessary to install stations on the watchtowers, collect data, annotate them, and train the models in order to achieve this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image_all&#34; srcset=&#34;
+               /project/fairefighter/fAIrefighter_ewd_hu15059260110091567817.webp 400w,
+               /project/fairefighter/fAIrefighter_ewd_hu17704182685406066860.webp 760w,
+               /project/fairefighter/fAIrefighter_ewd_hu8766366730088195042.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/fairefighter/fAIrefighter_ewd_hu15059260110091567817.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;422&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 0.1: Gather training set: Gather smoke plume images from open-source platforms from everywhere in the world, and train a first version on the model.&lt;/li&gt;
+&lt;li&gt;Step 0.2: Train a model: Train a first version of the EWD, using a YoloV5.&lt;/li&gt;
+&lt;li&gt;Step 1: Putting cameras on the watchtowers. Gather data for detection and annotation purposes.&lt;/li&gt;
+&lt;li&gt;Step 2: Process chilean images on the annotation platform. The images where potential
+smoke plumes are automatically detected by the model trained on phase 0 will be manually validated by humans, in order to enhance the quality of the dataset by adapting the model to in-domain images and reducing the number of false positives.&lt;/li&gt;
+&lt;li&gt;Step 3: Gather in-domain training set: Combine the initial training set with the annotated chilean data in order to adapt the model to the environment.&lt;/li&gt;
+&lt;li&gt;Step 4.1: Fine-tune the smoke plume detection model images: First, the model will be trained using available data that we are collecting, then it will be fine-tuned on multimodal Chilean data&lt;/li&gt;
+&lt;li&gt;Step 4.2: Apply the model on new images in real time&lt;/li&gt;
+&lt;li&gt;Step 5: Visualize the alerts on a web platform: using an interface to see where the watchtower is and where the camera is looking at, but also what are the images from the camera that triggered the alert. The platform will also have an interface allowing for validation or rejection of the smoke plumes detected, in order to enhance the quality of the model.&lt;/li&gt;
+&lt;li&gt;Step Final: Resource deployment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;: The second part consists in prediction of wildfire propagation using physics-informed machine learning model. It is necessary to collect a wildfire scar dataset, create a physical model of wildifre propgation based on it, to generate artificial data. On this generated data, a PINN can be trained and then fine-tuned on real chilean wildfires, and compared to reality.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image_all&#34; srcset=&#34;
+               /project/fairefighter/fAIrefighter_wsp_hu13840030640784380258.webp 400w,
+               /project/fairefighter/fAIrefighter_wsp_hu10695992529765654606.webp 760w,
+               /project/fairefighter/fAIrefighter_wsp_hu13493718214921426331.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/fairefighter/fAIrefighter_wsp_hu13840030640784380258.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;422&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 0: Gather data from various sources, like wildfire scars, meteorological data, and more. This data forms the basis for studying wildfire patterns.&lt;/li&gt;
+&lt;li&gt;Step 1: Use of the open-source tool called Cell2Fire to simulate how wildfires spread. This helps us understand fire behavior and make predictions.&lt;/li&gt;
+&lt;li&gt;Step 2: Creation of artificial training data using simulator. We select specific wildfires and replicate their growth using Cell2Fire. This gives us data to analyze.&lt;/li&gt;
+&lt;li&gt;Step3:Combinationofdataandscientificmodels.Byintegratingphysics-basedequations into neural networks we build a strong model for wildfire spread. This blends real data with scientific knowledge.&lt;/li&gt;
+&lt;li&gt;Steps 4.1/4.2: Fine-tune the model and apply it on new remote sensing data: first, the model will be trained using available data that we are collecting, then it will be fine-tuned on Chilean data.&lt;/li&gt;
+&lt;li&gt;Step 5: Visualize on a web platform.&lt;/li&gt;
+&lt;li&gt;Step Final: Resource deployment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Overall&lt;/strong&gt;: There is no notion of intellectual property in our project. We will base our technology on open-source knowledge like published papers that we will re-implement ourselves or by using available online code without restrictive license. Subsequently, all our models and datasets will be published as open-source resources for the research community.&lt;/p&gt;
+&lt;h3 id=&#34;objectives&#34;&gt;Objectives&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Main&lt;/strong&gt;:
+Integrated, technology-driven wildfire management system active at two levels: &lt;em&gt;(i)&lt;/em&gt; to proactively detect early wildfire foci, &lt;em&gt;(ii)&lt;/em&gt; accurately predict wildfire spread in order to &lt;em&gt;(iii)&lt;/em&gt; facilitate real-time decision-making by allowing forest guards, firemen and policy-makers to get more information when allocating resources such as manpower, material and water or when planning evacuation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Specific&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Early Wildfire Detection&lt;/li&gt;
+&lt;li&gt;Wildfire Spread Prediction&lt;/li&gt;
+&lt;li&gt;Decision Support Tool&lt;/li&gt;
+&lt;li&gt;Impact Assessment&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;~ 220k dollars&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Boosting crop classification by hierarchically fusing satellite, rotational, and contextual data</title>
+      <link>http://localhost:1313/publication/rse24-boosting/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rse24-boosting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

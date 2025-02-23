@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Valentin Barriere</title>
+    <link>http://localhost:1313/publication_types/paper-conference/</link>
+      <atom:link href="http://localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Paper-Conference</title>
+      <link>http://localhost:1313/publication_types/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>A Study of Nationality Bias in Names and Perplexity using Off-the-Shelf Affect-related Tweet Classifiers</title>
+      <link>http://localhost:1313/publication/emnlp24-ppl/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/emnlp24-ppl/</guid>
+      <description>&lt;p&gt;This work is driven by the results of a &lt;a href=&#34;http://localhost:1313/publication/LREC24-XENOPHOBIA/&#34;&gt;previous paper&lt;/a&gt; on country-level bias detection in LLMs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>(Preprint) Scrapping The Web For Early Wildfire Detection: A New Annotated Dataset of Images and Videos of Smoke Plumes In-the-wild</title>
+      <link>http://localhost:1313/publication/preprint-scrapping/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/preprint-scrapping/</guid>
+      <description>&lt;p&gt;This work goes directly in the context of the &lt;a href=&#34;http://localhost:1313/project/fAIrefighter/&#34;&gt;fAIrefighter🧯&lt;/a&gt; project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Findings of WASSA 2024 Shared Task on Empathy and Personality Detection in Interactions</title>
+      <link>http://localhost:1313/publication/wassa24-task/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wassa24-task/</guid>
+      <description>&lt;p&gt;Fourth shared task related to Empathy we organized at WASSA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Are Text Classifiers Xenophobic? A Country-Oriented Bias Detection Method with Least Confounding Variables</title>
+      <link>http://localhost:1313/publication/lrec24-xenophobia/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec24-xenophobia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments</title>
+      <link>http://localhost:1313/publication/lrec24-touche/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec24-touche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Natural Language Feature Learning for Interpretable Prediction</title>
+      <link>http://localhost:1313/publication/emnlp23-nllf/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/emnlp23-nllf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Targeted Image Data Augmentation Increases Basic Skills Captioning Robustness</title>
+      <link>http://localhost:1313/publication/gem23-tida/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gem23-tida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Findings of WASSA 2023 Shared Task on Empathy, Emotion and Personality Detection in Conversation and Reactions to News Articles</title>
+      <link>http://localhost:1313/publication/wassa23-task/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wassa23-task/</guid>
+      <description>&lt;p&gt;Third shared task related to Empathy we organized at WASSA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CoFE: A New Dataset of Intra-Multilingual Multi-target Stance Classification from an Online European Participatory Democracy Platform</title>
+      <link>http://localhost:1313/publication/aacl22-cofe/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/aacl22-cofe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debating Europe: A Multilingual Multi-Target Stance Classification Dataset of Online Debates</title>
+      <link>http://localhost:1313/publication/lrec22-deurope/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec22-deurope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinions in Interactions : New Annotations of the SEMAINE Database</title>
+      <link>http://localhost:1313/publication/lrec22-opinions/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec22-opinions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WASSA 2022 Shared Task: Predicting Empathy, Emotion and Personality in Reaction to News Stories</title>
+      <link>http://localhost:1313/publication/wassa22-task/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wassa22-task/</guid>
+      <description>&lt;p&gt;Second shared task related to Empathy we organized at WASSA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How does a Pre-Trained Transformer Integrate Contextual Keywords? Application to Humanitarian Computing</title>
+      <link>http://localhost:1313/publication/iscram21-meta/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/iscram21-meta/</guid>
+      <description>&lt;p&gt;It is possible to integrate textual metadata into transformers in order to help the model improve its performances. We show the model uses the semantics of the keyword metadata analyzing the attention interaction between the metadata and the text to classify. We applied this to a humanitarian classification task over tweets, using the disaster event type as context, and finally show this method is also useful to caracterize a new event like a hurricane in a data-driven way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improving Sentiment Analysis over non-English Tweets using Multilingual Transformers and Automatic Translation for Data-Augmentation</title>
+      <link>http://localhost:1313/publication/coling20-mling/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/coling20-mling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

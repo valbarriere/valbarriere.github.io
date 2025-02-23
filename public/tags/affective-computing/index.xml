@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Affective Computing | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/affective-computing/</link>
+      <atom:link href="http://localhost:1313/tags/affective-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Affective Computing</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Affective Computing</title>
+      <link>http://localhost:1313/tags/affective-computing/</link>
+    </image>
+    
+    <item>
+      <title>[Tesis pre/postgrado] [Pagada] Change my view! -- Analisis de argumentacion multimodal</title>
+      <link>http://localhost:1313/job_offers/thesis-postgrado-mmodaleca/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/thesis-postgrado-mmodaleca/</guid>
+      <description>&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+&lt;p&gt; Interactions and Multimodality are crucial in the development of intelligent AI models that can understand human-like communication. Human learning occurs through interactions with the environment and other humans, which involves the integration of information from multiple modalities such as vision, language but also touch and hearing that enable us to understand the subtle social meaning behind communication. 
+Therefore, to create intelligent machines that can understand human communication, it is essential to train them on multimodal interactions that mimic those of humans to ensure that they can understand and respond appropriately to complex social phenomena. 
+The research objective is to design adaptive models that take as a starting point the specificities of the multimodal interaction: the media used to communicate, the way the users are socially linked together, and the modalities used by them to transfer information. 
+For this reason, we aim to study multimodal argumentation mining as a starting point. Dialog systems helps to improve the quality of a debate [1,2,3,4]. But phenomena related to argumentation relies on multimodal communication and are related to persuasion, or communication skills [5,6,7,8]. For this, we are focusing on multimodal argument mining [9,10,11,12]. &lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;fig_tesis_proposicion&#34; srcset=&#34;
+               /job_offers/thesis-postgrado-mmodaleca/fig_tesis_proposicion_hu700631809574394399.webp 400w,
+               /job_offers/thesis-postgrado-mmodaleca/fig_tesis_proposicion_hu1221762742450276794.webp 760w,
+               /job_offers/thesis-postgrado-mmodaleca/fig_tesis_proposicion_hu4398504731950838957.webp 1200w&#34;
+               src=&#34;http://localhost:1313/job_offers/thesis-postgrado-mmodaleca/fig_tesis_proposicion_hu700631809574394399.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;241&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;The student will engage in the construction of multimodal machine learning models that take as input video and are able to detect complex social phenomena such as empathy, persuasion and emotion but also text-based argumentation models. During the thesis, we will also focus on the construction of a debate dataset in Chilean Spanish (and hopefully  in French), on political hot topics that are seen as polarizing in both countries. 
+s
+In a few bullet-points, different research axis will be explored regarding the available time (w.r.t. the type of tesis/memoria): &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creation of mutlimodal models aiming to detect social phenomena in discourse and also in a dyadic or group interaction&lt;/li&gt;
+&lt;li&gt;Adaptation or creation of an text-based argumentation annotation scheme for multimodal data&lt;/li&gt;
+&lt;li&gt;Creation of the chilean part of a multicultural database of debates on polarizing topics  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Funds will be available to support the research of the student.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; ### Bibliography&lt;/p&gt;
+&lt;p&gt;[1] V. Petukhova, T. Mayer, A. Malchanau, and H. Bunt, “Virtual debate coach design: Assessing multimodal argumentation performance,” ICMI 2017 - Proc. 19th ACM Int. Conf. Multimodal Interact., vol. 2017-Janua, no. 1, pp. 41–50, 2017. &lt;/p&gt;
+&lt;p&gt;[2] N. Rach, E. André, K. Weber, W. Minker, L. Pragst, and S. Ultes, “EVA: A multimodal argumentative dialogue system,” ICMI 2018 - Proc. 2018 Int. Conf. Multimodal Interact., no. October, pp. 551–552, 2018. &lt;/p&gt;
+&lt;p&gt;[3] A. Khan, J. Hughes, D. Valentine, L. Ruis, K. Sachan, and A. Radhakrishnan, “Debating with More Persuasive LLMs Leads to More Truthful Answers,” 2024. &lt;/p&gt;
+&lt;p&gt;[4] L. P. Argyle et al., “AI Chat Assistants can Improve Conversations about Divisive Topics,” ArXiv, 2023. &lt;/p&gt;
+&lt;p&gt;[5] T. Ohba, C. O. Mawalim, S. Katada, H. Kuroki, and S. Okada, “Multimodal Analysis for Communication Skill and Self-Efficacy Level Estimation in Job Interview Scenario,” ACM Int. Conf. Proceeding Ser., pp. 110–120, 2022. &lt;/p&gt;
+&lt;p&gt;[6] S. Park, H. S. Shim, M. Chatterjee, K. Sagae, and L.-P. Morency, “Computational Analysis of Persuasiveness in Social Multimedia: A Novel Dataset and Multimodal Prediction Approach,” Proc. 16th Int. Conf. Multimodal Interact. - ICMI ’14, pp. 50–57, 2014. &lt;/p&gt;
+&lt;p&gt;[7] B. Siddiquie, D. Chisholm, and A. Divakaran, “Exploiting multimodal affect and semantics to identify politically persuasive web videos,” in ICMI 2015 - Proceedings of the 2015 ACM International Conference on Multimodal Interaction, 2015, pp. 203–210. &lt;/p&gt;
+&lt;p&gt;[8] B. Nojavanasghari, D. Gopinath, J. Koushik, T. Baltrušaitis, and L.-P. Morency, “Deep Multimodal Fusion for Persuasiveness Prediction,” in ICMI 2016 - Proceedings of the 2016 ACM International Conference on Multimodal Interaction, 2016, pp. 1–5. &lt;/p&gt;
+&lt;p&gt;[9] R. Mestre, R. Milicin, S. E. Middleton, M. Ryan, J. Zhu, and T. J. Norman, “M-Arg: Multimodal Argument Mining Dataset for Political Debates with Audio and Transcripts,” 8th Work. Argument Mining, ArgMining 2021 - Proc., no. 2014, pp. 78–88, 2021. &lt;/p&gt;
+&lt;p&gt;[10] M. Brilman and S. Scherer, “A Multimodal Predictive Model of Successful Debaters or How I Learned to Sway Votes,” Proc. 23rd ACM Int. Conf. Multimed., pp. 149–158, 2015. &lt;/p&gt;
+&lt;p&gt;[11] E. Mancini, F. Ruggeri, A. Galassi, and P. Torroni, “Multimodal Argument Mining: A Case Study in Political Debates,” Proc. 9th Work. Argument Min., pp. 158–170, 2022. &lt;/p&gt;
+&lt;p&gt;[12] T. Shiota and K. Shimada, “The Discussion Corpus toward Argumentation Quality Assessment in Multi-Party Conversation,” Proc. - 2020 9th Int. Congr. Adv. Appl. Informatics, IIAI-AAI 2020, pp. 280–283, 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[FOUND] [Tesis pre/postgrado] JAJAJJJJJ -- Deteccion de humor en videos de stand-up comedy</title>
+      <link>http://localhost:1313/job_offers/thesis-jajaja/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/thesis-jajaja/</guid>
+      <description>&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+&lt;p&gt;Humour is a key dimension in human-human communication and is used constantly, in a wide variety of contexts. It is used for its pleasing effect as it can help explain complex ideas during important presentations or it can serve as pure entertainment like in movies or stand up comedy. Sometimes, it can also be used in a less deliberate manner, unconsciously, as a way to regulate the inherent stress and tension arising in conversations, by presenting one’s ideas and intentions in an alternate way.&lt;/p&gt;
+&lt;p&gt;While Human-Agent interactions are growing in popularity due to the recent thrive of Large Language Models, the resulting conversations still remain frustrating for the users when they start to use subtle conversational strategies and skills such as irony, euphemism, hyperbolism and humour.&lt;/p&gt;
+&lt;p&gt;Today, when a human is using humour during a human-agent interaction, this tends to interrupt the flow of the interaction. Agents interpret quite literally what a human is saying and as the agent does not react as the human would expect from a fellow conversational partner this leads to rephrasing, repeating and eventually frustration.&lt;/p&gt;
+&lt;p&gt;Our vision for the future of conversational agents is that agents should be able at least to detect humorous attempts and to redirect the flow of the conversation accordingly. In this project, our main objective is to endow conversational agents with the ability to recognize when humour is being used by a human during human-agent interactions. Towards this goal, we will be relying on a multimodal approach and we will investigate how multimodal computational models can achieve this.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-example-taken-from-the-ur-funny-dataset-6&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;UR_FUNNY&#34; srcset=&#34;
+               /job_offers/thesis-jajaja/UR_FUNNY_hu10620972935419908973.webp 400w,
+               /job_offers/thesis-jajaja/UR_FUNNY_hu12261418939102111829.webp 760w,
+               /job_offers/thesis-jajaja/UR_FUNNY_hu2094234890411483346.webp 1200w&#34;
+               src=&#34;http://localhost:1313/job_offers/thesis-jajaja/UR_FUNNY_hu10620972935419908973.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;296&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Example taken from the UR-FUNNY dataset [6]
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;On this project, we will focus on the use of multimodal models with or without interactions [1,2] that can be also multilingual [3]. We would focus on multimodal but also multicultural specific social context [4], showing that multimodal is essential to detect complex human cultural and social phenonema such as sarcasm [5] or humour detection [6]. For group interactions, modelization of the speakers will be done using special architecture such as DialogueRNN [7].&lt;/p&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Here, we will focus on the first brick of this amazing human-machine project, which is the characterization and detection of humor using verbal and non-verbal language. First, we will study this complex phenomena in various languages using stand-up comedy videos. Second, if time allows it, we would focus on dyad or group interactions, such as TV-shows or better, naturalistic interactions.&lt;/p&gt;
+&lt;p&gt;The student will have to work on the several tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collection of a dataset of stand-up comedy videos on youtube&lt;/li&gt;
+&lt;li&gt;Cleaning and analysis of the dataset&lt;/li&gt;
+&lt;li&gt;Multimodal modelization of human verbal and non-verbal language using binary classification&lt;/li&gt;
+&lt;li&gt;Possibility to think about a more fine-grained humour taxonomy (more than just binary, how to propagate laugh, etc…)&lt;/li&gt;
+&lt;li&gt;Collection of a dataset of humor in interactions&lt;/li&gt;
+&lt;li&gt;Modelization more complex of multi-party interactions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h3&gt;
+&lt;p&gt;[1] P. P. Liang, Y. Cheng, R. Salakhutdinov, and L. P. Morency, “Multimodal Fusion Interactions: A Study of Human and Automatic Quantification,” ACM Int. Conf. Proceeding Ser., pp. 425–435, 2023.&lt;/p&gt;
+&lt;p&gt;[2] A. Zadeh, P. P. Liang, N. Mazumder, S. Poria, E. Cambria, and L.-P. Morency, “Memory Fusion Network for Multi-view Sequential Learning,” in AAAI, 2018.&lt;/p&gt;
+&lt;p&gt;[3] A. Zadeh, Y. S. Cao, S. Hessner, P. P. Liang, S. Poria, and L. Morency, “CMU-MOSEAS : A Multimodal Language Dataset for Spanish , Portuguese , German and French,” in EMNLP, 2020, vol. 1, no. 1, pp. 1801–1812.&lt;/p&gt;
+&lt;p&gt;[4] M. Sap, S. Gabriel, L. Qin, D. Jurafsky, N. A. Smith, and Y. Choi, “Social Bias Frames: Reasoning about Social and Power Implications of Language,” Proc. ofthe 58th Annu. Meet. ofthe Assoc. Comput. Linguist., pp. 5477–5490, 2020.&lt;/p&gt;
+&lt;p&gt;[5] P. Desai, T. Chakraborty, and M. S. Akhtar, “Nice perfume. How long did you marinate in it? Multimodal Sarcasm Explanation,” in AAAI, 2022.&lt;/p&gt;
+&lt;p&gt;[6] M. K. Hasan et al., “UR-FUNNY: A Multimodal Language Dataset for Understanding Humor,” 2019.&lt;/p&gt;
+&lt;p&gt;[7] N. Majumder, S. Poria, D. Hazarika, R. Mihalcea, A. Gelbukh, and E. Cambria, “DialogueRNN: An Attentive RNN for Emotion Detection in Conversations,” in AAAI, 2019.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WASSA Workshop @ ACL 24</title>
+      <link>http://localhost:1313/event/wassa24/</link>
+      <pubDate>Thu, 15 Aug 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/wassa24/</guid>
+      <description>&lt;p&gt;We are orgnizing the 14th edition of the WASSA workshop this year at &lt;a href=&#34;https://2024.aclweb.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL24&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Our keynote speaker will be Debora Nozza&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://workshop-wassa.github.io/assets/images/debora_nozza.jpeg&#34; alt=&#34;image&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;The proliferation of hate speech on social media platforms has been rising, with (pseudo-)anonymity allowing individuals to target others without being recognized or easily traced. While this societal issue has garnered significant attention in the NLP community, it presents three major challenges. Hate speech detection models need to be fair, work across all languages, and incorporate personalization while balancing privacy concerns. Addressing these challenges will revolutionize the field of hate speech detection and contribute to the development of a “universal” model that can adapt to individual user perspectives. In this talk, I will present my contributions in this area along with my perspectives on future directions.&lt;/p&gt;
+&lt;h4 id=&#34;bio&#34;&gt;Bio&lt;/h4&gt;
+&lt;p&gt;Debora Nozza is an Assistant Professor in Computing Sciences at Bocconi University. Her research interests mainly focus on Natural Language Processing, specifically on the detection and counter-acting of hate speech and algorithmic bias on Social Media data in multilingual context&lt;/p&gt;
+&lt;h2 id=&#34;about-wassa&#34;&gt;About WASSA&lt;/h2&gt;
+&lt;p&gt;The aim of WASSA 2024 is to bring together researchers working on Subjectivity, Sentiment Analysis, Emotion Detection and Classification and their applications to other NLP or real-world tasks (e.g. public health messaging, fake news, media impact analysis, social media mining, computational literary studies) and researchers working on interdisciplinary aspects of affect computation from text. For this edition, we encourage the submission of long and short research and demo papers including, but not restricted to the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Resources for subjectivity, sentiment, emotion and social media analysis&lt;/li&gt;
+&lt;li&gt;Opinion retrieval, extraction, categorization, aggregation and summarization&lt;/li&gt;
+&lt;li&gt;Humor, Irony and Sarcasm detection&lt;/li&gt;
+&lt;li&gt;Mis- and disinformation analysis and the role of affective attributes&lt;/li&gt;
+&lt;li&gt;Aspect and topic-based sentiment and emotion analysis&lt;/li&gt;
+&lt;li&gt;Analysis of stable traits of social media users, incl. personality analysis and profiling&lt;/li&gt;
+&lt;li&gt;Transfer learning for domain, language and genre portability of sentiment analysis&lt;/li&gt;
+&lt;li&gt;Modelling commonsense knowledge for subjectivity, sentiment or emotion analysis&lt;/li&gt;
+&lt;li&gt;Improvement of NLP tasks using subjectivity and/or sentiment analysis&lt;/li&gt;
+&lt;li&gt;Intrinsic and extrinsic evaluation of subjectivity and/or sentiment analysis&lt;/li&gt;
+&lt;li&gt;The role of emotions in argument mining&lt;/li&gt;
+&lt;li&gt;Application of theories from related fields to subjectivity and sentiment analysis&lt;/li&gt;
+&lt;li&gt;Multimodal emotion detection and classification&lt;/li&gt;
+&lt;li&gt;Applications of sentiment and emotion mining&lt;/li&gt;
+&lt;li&gt;Public sentiments and communication patterns of public health emergencies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the past years we have noticed that WASSA offers a platform to researchers investigating sentiment and emotion in lesser-resourced languages. The 2023 edition featured work on no less than 23 different languages and two papers specifically targeted multilingual emotion detection. We wish to continue these efforts as we find it important to consider and publish advances in any language as this helps to underline the wealth of our research community and to diminish the dominance of English-language research. To this purpose we propose a Special track on multilinguality and social bridge between high- and lesser-resourced languages/communities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Findings of WASSA 2024 Shared Task on Empathy and Personality Detection in Interactions</title>
+      <link>http://localhost:1313/publication/wassa24-task/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wassa24-task/</guid>
+      <description>&lt;p&gt;Fourth shared task related to Empathy we organized at WASSA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WASSA Workshop @ ACL 23</title>
+      <link>http://localhost:1313/event/wassa23/</link>
+      <pubDate>Fri, 14 Jul 2023 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/wassa23/</guid>
+      <description>&lt;p&gt;We are orgnizing the 13th edition of the WASSA workshop this year at &lt;a href=&#34;https://2023.aclweb.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL23&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Our keynote speakers will be David Jurgens and Emily Öhman&lt;/p&gt;
+&lt;h3 id=&#34;invited-talk-david-jurgens&#34;&gt;Invited Talk: David Jurgens&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://wassa-workshop.github.io/assets/images/david_jurgens.jpeg&#34; alt=&#34;image&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;the-social-dimensions-of-communication-how-context-shapes-language-use-and-interpretation&#34;&gt;The Social Dimensions of Communication: How Context Shapes Language Use and Interpretation&lt;/h4&gt;
+&lt;p&gt;NLP studies of communication often focus on the individual: What we say, when we say it, and how we say it. Yet, the larger social context beyond the individual also plays an important role in our communication — just think of things you can say to your friends but not your parents. How does the social context influence our communication style and content? In this talk, I will describe recent work from my group studying the influence of this context by examining how we choose who to communicate with, how we interpret messages, and how we phrase messages. Across these studies, I will motivate a causal approach for NLP when studying communication behavior to move beyond descriptive analyses to more precise estimates of the effects of social context.&lt;/p&gt;
+&lt;h4 id=&#34;bio&#34;&gt;Bio&lt;/h4&gt;
+&lt;p&gt;David Jurgens is an assistant professor at the University of Michigan School of Information where he leads the Blablablab. He holds a PhD in Computer Science from the University of California, Los Angeles. His research focuses on the intersection between NLP and computational social science venues and has won the Cozzarelli Prize, Cialdini Prize, best paper at ICWSM and W-NUT, and best paper nomination at ACL and Web Science.&lt;/p&gt;
+&lt;h3 id=&#34;invited-talk-emily-öhman&#34;&gt;Invited Talk: Emily Öhman&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://wassa-workshop.github.io/assets/images/emilyohman.jpeg&#34; alt=&#34;image&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;affective-datafication-of-narratives-measuring-affect-emotion-and-mood-in-literary-texts&#34;&gt;Affective Datafication of Narratives: measuring affect, emotion, and mood in literary texts&lt;/h4&gt;
+&lt;p&gt;Our understanding of affect, emotion, and mood - despite the distinct nuances each term holds - often becomes blurred, leading to a usage that is almost interchangeable, particularly within sentiment analysis and NLP. In contrast, traditional fields such as literary studies hold on to more rigid definitions of these terms and how they are understood both in theory and practice. This can easily foster a disconnect between emerging fields such as computational literary studies and the more established qualitative counterparts. This disconnect unfortunately hinders the free exchange of innovative research ideas and methodologies. This talk aims to bridge this gap, highlighting the unique roles of affect, emotion, and mood in narratives and how we can attempt to robustly measure them. We will delve into the interplay of these terms, exploring how they shape and are shaped by authors, readers, and researchers focusing on the operationalization and translation involved in the analysis of emotion-laden phenomena. This exploration will underscore the need for a more comprehensive and nuanced understanding, encouraging synergy between tradition and innovation in emotion detection in general and literary research in particular.&lt;/p&gt;
+&lt;h4 id=&#34;bio-1&#34;&gt;Bio&lt;/h4&gt;
+&lt;p&gt;Emily Öhman is currently a tenure-track Assistant professor of Digital Humanities at Waseda University. She received her PhD in Language Technology from the University of Helsinki, where her work centered on building multilingual emotion detection resources for downstream tasks.&lt;/p&gt;
+&lt;p&gt;Her research interests lie within digital humanities and NLP, more specifically sentiment analysis and emotion detection, often doing collaborations with various disciplines such as history, literature, and political science. Her recent projects have focused on negative emotions in literature using affect as a proxy for the literary concept of mood and most recently contrasting the semantic spaces of shame and guilt in Japanese and English social media posts.&lt;/p&gt;
+&lt;h2 id=&#34;about-wassa&#34;&gt;About WASSA&lt;/h2&gt;
+&lt;p&gt;The aim of WASSA 2023 is to bring together researchers working on Subjectivity, Sentiment Analysis, Emotion Detection and Classification and their applications to other NLP or real-world tasks (e.g. public health messaging, fake news, media impact analysis, social media mining, computational literary studies) and researchers working on interdisciplinary aspects of affect computation from text. For this edition, we encourage the submission of long and short research and demo papers including, but not restricted to the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Resources for subjectivity, sentiment, emotion and social media analysis&lt;/li&gt;
+&lt;li&gt;Opinion retrieval, extraction, categorization, aggregation and summarization&lt;/li&gt;
+&lt;li&gt;Humor, Irony and Sarcasm detection&lt;/li&gt;
+&lt;li&gt;Mis- and disinformation analysis and the role of affective attributes&lt;/li&gt;
+&lt;li&gt;Aspect and topic-based sentiment and emotion analysis&lt;/li&gt;
+&lt;li&gt;Analysis of stable traits of social media users, incl. personality analysis and profiling&lt;/li&gt;
+&lt;li&gt;Transfer learning for domain, language and genre portability of sentiment analysis&lt;/li&gt;
+&lt;li&gt;Modelling commonsense knowledge for subjectivity, sentiment or emotion analysis&lt;/li&gt;
+&lt;li&gt;Improvement of NLP tasks using subjectivity and/or sentiment analysis&lt;/li&gt;
+&lt;li&gt;Intrinsic and extrinsic evaluation of subjectivity and/or sentiment analysis&lt;/li&gt;
+&lt;li&gt;The role of emotions in argument mining&lt;/li&gt;
+&lt;li&gt;Application of theories from related fields to subjectivity and sentiment analysis&lt;/li&gt;
+&lt;li&gt;Multimodal emotion detection and classification&lt;/li&gt;
+&lt;li&gt;Applications of sentiment and emotion mining&lt;/li&gt;
+&lt;li&gt;Public sentiments and communication patterns of public health emergencies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We furthermore encourage submissions to the special theme Ethics in Affective Computing, including opinion papers, as well as experimental papers. This includes the following topics, but is not limited to them:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which properties of a model render a automatic analysis task unethical?&lt;/li&gt;
+&lt;li&gt;Which characteristics of an annotation task are to be considered in ethical considerations?&lt;/li&gt;
+&lt;li&gt;What are appropriate methods to analyze data and models from an ethical perspective?&lt;/li&gt;
+&lt;li&gt;What aspects are particular important for affective analysis tasks, in contrast to other NLP settings?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Findings of WASSA 2023 Shared Task on Empathy, Emotion and Personality Detection in Conversation and Reactions to News Articles</title>
+      <link>http://localhost:1313/publication/wassa23-task/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wassa23-task/</guid>
+      <description>&lt;p&gt;Third shared task related to Empathy we organized at WASSA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Opinions in Interactions : New Annotations of the SEMAINE Database</title>
+      <link>http://localhost:1313/publication/lrec22-opinions/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec22-opinions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WASSA 2022 Shared Task: Predicting Empathy, Emotion and Personality in Reaction to News Stories</title>
+      <link>http://localhost:1313/publication/wassa22-task/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wassa22-task/</guid>
+      <description>&lt;p&gt;Second shared task related to Empathy we organized at WASSA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improving Sentiment Analysis over non-English Tweets using Multilingual Transformers and Automatic Translation for Data-Augmentation</title>
+      <link>http://localhost:1313/publication/coling20-mling/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/coling20-mling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

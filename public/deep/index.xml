@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning | Valentin Barriere</title>
+    <link>http://localhost:1313/deep/</link>
+      <atom:link href="http://localhost:1313/deep/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/deep/</link>
+    </image>
+    
+    <item>
+      <title>Introduccion</title>
+      <link>http://localhost:1313/deep/1_introduction/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/1_introduction/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides1_introductionpdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/1_Introduction.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Regularization</title>
+      <link>http://localhost:1313/deep/6_regularization/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/6_regularization/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides6_regularizationpdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/6_Regularization.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computer Vision Architectures</title>
+      <link>http://localhost:1313/deep/9_cnn_architectures/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/9_cnn_architectures/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides9_cnn_architecturespdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/9_CNN_Architectures.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transfer Learning</title>
+      <link>http://localhost:1313/deep/10_transferlearning/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/10_transferlearning/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides10_transferlearningpdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/10_TransferLearning.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object Detection</title>
+      <link>http://localhost:1313/deep/11_computervision/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/11_computervision/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides11_computervisionpdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/11_ComputerVision.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative LLMs</title>
+      <link>http://localhost:1313/deep/n_generative_llms/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/n_generative_llms/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslidesn_generative_llmspdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/N_Generative_LLMs.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Large Multimodal Models</title>
+      <link>http://localhost:1313/deep/n_multimodal_models/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/n_multimodal_models/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslidesn_multimodal_modelspdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/N_Multimodal_Models.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

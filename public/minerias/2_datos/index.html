@@ -1,0 +1,3065 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: February 23, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="light">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Valentin Barriere" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="(Un)structured data, Representation, Normalization, Noise removal,..." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/minerias/2_datos/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/blue.min.css" />
+  
+
+  
+  
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu3220925836364108546.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu10982886133934063643.png" />
+
+  <link rel="canonical" href="http://localhost:1313/minerias/2_datos/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Valentin Barriere" />
+  <meta property="og:url" content="http://localhost:1313/minerias/2_datos/" />
+  <meta property="og:title" content="Datos I | Valentin Barriere" />
+  <meta property="og:description" content="(Un)structured data, Representation, Normalization, Noise removal,..." /><meta property="og:image" content="http://localhost:1313/minerias/2_datos/featured.png" />
+    <meta property="twitter:image" content="http://localhost:1313/minerias/2_datos/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2024-03-29T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2024-03-29T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  <title>Datos I | Valentin Barriere</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    let element = document.getElementById('search');
+    let trigger = document.getElementById('search_toggle');
+
+    if (trigger) {
+      trigger.addEventListener('click', () => {
+        element.classList.toggle('hidden');
+        element.querySelector("input").value = ""
+        element.querySelector("input").focus()
+
+        if (!element.classList.contains('hidden')) {
+          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+
+          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
+            clear_trigger.setAttribute('listenerOnClick', 'true');
+
+            clear_trigger.addEventListener('click', () => {
+              element.classList.toggle('hidden');
+            });
+          }
+        }
+
+      });
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.6579ec9683211cfb952064aedf3a3baea5eeb17a061775b32b70917474637c80.js" integrity="sha256-ZXnsloMhHPuVIGSu3zo7rqXusXoGF3WzK3CRdHRjfIA="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Valentin Barriere">
+        Valentin Barriere
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/"
+        >Bio</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#papers"
+        >Papers</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#talks"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/projects/"
+        >Projects</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/teaching/"
+        >Teaching</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/job_offers/"
+        >Job/Thesis</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+      <button
+        aria-label="search"
+        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        id="search_toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+      </button>
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+<div id="search" class="hidden p-3"></div>
+
+
+        
+      
+    </div>
+    <div class="page-body  my-10">
+      <div class="mx-auto flex max-w-screen-xl">
+  
+
+  
+  <div class="hb-sidebar-mobile-menu fixed inset-0 z-10 bg-white dark:bg-black/80 hidden"></div>
+
+
+
+<aside class="hb-sidebar-container max-lg:[transform:translate3d(0,-100%,0)] lg:sticky">
+  
+  <div class="px-4 pt-4 lg:hidden">
+    
+    
+  </div>
+  <div class="hb-scrollbar lg:h-[calc(100vh-var(--navbar-height))]">
+    <ul class="flex flex-col gap-1 lg:hidden">
+      
+      
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/job_offers/"
+    
+  >Job/Thesis Offers
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/job_offers/thesis-fairefighter/"
+    
+  >[Tesis postgrado] [Pagada] Deteccion de Fuego en la naturaleza usando IA
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/job_offers/thesis-meta-deepcrop/"
+    
+  >[Tesis pre/postgrado] [Pagada] Aprender a aprender -- IA y Meta-learning para datos Satelitales
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/job_offers/thesis-postgrado-mmodaleca/"
+    
+  >[Tesis pre/postgrado] [Pagada] Change my view! -- Analisis de argumentacion multimodal
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/job_offers/thesis-postgrado-bias/"
+    
+  >[Tesis pre/postgrado] [Pagada] Xenophobias -- Deteccion y reduccion de sesgos etnicos en LLM
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/job_offers/data-eng-deepcrop/"
+    
+  >[FOUND] Data Engineer for Geographic and Remote Sensing data
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/job_offers/ml-eng-deepcrop/"
+    
+  >[FOUND] Machine Learning Engineer for Geographic and Remote Sensing data
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/job_offers/thesis-jajaja/"
+    
+  >[FOUND] [Tesis pre/postgrado] JAJAJJJJJ -- Deteccion de humor en videos de stand-up comedy
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/"
+    
+  >Projects
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/mmodal_eca/"
+    
+  >Fondecyt de Iniciacion🗣️💬🤖
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/xenophobias/"
+    
+  >XenophoBias🏳️‍🌈
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/copernicus/"
+    
+  >CopernicusLAC🛰️🇪🇺
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/deepcrop/"
+    
+  >DeepCrop🛰️🌾🌽
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/fairefighter/"
+    
+  >fAIrefighter🧯
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/"
+    
+  >Recent &amp; Upcoming Talks
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/ceniamodal/"
+    
+  >Large Multimodal Models @ CENIAMODAL
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/jsic/"
+    
+  >Tackling Biases In or Using Generative AI @ JSIC&#39;24
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/wassa24/"
+    
+  >WASSA Workshop @ ACL 24
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/wassa23/"
+    
+  >WASSA Workshop @ ACL 23
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/experience/"
+    
+  >Experience
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/not_used/"
+    
+  >Not_useds
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/not_used/ceds24/"
+    
+  >CEDS 24 Conferencia Internacional del Espacio y Desarollo Sostenible
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/not_used/post/"
+    
+  >Blog
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/not_used/post/get-started/"
+    
+  >🎉 Easily create your own simple yet highly customizable blog
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/not_used/post/second-brain/"
+    
+  >🧠 Sharpen your thinking with a second brain
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/not_used/post/data-visualization/"
+    
+  >📈 Communicate your results effectively with the best data visualizations
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/not_used/post/teach-courses/"
+    
+  >👩🏼‍🏫 Teach academic courses
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/not_used/post/project-management/"
+    
+  >✅ Manage your projects
+    </a>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/"
+    
+  >Recent Publications
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/emnlp24-ppl/"
+    
+  >A Study of Nationality Bias in Names and Perplexity using Off-the-Shelf Affect-related Tweet Classifiers
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/preprint-scrapping/"
+    
+  >(Preprint) Scrapping The Web For Early Wildfire Detection: A New Annotated Dataset of Images and Videos of Smoke Plumes In-the-wild
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/bits24-biases/"
+    
+  >Fantastic Biases (What are They) and Where to Find Them
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/wassa24-task/"
+    
+  >Findings of WASSA 2024 Shared Task on Empathy and Personality Detection in Interactions
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/lrec24-xenophobia/"
+    
+  >Are Text Classifiers Xenophobic? A Country-Oriented Bias Detection Method with Least Confounding Variables
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/lrec24-touche/"
+    
+  >The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/rse24-boosting/"
+    
+  >Boosting crop classification by hierarchically fusing satellite, rotational, and contextual data
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/emnlp23-nllf/"
+    
+  >Deep Natural Language Feature Learning for Interpretable Prediction
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/gem23-tida/"
+    
+  >Targeted Image Data Augmentation Increases Basic Skills Captioning Robustness
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/wassa23-task/"
+    
+  >Findings of WASSA 2023 Shared Task on Empathy, Emotion and Personality Detection in Conversation and Reactions to News Articles
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/mdpi23-participatory/"
+    
+  >Multilingual Multi-Target Stance Recognition in Online Public Consultations
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/aacl22-cofe/"
+    
+  >CoFE: A New Dataset of Intra-Multilingual Multi-target Stance Classification from an Online European Participatory Democracy Platform
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/lrec22-deurope/"
+    
+  >Debating Europe: A Multilingual Multi-Target Stance Classification Dataset of Online Debates
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/lrec22-opinions/"
+    
+  >Opinions in Interactions : New Annotations of the SEMAINE Database
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/wassa22-task/"
+    
+  >WASSA 2022 Shared Task: Predicting Empathy, Emotion and Personality in Reaction to News Stories
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/iscram21-meta/"
+    
+  >How does a Pre-Trained Transformer Integrate Contextual Keywords? Application to Humanitarian Computing
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/coling20-mling/"
+    
+  >Improving Sentiment Analysis over non-English Tweets using Multilingual Transformers and Automatic Translation for Data-Augmentation
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep-index/"
+    
+  >Deep Learning
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias-index/"
+    
+  >Minerias de Datos
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/projects/"
+    
+  >Projects
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep/"
+    
+  >Deep Learning
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep/1_introduction/"
+    
+  >Introduccion
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep/6_regularization/"
+    
+  >Regularization
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep/9_cnn_architectures/"
+    
+  >Computer Vision Architectures
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep/10_transferlearning/"
+    
+  >Transfer Learning
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep/11_computervision/"
+    
+  >Object Detection
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep/n_generative_llms/"
+    
+  >Generative LLMs
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/deep/n_multimodal_models/"
+    
+  >Large Multimodal Models
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/"
+    
+  >Minerias de Datos
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/1_intro/"
+    
+  >Introduccion
+    </a>
+              
+            </li><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/minerias/2_datos/"
+    
+  >Datos I
+    </a>
+  
+    <ul class="hb-sidebar-mobile-toc"><li>
+              <a
+                href="#the-slides-are-available-herehttpsgithubcomvalbarrierecc5205-mineria-datos-contentrawrefsheadsmainslides_esdm_datospdf"
+                class="hb-docs-link"
+              >The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/DM_Datos.pdf&#34;&gt;here&lt;/a&gt;!</a>
+            </li>
+          <li>
+              <a
+                href="#generalidades"
+                class="hb-docs-link"
+              >Generalidades</a>
+            </li>
+          <li>
+              <a
+                href="#tipos-de-datos"
+                class="hb-docs-link"
+              >Tipos de datos</a>
+            </li>
+          <li>
+              <a
+                href="#calidad-de-los-datos"
+                class="hb-docs-link"
+              >Calidad de los datos</a>
+            </li>
+          <li>
+              <a
+                href="#limpieza-y-preprocesamiento"
+                class="hb-docs-link"
+              >Limpieza y preprocesamiento</a>
+            </li>
+          </ul>
+  
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/3_datos_exp/"
+    
+  >(TODO) Datos II
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/4_intro_sl/"
+    
+  >Intro Aprendizaje Supervisado
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/5_biases/"
+    
+  >Biases and Fairness
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/6_modelos_lin/"
+    
+  >Modelos Lineales
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/7_clasificadores/"
+    
+  >Clasificadores
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/8_svm/"
+    
+  >SVM
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/9_clustering/"
+    
+  >Clustering
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/10_reduccion_atributos/"
+    
+  >Dimensionality Reduction
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/11_nn/"
+    
+  >Redes Neuronales
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/12_nlp/"
+    
+  >Intro a la NLP
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/python/"
+    
+  >Test Python
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias-en/"
+    
+  >Data Mining
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias-en/1_intro/"
+    
+  >Intro Aprendizaje Supervisado
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/"
+    
+  >Teaching
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/minerias/"
+    
+  >Mineria de Datos
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/deep/"
+    
+  >Deep Learning
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/fouilledonnees/"
+    
+  >Apprentissage Machine
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teachingini/"
+    
+  >Teaching
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teachingini/js/"
+    
+  >Learn JavaScript
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teachingini/python/"
+    
+  >Learn Python
+    </a>
+              
+            </li></ul>
+      </div></li>
+    </ul>
+
+    <ul class="flex flex-col gap-1 max-lg:hidden">
+        
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/1_intro/"
+    
+  >Introduccion
+    </a></li>
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/minerias/2_datos/"
+    
+  >Datos I
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/3_datos_exp/"
+    
+  >(TODO) Datos II
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/4_intro_sl/"
+    
+  >Intro Aprendizaje Supervisado
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/5_biases/"
+    
+  >Biases and Fairness
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/6_modelos_lin/"
+    
+  >Modelos Lineales
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/7_clasificadores/"
+    
+  >Clasificadores
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/8_svm/"
+    
+  >SVM
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/9_clustering/"
+    
+  >Clustering
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/10_reduccion_atributos/"
+    
+  >Dimensionality Reduction
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/11_nn/"
+    
+  >Redes Neuronales
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/12_nlp/"
+    
+  >Intro a la NLP
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/minerias/python/"
+    
+  >Test Python
+    </a></li>
+        
+      </ul>
+    </div>
+
+</aside>
+  
+
+<nav class="hb-toc order-last hidden w-64 shrink-0 xl:block print:hidden px-4" aria-label="table of contents">
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4"><p class="mb-4 font-semibold tracking-tight">On this page</p><ul>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#the-slides-are-available-herehttpsgithubcomvalbarrierecc5205-mineria-datos-contentrawrefsheadsmainslides_esdm_datospdf">The slides are available here!</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#generalidades">Generalidades</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#scikit-learn-biblioteca-de-ml-en-python">Scikit-learn: biblioteca de ML en Python</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#patrones-en-los-datos-y-vectorizaci%c3%b3n">Patrones en los datos y vectorización</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#features-y-etiquetas">Features y etiquetas</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#tipos-de-datos">Tipos de datos</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#cualitativos-vs-cuantitativos">Cualitativos vs. cuantitativos</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#datos-estructurados-vs-no-estructurados">Datos estructurados vs. no estructurados</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#distancia-entre-vectores">Distancia entre vectores</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#extraccion-con-sklearn">Extraccion con sklearn</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#calidad-de-los-datos">Calidad de los datos</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#ruido">Ruido</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#outliers">Outliers</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#valores-faltantes">Valores faltantes</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#duplicados">Duplicados</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#use-case-llm">Use-case: LLM</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#limpieza-y-preprocesamiento">Limpieza y preprocesamiento</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#estandarizaci%c3%b3n-y-normalizaci%c3%b3n">Estandarización y normalización</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#discretizaci%c3%b3n">Discretización</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#polynomial-features">Polynomial Features</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#inter%c3%a9s-del-sampling-muestreo">Interés del sampling (muestreo)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#agregaciones-de-datos">Agregaciones de datos</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#dimensi%c3%b3n-cursa-y-reducci%c3%b3n">Dimensión: Cursa y reducción</a>
+      </li></ul><ul></ul>
+
+  
+  
+    
+    
+  
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  </nav>
+
+
+  <article class="flex w-full min-w-0 min-h-[calc(100vh-var(--navbar-height))] justify-center break-words pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="prose prose-slate lg:prose-xl dark:prose-invert w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+      <div class="mb-1">
+        <div class="mt-1.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 dark:text-gray-400">
+      <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
+        <a href="http://localhost:1313/minerias/">Minerias de Datos</a>
+      </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg><div class="whitespace-nowrap font-medium text-gray-700 dark:text-gray-100">Datos I</div>
+</div>
+
+      </div>
+
+      <div class="content text-base">
+        <h1>Datos I</h1>
+        <h2 id="the-slides-are-available-herehttpsgithubcomvalbarrierecc5205-mineria-datos-contentrawrefsheadsmainslides_esdm_datospdf">The slides are available <a href="https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/DM_Datos.pdf" target="_blank" rel="noopener">here</a>!</h2>
+<p>Esta clase se centra en el concepto de <strong>Datos</strong> dentro del contexto de Machine Learning y minería de datos. Veremos de manera general cómo se representan, qué tipos de datos existen, cómo es la calidad de estos datos y finalmente cómo podemos realizar pasos de preprocesamiento para preparar los datos antes de aplicar algoritmos de aprendizaje.</p>
+<hr>
+<h2 id="generalidades">Generalidades</h2>
+<h3 id="scikit-learn-biblioteca-de-ml-en-python">Scikit-learn: biblioteca de ML en Python</h3>
+<p>Para manejar datos y entrenar modelos, <strong>scikit-learn</strong> proporciona multitud de herramientas:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-scikit-learn">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Logo scikit-learn" srcset="
+               /minerias/2_datos/figures/Scikit_learn_logo_small_svg_hu6327989177387202692.webp 400w,
+               /minerias/2_datos/figures/Scikit_learn_logo_small_svg_hu8563963018684445495.webp 760w,
+               /minerias/2_datos/figures/Scikit_learn_logo_small_svg_hu1265031393500101177.webp 1200w"
+               src="/minerias/2_datos/figures/Scikit_learn_logo_small_svg_hu6327989177387202692.webp"
+               width="260"
+               height="140"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Scikit-learn
+    </figcaption></figure>
+</p>
+<ul>
+<li><a href="https://scikit-learn.org" target="_blank" rel="noopener">Sitio oficial</a></li>
+<li><a href="https://scikit-learn.org/stable/user_guide.html" target="_blank" rel="noopener">User guide</a></li>
+</ul>
+<p>El <strong>workflow general</strong> involucra la carga de datos, preprocesamiento, extracción de características, entrenamiento y evaluación, con metodos normalizadas entre las clases:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-etapas-de-un-pipeline-en-scikit-learn">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Flujo de trabajo en scikit-learn" srcset="
+               /minerias/2_datos/figures/supervised_scikit_learn_hu17372726708710164390.webp 400w,
+               /minerias/2_datos/figures/supervised_scikit_learn_hu13489451897173136613.webp 760w,
+               /minerias/2_datos/figures/supervised_scikit_learn_hu5671300666085423450.webp 1200w"
+               src="/minerias/2_datos/figures/supervised_scikit_learn_hu17372726708710164390.webp"
+               width="659"
+               height="484"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Etapas de un pipeline en Scikit-learn
+    </figcaption></figure>
+</p>
+<h3 id="patrones-en-los-datos-y-vectorización">Patrones en los datos y vectorización</h3>
+<p>El objetivo de muchos métodos de Machine Learning es <strong>detectar estructuras</strong> o <strong>patrones</strong> en los datos. Para ello, generalmente necesitamos que la información esté en forma de <strong>vectores</strong> numéricos, de modo que cada ejemplo (documento, imagen, usuario, transacción, etc.) esté representado como un conjunto de variables numéricas (una por dimensión).</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-here-is-the-content-of-this-class-in-the-global-framwork-of-scikit-learn">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Scikit" srcset="
+               /minerias/2_datos/figures/supervised_scikit_learn_FExt_hu4892075279246747440.webp 400w,
+               /minerias/2_datos/figures/supervised_scikit_learn_FExt_hu14889019013373788.webp 760w,
+               /minerias/2_datos/figures/supervised_scikit_learn_FExt_hu3437252132674115788.webp 1200w"
+               src="/minerias/2_datos/figures/supervised_scikit_learn_FExt_hu4892075279246747440.webp"
+               width="659"
+               height="484"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Here is the content of this class, in the global framwork of scikit-learn
+    </figcaption></figure>
+</p>
+<p>En la práctica, tendremos que <strong>extraer representaciones cifradas</strong> (features) que describan lo más relevante posible de cada ejemplo. Por ejemplo:</p>
+<ul>
+<li>Transformar un texto en un vector que represente la frecuencia de ciertas palabras.</li>
+<li>Medir el histograma de colores de una imagen.</li>
+<li>Recopilar atributos de una tabla (edad, sexo, país&hellip;) para un usuario.</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-un-ejemplo-de-vectorizacion-de-razas-de-animales-el-objetivo-aca-es-de-encontrar-un-modelo-que-puede-reconocer-las-partes-del-espacio-caracteristicas-de-una-clase">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Reconnaissance" srcset="
+               /minerias/2_datos/figures/reconnaissance_dans_espace_petit_hu17874801778558254842.webp 400w,
+               /minerias/2_datos/figures/reconnaissance_dans_espace_petit_hu15134139039843177786.webp 760w,
+               /minerias/2_datos/figures/reconnaissance_dans_espace_petit_hu5122108817378378540.webp 1200w"
+               src="/minerias/2_datos/figures/reconnaissance_dans_espace_petit_hu17874801778558254842.webp"
+               width="363"
+               height="365"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Un ejemplo de vectorizacion de razas de animales. El objetivo aca es de encontrar un modelo que puede reconocer las partes del espacio caracteristicas de una clase.
+    </figcaption></figure>
+</p>
+<h3 id="features-y-etiquetas">Features y etiquetas</h3>
+<p>Cuando hacemos aprendizaje <strong>supervisado</strong>, además de la representación vectorial (features), necesitamos una <strong>etiqueta</strong> o valor de salida asociado a cada ejemplo:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-proceso-global-de-un-sistema-supervisado">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Esquema de aprendizaje supervisado" srcset="
+               /minerias/2_datos/figures/classif_hu9702192758643128410.webp 400w,
+               /minerias/2_datos/figures/classif_hu1940178425719737447.webp 760w,
+               /minerias/2_datos/figures/classif_hu1255634141064509397.webp 1200w"
+               src="/minerias/2_datos/figures/classif_hu9702192758643128410.webp"
+               width="760"
+               height="476"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Proceso global de un sistema supervisado
+    </figcaption></figure>
+</p>
+<ol>
+<li><strong>Features</strong>: Lo que describe al ejemplo.</li>
+<li><strong>Etiqueta (label)</strong>: Variable objetivo que se quiere predecir.</li>
+<li><strong>Modelo</strong>: Aprenderá parámetros para predecir la etiqueta a partir de las features.</li>
+</ol>
+<hr>
+<h2 id="tipos-de-datos">Tipos de datos</h2>
+<h3 id="cualitativos-vs-cuantitativos">Cualitativos vs. cuantitativos</h3>
+<p>Los datos pueden ser de tipo:</p>
+<ul>
+<li><strong>Cuantitativos</strong>: numéricos, mediciones, contajes.</li>
+<li><strong>Cualitativos</strong>: categóricos, nominales o incluso ordinales (pero no lineales).</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-diferentes-tipos-de-características-cantidad-marca-sabor-etc">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ejemplo de café con datos cuantitativos y cualitativos" srcset="
+               /minerias/2_datos/figures/coffee_hu12238997880869042543.webp 400w,
+               /minerias/2_datos/figures/coffee_hu3514629794022085907.webp 760w,
+               /minerias/2_datos/figures/coffee_hu5031277750654754841.webp 1200w"
+               src="/minerias/2_datos/figures/coffee_hu12238997880869042543.webp"
+               width="760"
+               height="333"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Diferentes tipos de características (cantidad, marca, sabor, etc.)
+    </figcaption></figure>
+</p>
+<ul>
+<li>Los datos cualitativos pueden ser más interpretables, pero a veces pierden detalle.</li>
+<li>Los datos cuantitativos dan más precisión, pero pueden ser más difíciles de interpretar.</li>
+</ul>
+<h3 id="datos-estructurados-vs-no-estructurados">Datos estructurados vs. no estructurados</h3>
+<ul>
+<li><strong>Estructurados</strong>: Se presentan en tablas con filas y columnas, es decir, cada ejemplo/instancia y sus atributos (p. ej., dataset de Titanic).</li>
+<li><strong>No estructurados</strong>: Texto, imágenes, audio, etc. Suelen requerir más trabajo de <strong>vectorización</strong>.</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-comparación-entre-datos-en-tabla-y-datos-en-bruto">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ejemplos de datos estructurados vs. no estructurados" srcset="
+               /minerias/2_datos/figures/str_vs_unstr_hu16312124660273804279.webp 400w,
+               /minerias/2_datos/figures/str_vs_unstr_hu7267090381556476155.webp 760w,
+               /minerias/2_datos/figures/str_vs_unstr_hu5542194265417987857.webp 1200w"
+               src="/minerias/2_datos/figures/str_vs_unstr_hu16312124660273804279.webp"
+               width="760"
+               height="422"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Comparación entre datos en tabla y datos en bruto
+    </figcaption></figure>
+</p>
+<p>En muchos problemas, tendremos que convertir datos no estructurados a forma vectorial o tabular para poder aplicar algoritmos de ML.</p>
+<h3 id="distancia-entre-vectores">Distancia entre vectores</h3>
+<p>Cuando representamos datos como vectores, podemos comparar su <strong>similitud</strong> o <strong>diferencia</strong> con métricas como la distancia euclidiana o el <strong>coseno</strong> (similaridad de coseno):</p>
+\[
+\cos(\mathbf{X}, \mathbf{X}') \;=\; 
+\frac{\langle \mathbf{X}, \mathbf{X}'\rangle}{\|\mathbf{X}\|\;\|\mathbf{X}'\|}.
+\]<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-la-distancia-entre-vectores-se-puede-calcular-de-varias-maneras">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="distance_vectors" srcset="
+               /minerias/2_datos/figures/distance_vectors_hu9643923070251790051.webp 400w,
+               /minerias/2_datos/figures/distance_vectors_hu922159784453930484.webp 760w,
+               /minerias/2_datos/figures/distance_vectors_hu10091620246869096621.webp 1200w"
+               src="/minerias/2_datos/figures/distance_vectors_hu9643923070251790051.webp"
+               width="760"
+               height="364"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      La distancia entre vectores se puede calcular de varias maneras
+    </figcaption></figure>
+</p>
+<p>Esto se usa en muchas aplicaciones de clustering, recomendación y clasificación.</p>
+<h3 id="extraccion-con-sklearn">Extraccion con sklearn</h3>
+<p>Un ejemplo simple de one-hot encoding con scikit-learn:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">genders</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;female&#39;</span><span class="p">,</span> <span class="s1">&#39;male&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">locations</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;from Africa&#39;</span><span class="p">,</span> <span class="s1">&#39;from Asia&#39;</span><span class="p">,</span> <span class="s1">&#39;from Europe&#39;</span><span class="p">,</span> <span class="s1">&#39;from US&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">browsers</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;uses Chrome&#39;</span><span class="p">,</span> <span class="s1">&#39;uses Firefox&#39;</span><span class="p">,</span> <span class="s1">&#39;uses IE&#39;</span><span class="p">,</span> <span class="s1">&#39;uses Safari&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">enc</span> <span class="o">=</span> <span class="n">preprocessing</span><span class="o">.</span><span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">categories</span><span class="o">=</span><span class="p">[</span><span class="n">genders</span><span class="p">,</span> <span class="n">locations</span><span class="p">,</span> <span class="n">browsers</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="c1"># Note that for there are missing categorical values for the 2nd and 3rd</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="c1"># feature</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">X</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39;male&#39;</span><span class="p">,</span> <span class="s1">&#39;from US&#39;</span><span class="p">,</span> <span class="s1">&#39;uses Safari&#39;</span><span class="p">],</span> 
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="p">[</span><span class="s1">&#39;female&#39;</span><span class="p">,</span> <span class="s1">&#39;from Europe&#39;</span><span class="p">,</span> <span class="s1">&#39;uses Firefox&#39;</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">enc</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">categories</span><span class="o">=</span><span class="p">[[</span><span class="s1">&#39;female&#39;</span><span class="p">,</span> <span class="s1">&#39;male&#39;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                          <span class="p">[</span><span class="s1">&#39;from Africa&#39;</span><span class="p">,</span> <span class="s1">&#39;from Asia&#39;</span><span class="p">,</span> <span class="s1">&#39;from Europe&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                           <span class="s1">&#39;from US&#39;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                          <span class="p">[</span><span class="s1">&#39;uses Chrome&#39;</span><span class="p">,</span> <span class="s1">&#39;uses Firefox&#39;</span><span class="p">,</span> <span class="s1">&#39;uses IE&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                           <span class="s1">&#39;uses Safari&#39;</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">enc</span><span class="o">.</span><span class="n">transform</span><span class="p">([[</span><span class="s1">&#39;female&#39;</span><span class="p">,</span> <span class="s1">&#39;from Asia&#39;</span><span class="p">,</span> <span class="s1">&#39;uses Chrome&#39;</span><span class="p">]])</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">array</span><span class="p">([[</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">1.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">1.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">]])</span>
+</span></span></code></pre></div><hr>
+<h2 id="calidad-de-los-datos">Calidad de los datos</h2>
+<p>Los datos reales suelen estar lejos de ser perfectos.</p>
+<h3 id="ruido">Ruido</h3>
+<p><strong>Ruido</strong>: irregularidad aleatoria en los datos, diferencias no explicadas por el modelo. No tienen ningún patrón. Estos errores suelen ser <strong>inevitables e imprevisibles</strong>. Puede provenir de:</p>
+<ul>
+<li><strong>Errores</strong>: Errores de medición o muestreo que pueden distorsionar los datos.</li>
+<li><strong>Residuos</strong>: Variación intrínseca no capturada en nuestras features. Incluso aunque no haya errores de medición, un modelo no suele capturar el 100% de la variabilidad, por lo que siempre existirán residuos.</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-ruido-blanco-en-una-imagen-las-perturbaciones-que-habia-en-la-television-cuando-habia-mala-señal-el-sonido-de-fondo-cuando-capta-mal-el-telefono">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ruido blanco" srcset="
+               /minerias/2_datos/figures/white_noise_hu579348812110497967.webp 400w,
+               /minerias/2_datos/figures/white_noise_hu10361843702748057629.webp 760w,
+               /minerias/2_datos/figures/white_noise_hu15236131570812366011.webp 1200w"
+               src="/minerias/2_datos/figures/white_noise_hu579348812110497967.webp"
+               width="760"
+               height="284"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Ruido blanco en una imagen, las perturbaciones que habia en la television, cuando habia mala señal, el sonido de fondo cuando capta mal el telefono&hellip;
+    </figcaption></figure>
+</p>
+<ul>
+<li>Es difícil (o imposible) de representar toda la realidad con un ensamble finito de observaciones</li>
+<li>Vamos a representar una cosa con un vector de tamaño finito, lo que puede ser reductible al fenómeno inicial, es una aproximación de la realidad</li>
+<li><strong>Se va a quedar un componente de ruido que no se puede modelizar</strong></li>
+</ul>
+<p>Si queremos modelizar \(Y = 3*X_1 - 2*X^2_2 + \epsilon\) con \(X_1\) y \(X_2\), no lo vamos a lograr.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-modelo-que-intenta-ajustar-datos-con-ruido">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ruido en el ajuste de una función" srcset="
+               /minerias/2_datos/figures/ex_over-underfitting_noise_hu7160750459805610265.webp 400w,
+               /minerias/2_datos/figures/ex_over-underfitting_noise_hu1258070293613913168.webp 760w,
+               /minerias/2_datos/figures/ex_over-underfitting_noise_hu16428299825422072936.webp 1200w"
+               src="/minerias/2_datos/figures/ex_over-underfitting_noise_hu7160750459805610265.webp"
+               width="728"
+               height="255"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Modelo que intenta ajustar datos con ruido
+    </figcaption></figure>
+</p>
+<h3 id="outliers">Outliers</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-ejemplo-de-outliers-en-2-dimensiones">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Outliers en diferentes distribuciones" srcset="
+               /minerias/2_datos/figures/outlier_gaussians_hu18089628100723988662.webp 400w,
+               /minerias/2_datos/figures/outlier_gaussians_hu11729765782774009637.webp 760w,
+               /minerias/2_datos/figures/outlier_gaussians_hu4176910214133138174.webp 1200w"
+               src="/minerias/2_datos/figures/outlier_gaussians_hu18089628100723988662.webp"
+               width="440"
+               height="310"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Ejemplo de outliers en 2 dimensiones
+    </figcaption></figure>
+</p>
+<p>Un <strong>outlier</strong> o valor atípico es un punto de datos que difiere significativamente de la mayoría. Pueden ser:</p>
+<ol>
+<li>
+<p><strong>Outliers ruidosos</strong>:</p>
+<ul>
+<li>Son datos erróneos (fallos de medición, errores tipográficos, etc.) o extremos por variabilidad natural que no nos interesan.</li>
+<li>Suelen distorsionar estimaciones estadísticas (e.g. la media).</li>
+</ul>
+</li>
+<li>
+<p><strong>Outliers “útiles”</strong>:</p>
+<ul>
+<li>Responden a eventos raros o anómalos que sí queremos detectar (fraude, crisis, rarezas de inventario).</li>
+<li>Pueden ser el foco de ciertos análisis (detección de anomalías).</li>
+</ul>
+</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-ejemplos-del-mvtec-anomaly-detection-dataset">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Outliers en diferentes distribuciones" srcset="
+               /minerias/2_datos/figures/dataset_overview_anomaly_hu12222639050208223478.webp 400w,
+               /minerias/2_datos/figures/dataset_overview_anomaly_hu14348380986165943337.webp 760w,
+               /minerias/2_datos/figures/dataset_overview_anomaly_hu7518922898301784344.webp 1200w"
+               src="/minerias/2_datos/figures/dataset_overview_anomaly_hu12222639050208223478.webp"
+               width="760"
+               height="386"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Ejemplos del MVTEC Anomaly Detection Dataset
+    </figcaption></figure>
+</p>
+<p>Para identificarlos, se pueden usar:</p>
+<ul>
+<li>Visualización (boxplots, scatter plots).</li>
+<li>Métodos estadísticos (rango intercuartílico, z-score).</li>
+<li>Algoritmos de ML (Isolation Forest, Local Outlier Factor).</li>
+<li>Validación de dominio (comprobar en la realidad si ese punto es auténtico o no).</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-outlier-label-detection-cleanlabhttpsgithubcomcleanlabcleanlab-allowed-to-detect-many-of-the-label-error-in-the-imagenet-dataset">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Outliers en diferentes distribuciones" srcset="
+               /minerias/2_datos/figures/CleanLab_hu10917344694898179941.webp 400w,
+               /minerias/2_datos/figures/CleanLab_hu1141749507235822239.webp 760w,
+               /minerias/2_datos/figures/CleanLab_hu413918498232524429.webp 1200w"
+               src="/minerias/2_datos/figures/CleanLab_hu10917344694898179941.webp"
+               width="760"
+               height="447"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Outlier Label detection. <a href="https://github.com/cleanlab/cleanlab" target="_blank" rel="noopener">CleanLab</a> allowed to detect many of the label error in the Imagenet dataset.
+    </figcaption></figure>
+</p>
+<h3 id="valores-faltantes">Valores faltantes</h3>
+<p><strong>Missing values</strong>: Es frecuente tener celdas vacías o desconocidas, por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">sklearn.impute</span> <span class="kn">import</span> <span class="n">SimpleImputer</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">imp_mean</span> <span class="o">=</span> <span class="n">SimpleImputer</span><span class="p">(</span><span class="n">strategy</span><span class="o">=</span><span class="s1">&#39;mean&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">imp_mean</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">([[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
+</span></span></code></pre></div><p>Podemos:</p>
+<ul>
+<li><strong>Eliminar las filas</strong> (si son pocas y su ausencia no afecta demasiado).</li>
+<li><strong>Imputar valores</strong> usando la media, mediana o algoritmos como <code>KNNImputer</code>.</li>
+<li><strong>Modelos que los manejen directamente</strong>: algunos estimadores permiten tratar valores faltantes sin preprocesamiento adicional.</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-existen-modelos-que-pueden-manejar-los-missing-values-en-scikit">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Modelos que aceptan valores faltantes" srcset="
+               /minerias/2_datos/figures/estimators_missing_values_hu5552150127740906947.webp 400w,
+               /minerias/2_datos/figures/estimators_missing_values_hu2966550281670234438.webp 760w,
+               /minerias/2_datos/figures/estimators_missing_values_hu1414166785689099899.webp 1200w"
+               src="/minerias/2_datos/figures/estimators_missing_values_hu5552150127740906947.webp"
+               width="760"
+               height="419"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Existen modelos que pueden manejar los missing values en scikit
+    </figcaption></figure>
+</p>
+<hr>
+<h3 id="duplicados">Duplicados</h3>
+<p><strong>Datos duplicados</strong>: aparecen al combinar fuentes o por errores de recolección. Puede generar <em>sobrerepresentación</em> de ciertos ejemplos y perjudicar el entrenamiento.</p>
+<ul>
+<li>Errores en la concatenación o carga de datos desde fuentes múltiples.</li>
+<li>Recolección repetida de la misma observación.</li>
+</ul>
+<p>Los duplicados suelen <strong>sobrerepresentar</strong> determinados ejemplos, generando un sesgo en el entrenamiento. En casos masivos (p.ej., entrenamiento de grandes modelos de lenguaje), se ha demostrado que duplicar documentos puede perjudicar significativamente la calidad del modelo.</p>
+<p>Para mitigarlos:</p>
+<ul>
+<li><strong>Comparar hashes o firmas</strong> de los ejemplos (si hablamos de texto, imágenes, etc.).</li>
+<li><strong>Clustering de similitud</strong> de ejemplos para detectar duplicaciones leves o parciales.</li>
+<li><strong>Herramientas de deduplicación</strong> específicas (ej.: para nombres de usuarios, direcciones de correo, etc.).</li>
+</ul>
+<p>Es crucial deduplicar en datasets grandes (por ejemplo, para entrenar grandes modelos de lenguaje).</p>
+<p>En caso simple de datos tabulares, se puede utilizar metodos como <code>pandas.DataFrames.drop_duplicates()</code>.</p>
+<h3 id="use-case-llm">Use-case: LLM</h3>
+<p>Para entrenar un LLM desde zero, es necesario de colectar una grande cantidad de datos! Colectando datos del web, es imposible de tener datos limpios!</p>
+<ul>
+<li>Los datos extraídos de la web tienen mucho ruido y hay que limpiarlos.</li>
+<li>Marcas, roturas de sintaxis, etc&hellip; todo lo que da texto no NL es perjudicial, ¡y puede impedir la convergencia!</li>
+<li><strong>Se ha determinado que la deduplicación desempeña un papel importante</strong> en la mejora de los modelos lingüísticos (<a href="https://dl.acm.org/doi/abs/10.1145/3359591.3359735?casa_token=AT3LybXtoLQAAAAA:LJLGtclf0beYhmJBuxCxUpAgDe4KspLeZYN2LWG9A3ePEl3Lkh21hsjczzjyyMiSx6dg7MQUbmtlLw" target="_blank" rel="noopener">Allamanis, 2019</a>; <a href="https://arxiv.org/abs/2107.06499" target="_blank" rel="noopener">Lee et al., 2022</a>)</li>
+<li>Se ha demostrado que la repetición de datos es cada vez más perjudicial para la calidad del modelo a medida que aumenta el número de parámetros (<a href="https://arxiv.org/abs/2205.10487" target="_blank" rel="noopener">Hernandez et al., 2022</a>):
+<ul>
+<li>para un modelo de 1B parámetros, cien duplicados son perjudiciales;</li>
+<li>a 175B, <strong>incluso unos pocos duplicados</strong> podrían tener un efecto desproporcionado.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="limpieza-y-preprocesamiento">Limpieza y preprocesamiento</h2>
+<h3 id="estandarización-y-normalización">Estandarización y normalización</h3>
+<p>Muchos algoritmos de ML (especialmente basados en distancias o gradientes) funcionan mejor cuando las <strong>features</strong> tienen escalas comparables.</p>
+<ol>
+<li>
+<p><strong>Estandarización</strong> (StandardScaler):</p>
+<ul>
+<li>
+<p>Convierten cada feature a media cero y varianza uno:</p>
+\[
+     X_{\mathrm{std}} = \frac{X - \mu_X}{\sigma_X}.
+     \]</li>
+<li>
+<p>Afecta cada atributo de forma que su distribución resulte centrada en 0 y con desviación estándar 1.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Normalización</strong> (Normalizer):</p>
+<ul>
+<li>Ajusta cada <strong>vector</strong> para que su norma sea 1.</li>
+<li>Se suele usar en tareas donde la dirección del vector importa más que su magnitud (p.ej. coseno de similaridad).</li>
+</ul>
+</li>
+<li>
+<p><strong>Scaling</strong> a un rango \([0, 1]\) (MinMaxScaler):</p>
+<ul>
+<li>
+<p>Se “comprime” cada atributo dentro de \([0..1]\):</p>
+\[
+     X_{\mathrm{scaled}} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}.
+     \]</li>
+<li>
+<p>Útil cuando no se desea asumir forma gaussiana y se quiere mantener la escala finita.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>¿Por qué es importante?</strong></p>
+<ul>
+<li>Evitar que los atributos con rangos muy grandes dominen sobre otros.</li>
+<li>Favorecer la convergencia de algoritmos de optimización que basan sus pasos en gradientes (como Redes Neuronales).</li>
+<li>Mejorar la calidad de métodos de distancia (k-NN, SVM, clustering) que asumen escalas comparables en las coordenadas.</li>
+</ul>
+<p>Mas info <a href="https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling" target="_blank" rel="noopener">aca</a>.</p>
+<h3 id="discretización">Discretización</h3>
+<p>Dividir atributos continuos en bins (categorías).</p>
+<p>La discretizacion (tambien conocida como cuantizacion o binning) permite dividir las caracterısticas continuas en valores discretos (clases). Las caracterısticas discretizadas codificadas de una sola vez pueden <strong>hacer que un modelo sea mas expresivo, manteniendo la interpretabilidad.</strong></p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-transformar-la-variable-continua-edad-en-clases-discretas">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ejemplo de discretización" srcset="
+               /minerias/2_datos/figures/age_reg_to_classif_hu17690873109572084870.webp 400w,
+               /minerias/2_datos/figures/age_reg_to_classif_hu5798053001599690990.webp 760w,
+               /minerias/2_datos/figures/age_reg_to_classif_hu7439249746381267252.webp 1200w"
+               src="/minerias/2_datos/figures/age_reg_to_classif_hu17690873109572084870.webp"
+               width="760"
+               height="649"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Transformar la variable continua &rsquo;edad&rsquo; en clases discretas
+    </figcaption></figure>
+</p>
+<h3 id="polynomial-features">Polynomial Features</h3>
+<p>Añadir términos polinómicos (no lineales) para incrementar la complejidad de un modelo lineal.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-polynomial-helps-fitiing-more-complex-functions">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ejemplo de discretización" srcset="
+               /minerias/2_datos/figures/ex_over-underfitting_polynomial_hu12296047467455913660.webp 400w,
+               /minerias/2_datos/figures/ex_over-underfitting_polynomial_hu3603271985052957351.webp 760w,
+               /minerias/2_datos/figures/ex_over-underfitting_polynomial_hu12325601955647240871.webp 1200w"
+               src="/minerias/2_datos/figures/ex_over-underfitting_polynomial_hu12296047467455913660.webp"
+               width="732"
+               height="274"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Polynomial helps fitiing more complex functions
+    </figcaption></figure>
+</p>
+<p>Mas informaciones <a href="https://scikit-learn.org/stable/modules/preprocessing.html%5c#generating-polynomial-features" target="_blank" rel="noopener">aca</a>.</p>
+<h3 id="interés-del-sampling-muestreo">Interés del sampling (muestreo)</h3>
+<p>Un mal muestreo puede generar sesgos en nuestros datos y conclusiones. Existen diversas estrategias:</p>
+<ul>
+<li>
+<p><strong>Muestreo estratificado</strong>: Mantiene proporciones de clases o grupos.<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-muestreo-estratificado-mantiene-proporciones-en-subgrupos">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ejemplo de muestreo estratificado" srcset="
+               /minerias/2_datos/figures/stratified_sampling_hu3739506566429986846.webp 400w,
+               /minerias/2_datos/figures/stratified_sampling_hu12963448647892023621.webp 760w,
+               /minerias/2_datos/figures/stratified_sampling_hu9627835439692744135.webp 1200w"
+               src="/minerias/2_datos/figures/stratified_sampling_hu3739506566429986846.webp"
+               width="486"
+               height="440"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Muestreo estratificado: mantiene proporciones en subgrupos
+    </figcaption></figure>
+</p>
+</li>
+<li>
+<p><strong>Muestreo aleatorio simple</strong>: Elegir instancias al azar.</p>
+</li>
+<li>
+<p><strong>Muestreo sistemático</strong>: Tomar cada k-ésimo elemento desde un punto inicial aleatorio.</p>
+</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-systematic-random-sampling-selecciona-elementos-de-una-población-a-intervalos-regulares-desde-un-punto-de-partida-aleatorio">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ejemplo de muestreo estratificado" srcset="
+               /minerias/2_datos/figures/systematic_random_sampling_hu11080984733742039593.webp 400w,
+               /minerias/2_datos/figures/systematic_random_sampling_hu15285761124891998038.webp 760w,
+               /minerias/2_datos/figures/systematic_random_sampling_hu15458938320889412188.webp 1200w"
+               src="/minerias/2_datos/figures/systematic_random_sampling_hu11080984733742039593.webp"
+               width="760"
+               height="353"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Systematic Random Sampling: Selecciona elementos de una población a intervalos regulares desde un punto de partida aleatorio
+    </figcaption></figure>
+</p>
+<h3 id="agregaciones-de-datos">Agregaciones de datos</h3>
+<p>Combinar varios valores en uno solo (por ejemplo, la media diaria) puede:</p>
+<ul>
+<li><strong>Reducir ruido</strong> y variabilidad.</li>
+<li><strong>Simplificar</strong> el conjunto de datos.</li>
+<li><strong>Resumir</strong> grandes volúmenes de información.</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-agregación-en-un-día-para-medir-la-opinión-general">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Agregación diaria de tweets positivos" srcset="
+               /minerias/2_datos/figures/hapiness_twitter_hu869437225968806113.webp 400w,
+               /minerias/2_datos/figures/hapiness_twitter_hu9597793583217252604.webp 760w,
+               /minerias/2_datos/figures/hapiness_twitter_hu9500706212212640228.webp 1200w"
+               src="/minerias/2_datos/figures/hapiness_twitter_hu869437225968806113.webp"
+               width="760"
+               height="398"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Agregación en un día para medir la opinión general
+    </figcaption></figure>
+</p>
+<h3 id="dimensión-cursa-y-reducción">Dimensión: <em>Cursa</em> y reducción</h3>
+<p>En altas dimensiones, los datos se dispersan y pierden significado las distancias (curse of dimensionality). Para mitigar esto:</p>
+<ul>
+<li><strong>Reducción de dimensión</strong> (p. ej. PCA, selección de atributos).</li>
+<li>Eliminar o fusionar atributos irrelevantes.</li>
+<li>Acelerar el procesamiento y mejorar la interpretabilidad.</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-en-dimensiones-muy-altas-los-datos-se-distribuyen-uniformemente">
+  <div class="flex justify-center	">
+    <div class="w-100" ><img alt="Ilustración del curse of dimensionality" srcset="
+               /minerias/2_datos/figures/curse_of_dimensionality_hu13015040265525298778.webp 400w,
+               /minerias/2_datos/figures/curse_of_dimensionality_hu17025575749590265977.webp 760w,
+               /minerias/2_datos/figures/curse_of_dimensionality_hu17010720842900593354.webp 1200w"
+               src="/minerias/2_datos/figures/curse_of_dimensionality_hu13015040265525298778.webp"
+               width="433"
+               height="347"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      En dimensiones muy altas, los datos se distribuyen uniformemente
+    </figcaption></figure>
+</p>
+<hr>
+<h1 id="see-you-in-the-classroom">See you in the classroom!</h1>
+
+      </div>
+
+      
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2024-03-29T00:00:00.000Z">
+    <span>Last updated on</span>
+    Mar 29, 2024</time>
+      
+      
+  
+    
+    
+    
+      
+      
+    
+<div class="pt-1 no-prose w-full">
+  <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+  <div class="flex flex-col md:flex-row flex-nowrap justify-between gap-5 pt-2">
+    <div class="">
+      
+        <a class="group flex no-underline" href="/minerias/1_intro/">
+          <span
+            class="mt-[-0.3rem] me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+          ><span class="ltr:inline rtl:hidden">&larr;</span></span>
+          <span class="flex flex-col">
+            <span
+              class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+            >Introduccion</span>
+            <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+              
+                Mar 30, 2024
+              
+            </span>
+          </span>
+        </a>
+      
+    </div>
+    <div class="">
+      
+        <a class="group flex text-right no-underline" href="/minerias/3_datos_exp/">
+          <span class="flex flex-col">
+            <span
+              class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+            >(TODO) Datos II</span
+            >
+            <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+              
+                Mar 28, 2024
+              
+            </span>
+          </span>
+          <span
+            class="mt-[-0.3rem] ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+          ><span class="ltr:inline">&rarr;</span></span>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+
+
+      
+
+
+
+    </main>
+  </article>
+</div>
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2024 Valentin Barriere. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multimodality | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/multimodality/</link>
+      <atom:link href="http://localhost:1313/tags/multimodality/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multimodality</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Multimodality</title>
+      <link>http://localhost:1313/tags/multimodality/</link>
+    </image>
+    
+    <item>
+      <title>[Tesis pre/postgrado] [Pagada] Aprender a aprender -- IA y Meta-learning para datos Satelitales</title>
+      <link>http://localhost:1313/job_offers/thesis-meta-deepcrop/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/thesis-meta-deepcrop/</guid>
+      <description>&lt;p&gt;Recent trend in Deep Learning is to train in a self-supervised way models that create high-quality dense vector representation to be fine-tuned on downstream tasks, allowing to reach high results in text [1], computer vision [2] but also in speech [3]. This trend is also true when processing Remote Sensing data [4], [5], [6]. These models are pre-trained on a huge quantity of data without labels using techniques such as Masked Image Modeling  of the U-BARN [7]. They have been shown to reach higher results than the state-of-the-art approach for crop classification. Moreover, recent work [8] showed that they can also be pre-train using meta-learning methods, with available labeled data in order to adapt easily to a new unseen task with only a few training examples.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-meteor-model-learned-using-meta-learning-and-various-tasks-from-8&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;metalearning&#34; srcset=&#34;
+               /job_offers/thesis-meta-deepcrop/metalearning_hu8736316492409248854.webp 400w,
+               /job_offers/thesis-meta-deepcrop/metalearning_hu5378775358810166572.webp 760w,
+               /job_offers/thesis-meta-deepcrop/metalearning_hu11622278346872266028.webp 1200w&#34;
+               src=&#34;http://localhost:1313/job_offers/thesis-meta-deepcrop/metalearning_hu8736316492409248854.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;505&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      METEOR model learned using Meta learning and various tasks from [8]
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Therefore, the development of state-of-the-art classification and estimation models, as well as technologies to collect necessary in-situ (ground truth) data, are crucially lacking in Chile. Importantly, given the violent climate changes and drought episodes Chile is currently facing, this technology is becoming imperative. In the project we describe below we propose an innovative way of developing such a technology, based on state-of-the-art deep learning models and remote sensing, that can efficiently, quickly and accurately generate estimates of field areas, crop types and yield estimations.&lt;/p&gt;
+&lt;h3 id=&#34;task&#34;&gt;Task&lt;/h3&gt;
+&lt;p&gt;Intensive pre-training of models of billions of parameters will be implemented, and we will further fine-tune them over several task using labels from chilean landsape delivered from our project partner the Centro de Información de Recursos Naturales (CIREN).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collect a huge dataset of open-source Sentinel2 data at the level of the whole country and for several years&lt;/li&gt;
+&lt;li&gt;Train a foundational model in an auto-supervised way using the various spectrum of data from Chile (climate, vegetation, soil is very different)&lt;/li&gt;
+&lt;li&gt;Use meta-learning algorithm in order to fine-tune the model for a broad set of different tasks using annotated dataset from Chile and from abroad&lt;/li&gt;
+&lt;li&gt;Deliver the model as an open-source tool for the community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h3&gt;
+&lt;p&gt;[1]  J. Devlin, M. Chang, K. Lee, and K. Toutanova, ‘BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding’, 2018.
+[2]  A. Dosovitskiy et al., ‘An image is worth 16x16 words: Transformers for image recognition at scale’, arXiv preprint arXiv:2010.11929, 2020.  
+[3]  V. Pratap et al., ‘Scaling speech technology to 1,000+ languages’, arXiv preprint arXiv:2305.13516, 2023.  
+[4]  M. J. Smith, L. Fleming, and J. E. Geach, ‘EarthPT: a foundation model for Earth Observation’, arXiv preprint arXiv:2309.07207, 2023.  
+[5]  A. Lacoste et al., ‘Geo-bench: Toward foundation models for earth monitoring’, Adv Neural Inf Process Syst, vol. 36, 2024.  
+[6]  Z. Xiong, Y. Wang, F. Zhang, and X. X. Zhu, ‘One for All: Toward Unified Foundation Models for Earth Vision’, arXiv preprint arXiv:2401.07527, 2024.  
+[7]  I. Dumeur, S. Valero, and J. Inglada, ‘Self-supervised spatio-temporal representation learning of Satellite Image Time Series’, IEEE J Sel Top Appl Earth Obs Remote Sens, 2024.
+[8]  M. Rußwurm, S. Wang, B. Kellenberger, R. Roscher, and D. Tuia, ‘Meta-learning to address diverse Earth observation problems across resolutions’, Commun Earth Environ, vol. 5, no. 1, p. 37, 2024.  &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Tesis pre/postgrado] [Pagada] Change my view! -- Analisis de argumentacion multimodal</title>
+      <link>http://localhost:1313/job_offers/thesis-postgrado-mmodaleca/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/thesis-postgrado-mmodaleca/</guid>
+      <description>&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+&lt;p&gt; Interactions and Multimodality are crucial in the development of intelligent AI models that can understand human-like communication. Human learning occurs through interactions with the environment and other humans, which involves the integration of information from multiple modalities such as vision, language but also touch and hearing that enable us to understand the subtle social meaning behind communication. 
+Therefore, to create intelligent machines that can understand human communication, it is essential to train them on multimodal interactions that mimic those of humans to ensure that they can understand and respond appropriately to complex social phenomena. 
+The research objective is to design adaptive models that take as a starting point the specificities of the multimodal interaction: the media used to communicate, the way the users are socially linked together, and the modalities used by them to transfer information. 
+For this reason, we aim to study multimodal argumentation mining as a starting point. Dialog systems helps to improve the quality of a debate [1,2,3,4]. But phenomena related to argumentation relies on multimodal communication and are related to persuasion, or communication skills [5,6,7,8]. For this, we are focusing on multimodal argument mining [9,10,11,12]. &lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;fig_tesis_proposicion&#34; srcset=&#34;
+               /job_offers/thesis-postgrado-mmodaleca/fig_tesis_proposicion_hu700631809574394399.webp 400w,
+               /job_offers/thesis-postgrado-mmodaleca/fig_tesis_proposicion_hu1221762742450276794.webp 760w,
+               /job_offers/thesis-postgrado-mmodaleca/fig_tesis_proposicion_hu4398504731950838957.webp 1200w&#34;
+               src=&#34;http://localhost:1313/job_offers/thesis-postgrado-mmodaleca/fig_tesis_proposicion_hu700631809574394399.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;241&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;The student will engage in the construction of multimodal machine learning models that take as input video and are able to detect complex social phenomena such as empathy, persuasion and emotion but also text-based argumentation models. During the thesis, we will also focus on the construction of a debate dataset in Chilean Spanish (and hopefully  in French), on political hot topics that are seen as polarizing in both countries. 
+s
+In a few bullet-points, different research axis will be explored regarding the available time (w.r.t. the type of tesis/memoria): &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creation of mutlimodal models aiming to detect social phenomena in discourse and also in a dyadic or group interaction&lt;/li&gt;
+&lt;li&gt;Adaptation or creation of an text-based argumentation annotation scheme for multimodal data&lt;/li&gt;
+&lt;li&gt;Creation of the chilean part of a multicultural database of debates on polarizing topics  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Funds will be available to support the research of the student.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; ### Bibliography&lt;/p&gt;
+&lt;p&gt;[1] V. Petukhova, T. Mayer, A. Malchanau, and H. Bunt, “Virtual debate coach design: Assessing multimodal argumentation performance,” ICMI 2017 - Proc. 19th ACM Int. Conf. Multimodal Interact., vol. 2017-Janua, no. 1, pp. 41–50, 2017. &lt;/p&gt;
+&lt;p&gt;[2] N. Rach, E. André, K. Weber, W. Minker, L. Pragst, and S. Ultes, “EVA: A multimodal argumentative dialogue system,” ICMI 2018 - Proc. 2018 Int. Conf. Multimodal Interact., no. October, pp. 551–552, 2018. &lt;/p&gt;
+&lt;p&gt;[3] A. Khan, J. Hughes, D. Valentine, L. Ruis, K. Sachan, and A. Radhakrishnan, “Debating with More Persuasive LLMs Leads to More Truthful Answers,” 2024. &lt;/p&gt;
+&lt;p&gt;[4] L. P. Argyle et al., “AI Chat Assistants can Improve Conversations about Divisive Topics,” ArXiv, 2023. &lt;/p&gt;
+&lt;p&gt;[5] T. Ohba, C. O. Mawalim, S. Katada, H. Kuroki, and S. Okada, “Multimodal Analysis for Communication Skill and Self-Efficacy Level Estimation in Job Interview Scenario,” ACM Int. Conf. Proceeding Ser., pp. 110–120, 2022. &lt;/p&gt;
+&lt;p&gt;[6] S. Park, H. S. Shim, M. Chatterjee, K. Sagae, and L.-P. Morency, “Computational Analysis of Persuasiveness in Social Multimedia: A Novel Dataset and Multimodal Prediction Approach,” Proc. 16th Int. Conf. Multimodal Interact. - ICMI ’14, pp. 50–57, 2014. &lt;/p&gt;
+&lt;p&gt;[7] B. Siddiquie, D. Chisholm, and A. Divakaran, “Exploiting multimodal affect and semantics to identify politically persuasive web videos,” in ICMI 2015 - Proceedings of the 2015 ACM International Conference on Multimodal Interaction, 2015, pp. 203–210. &lt;/p&gt;
+&lt;p&gt;[8] B. Nojavanasghari, D. Gopinath, J. Koushik, T. Baltrušaitis, and L.-P. Morency, “Deep Multimodal Fusion for Persuasiveness Prediction,” in ICMI 2016 - Proceedings of the 2016 ACM International Conference on Multimodal Interaction, 2016, pp. 1–5. &lt;/p&gt;
+&lt;p&gt;[9] R. Mestre, R. Milicin, S. E. Middleton, M. Ryan, J. Zhu, and T. J. Norman, “M-Arg: Multimodal Argument Mining Dataset for Political Debates with Audio and Transcripts,” 8th Work. Argument Mining, ArgMining 2021 - Proc., no. 2014, pp. 78–88, 2021. &lt;/p&gt;
+&lt;p&gt;[10] M. Brilman and S. Scherer, “A Multimodal Predictive Model of Successful Debaters or How I Learned to Sway Votes,” Proc. 23rd ACM Int. Conf. Multimed., pp. 149–158, 2015. &lt;/p&gt;
+&lt;p&gt;[11] E. Mancini, F. Ruggeri, A. Galassi, and P. Torroni, “Multimodal Argument Mining: A Case Study in Political Debates,” Proc. 9th Work. Argument Min., pp. 158–170, 2022. &lt;/p&gt;
+&lt;p&gt;[12] T. Shiota and K. Shimada, “The Discussion Corpus toward Argumentation Quality Assessment in Multi-Party Conversation,” Proc. - 2020 9th Int. Congr. Adv. Appl. Informatics, IIAI-AAI 2020, pp. 280–283, 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fondecyt de Iniciacion🗣️💬🤖</title>
+      <link>http://localhost:1313/project/mmodal_eca/</link>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/mmodal_eca/</guid>
+      <description>&lt;p&gt;Multimodal Argumentation Mining in Groups Assisted by an Embodied Conversational Agent&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I am the Principal Investigator of this project&lt;/strong&gt;. This is a 3 years &lt;a href=&#34;https://anid.cl/concursos/concurso-de-proyectos-fondecyt-de-iniciacion-en-investigacion-2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fondecyt&lt;/a&gt; grant of of 90.000.000,00 CLP&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; from the Chilean National Research Agency. This is a colaboration with the Université Paris Saclay, the European Commission&amp;rsquo;s DGIT, Sorbonne Université and Bamberg University.&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;Interactions and Multimodality are crucial in the development of intelligent AI models that can understand human-like communication. Human learning occurs through interactions with the environment and other humans, which involves the integration of information from multiple modalities such as vision, language but also touch and hearing that enable us to understand the subtle social meanings behind communication.&lt;/p&gt;
+&lt;p&gt;Therefore, to create intelligent machines that can understand human non-verbal communication, it is essential to train them on &lt;strong&gt;multimodal interactions that mimic those of humans to ensure that they can understand and respond appropriately to complex social phenomena&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The recent computational boom has seen the emergence of seminal studies focusing on Multimodal data (Cho, Lu, Schwenk, Hajishirzi, &amp;amp; Kembhavi, 2020; Hasan et al., 2019; Jaegle et al., 2021; J. Li, Li, Xiong, &amp;amp; Hoi, 2022; J. Wang et al., 2022; Zadeh, Chan, Liang, Tong, &amp;amp; Morency, 2019)⁠ and Interactions, whether these ones are textual like OpenIA&amp;rsquo;s InstructGPT or Anthropic&amp;rsquo;s Claude  (Bai et al., 2022; Ouyang et al., 2022; Schulman et al., 2022)⁠, or multimodal like Google&amp;rsquo;s PaLM (Chowdhery et al., n.d.; Chung et al., 2022; Schick, Lomeli, Dwivedi-yu, &amp;amp; Dessì, 2022)⁠ or GPT-4 (Bubeck et al., 2023; OpenAI, 2023; Wu et al., 2023)⁠.&lt;/p&gt;
+&lt;p&gt;These advancements show the potential for machines to learn from multimodal interactions and understand human communication, which could revolutionize the way humans socially interact with machines in the future. &lt;strong&gt;Nevertheless, nowadays generative agents are restraint to unimodal data or not using the full time-series of every modality of a real human-machine social interaction&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Interaction and multimodality are vital contexts in many social situations. They are also mandatory to make a machine understand the world and get commonsense knowledge, which is essential when tackling human-related complex tasks. Indeed, &lt;strong&gt;humans are social animals&lt;/strong&gt; and they interact with one another. In a general way, the integration of more context is the key to a deep understanding of many phenomena, in order to disambiguate a situation or to reinforce the current estimation: interaction is a crucial context in many social situations. Multimodal interactions allow understanding in a deeper way human behavior. In this particular setting, it is possible to understand a broader part of the multimodal natural language (see Figure 1). Studying the affective and &lt;strong&gt;social phenomena like Opinions, Emotions, Empathy, Distress, Stances, Persuasiveness or speaker traits allows to greatly improves the response from the machine&lt;/strong&gt; (Pelachaud, Busso, &amp;amp; Heylen, 2021; Zhao, Sinha, Black, &amp;amp; Cassell, 2016)⁠, but this task is difficult even using multimodal data. My research focuses on designing and developing methods that integrate the multimodal context and how humans influence each other in discussion situations. The research goals of this project fall into this general research area: &lt;strong&gt;how to use interactions and multimodality of non-verbal language to enhance social AI systems&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-examples-of-non-verbal-language-involved-in-a-social-interaction-from-vinciarelli-2009&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;interaction&#34; srcset=&#34;
+               /project/mmodal_eca/interaction_hu15794327103315274671.webp 400w,
+               /project/mmodal_eca/interaction_hu15612226579774470620.webp 760w,
+               /project/mmodal_eca/interaction_hu8198735632516945012.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/mmodal_eca/interaction_hu15794327103315274671.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;386&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Examples of non-verbal language involved in a social interaction from Vinciarelli (2009)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;multimodality&#34;&gt;Multimodality:&lt;/h4&gt;
+&lt;p&gt;Communication is not just limited to language, and it is essential to consider other modalities such as vision or audio when building natural language processing (NLP) systems (Baltrušaitis, Ahuja, &amp;amp; Morency, 2017; Liang, Zadeh, &amp;amp; Morency, 2022)⁠. &lt;strong&gt;Incorporating multiple modalities, or multimodality, is critical in creating more human-like interactions between humans and machines&lt;/strong&gt;. For instance, while language is the primary means of communication for humans, it is often supplemented by visual and auditory cues such as facial expressions, tone of voice, and gestures. Therefore, it is important building multimodal machine learning systems that can interpret and respond to these cues in a human-like manner.&lt;/p&gt;
+&lt;p&gt;According to (Fröhlich, Sievers, Townsend, Gruber, &amp;amp; van Schaik, 2019)⁠, both human and non-human primate communication is inherently multimodal. As an example, (Mehrabian, 1971)⁠ even states that 55% of the emotional content is in the visual signal (facial expressions and body language), 38% in the vocal signal (intonation and sound of the voice) and 7% in the verbal signal (through the meaning of the words and the arrangement of the sentence).&lt;/p&gt;
+&lt;h4 id=&#34;interactions-dynamics&#34;&gt;Interactions dynamics:&lt;/h4&gt;
+&lt;p&gt;It is essential to consider the interactive nature of human communication and incorporate it into natural language processing (NLP) systems. By allowing the machine to understand the context and flow of the conversation, it can provide a more natural and seamless interaction with users (Sutskever, Vinyals, &amp;amp; Le, 2014)⁠. (Z. Li, Wallace, Shen, &amp;amp; Lin, 2020)⁠ suggested that these systems can provide tailored content and services based on the user&amp;rsquo;s interests and preferences, leading to more engaging and personalized interactions with the user. &lt;strong&gt;As humans, we are not learnig by looking at or enviroment, but by interacting with it and with our peers&lt;/strong&gt;. By considering the interactive nature of human communication and incorporating it into NLP systems, machines can learn to communicate in a way that is more similar to humans, making interactions more engaging and effective.&lt;/p&gt;
+&lt;h4 id=&#34;proposed-research-project&#34;&gt;Proposed research project:&lt;/h4&gt;
+&lt;p&gt;This research project aims at studying the complex phenomena characterizing social interactions between humans using different media, implying different modalities and data domains. My research objective is to design adaptive models that take as a starting point the specificities of the multimodal interaction: the media used to communicate, the interactants&amp;rsquo; social relationship, and the communication modalities used to transfer the information. &lt;strong&gt;The general goals stand to: understand what the users are trying to achieve as a group, what is the output of this interaction, how a social agent helps reaching it&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-beatrice-bianccardihttpsbeatricebiancardigitlabio-interacting-with-the-virtual-agent-greta&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;beatrice_eca&#34; srcset=&#34;
+               /project/mmodal_eca/beatrice_eca_hu9343440991652273668.webp 400w,
+               /project/mmodal_eca/beatrice_eca_hu1100368193974869717.webp 760w,
+               /project/mmodal_eca/beatrice_eca_hu13291684369485421113.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/mmodal_eca/beatrice_eca_hu9343440991652273668.webp&#34;
+               width=&#34;430&#34;
+               height=&#34;279&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;a href=&#34;https://beatricebiancardi.gitlab.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Beatrice Bianccardi&lt;/a&gt; interacting with the virtual agent Greta
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In particlar, this project aims to explore the dynamics of how a group of individuals with polarized opinions can reach a consensus. In this work, within groups of individuals debating hot societal topics and issues, the aim will be to automatically detect and retrieve stances and arguments towards the debate question and to ultimately moderate the debate using a human-computer interface that would be specific to such an interaction. To this aim, we think that an &lt;strong&gt;Embodied Conversational Agent&lt;/strong&gt; (Cassell, 2001; Pelachaud, 2005)⁠ like the one illustrated in Figure 2, would be the most relevant. Indeed bodily representations structure the way humans perceive the world and the way they perceive other people. Cognitive sciences and social sciences altogether have stressed &lt;strong&gt;the importance of embodiment in social interaction, highlighting how interacting with others influences how we behave, perceive and think&lt;/strong&gt; (Smith &amp;amp; Neff, 2018; Tieri, Morone, Paolucci, &amp;amp; Iosa, 2018)⁠, including our social behaviors with embodied intelligent agents such as virtual humans and robots (Holz, Dragone, &amp;amp; O’Hare, 2009)⁠.&lt;/p&gt;
+&lt;p&gt;Another goal is to explore the polarization of society&amp;rsquo;s attitudes towards hot political topics and study the &lt;strong&gt;difference in terms of the difficulty of finding a consensus&lt;/strong&gt; regarding the type of topics, and the human values involved in classical argumentation (Kiesel, Weimar, Handke, &amp;amp; Weimar, 2022; Mirzakhmedova et al., 2023)⁠. In today&amp;rsquo;s society, the polarization of opinions on political topics is a common phenomenon that can be observed in many different areas. Debates about societal topics and issues can be especially polarizing and lead to a lack of understanding and cooperation between groups with different perspectives (Livingstone, Fernández Rodriguez, &amp;amp; Rothers, 2020)⁠. Therefore, &lt;strong&gt;it is crucial to understand how individuals with polarized opinions can reach a consensus&lt;/strong&gt;, and this is the aim of this research project. To achieve it, this project plans to develop an automatic approach to &lt;strong&gt;detect and retrieve the stance and arguments&lt;/strong&gt; of individuals involved in real-time multimodal debates about hot societal topics.&lt;/p&gt;
+&lt;p&gt;This research aims to delve into the complexities of group dynamics in polarized debates on societal issues. To achieve this, we will not only automatically detect and retrieve stances and their arguments toward the debate question, but also take into account the multimodal aspects of the debate, such as &lt;strong&gt;body language, facial expressions and acoustics&lt;/strong&gt;, which are shown to be important for persuasion in a Vlog (Nojavanasghari, Gopinath, Koushik, Baltrušaitis, &amp;amp; Morency, 2016; S. Park, Shim, Chatterjee, Sagae, &amp;amp; Morency, 2014; Siddiquie, Chisholm, &amp;amp; Divakaran, 2015)⁠ or within a debate (Brilman &amp;amp; Scherer, 2015; Mestre et al., 2021)⁠. Real-time interaction within the group will be analyzed to understand &lt;strong&gt;how individuals respond to each other and how the group as whole moves toward a consensus&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;~ 100k dollars&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Large Multimodal Models @ CENIAMODAL</title>
+      <link>http://localhost:1313/event/ceniamodal/</link>
+      <pubDate>Tue, 17 Dec 2024 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/ceniamodal/</guid>
+      <description>&lt;p&gt;We are organizing the first edition of the Chilean Workshop on Multimodal Machine Learning in the Universidad Catolica del Norte in Coquimbo!&lt;/p&gt;
+&lt;p&gt;Our keynote speakers will be Mohammad Soleymani and Paul Liang&lt;/p&gt;
+&lt;h3 id=&#34;invited-talk-mohammad-soleymani&#34;&gt;Invited Talk: Mohammad Soleymani&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /event/ceniamodal/mohammad_hu16140766223214765226.webp 400w,
+               /event/ceniamodal/mohammad_hu6648946481130016374.webp 760w,
+               /event/ceniamodal/mohammad_hu17490119621469978857.webp 1200w&#34;
+               src=&#34;http://localhost:1313/event/ceniamodal/mohammad_hu16140766223214765226.webp&#34;
+               width=&#34;256&#34;
+               height=&#34;318&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;multimodal-emotion-recognition&#34;&gt;Multimodal Emotion Recognition&lt;/h4&gt;
+&lt;p&gt;Mohammad Soleymani is a research associate professor with the USC Institute for Creative Technologies. He received his PhD in computer science from the University of Geneva in 2011. From 2012 to 2014, he was a Marie Curie fellow at Imperial College London. Prior to joining ICT, he was a research scientist at the Swiss Center for Affective Sciences, University of Geneva. His main line of research involves machine learning for emotion recognition and behavior understanding. He is a recipient of the Swiss National Science Foundation Ambizione grant and the EU Marie Curie fellowship. He has served on multiple conference organization committees and editorial roles, most notably as associate editor for the IEEE Transactions on Affective Computing (2015-2021), general chair for ICMI 2024 and ACII 2021 and technical program chair for ACM ICMI 2018 and ACII 2017. He was the president of the Association for the Advancement of Affective Computing (AAAC) (2019-2021).&lt;/p&gt;
+&lt;h3 id=&#34;invited-talk-paul-liang&#34;&gt;Invited Talk: Paul Liang&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /event/ceniamodal/paul-liang-headshot-small_hu7254305025386846404.webp 400w,
+               /event/ceniamodal/paul-liang-headshot-small_hu7504278872317812574.webp 760w,
+               /event/ceniamodal/paul-liang-headshot-small_hu11974117804273599440.webp 1200w&#34;
+               src=&#34;http://localhost:1313/event/ceniamodal/paul-liang-headshot-small_hu7254305025386846404.webp&#34;
+               width=&#34;290&#34;
+               height=&#34;303&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;fundamentals-of-multimodal-representation-learning&#34;&gt;Fundamentals of Multimodal Representation Learning&lt;/h4&gt;
+&lt;p&gt;Paul Liang is an Assistant Professor at the MIT Media Lab and MIT EECS. His research advances the foundations of multisensory artificial
+intelligence to enhance the human experience. He is a recipient of the Siebel Scholars Award, Waibel Presidential Fellowship, Facebook
+PhD Fellowship, Center for ML and Health Fellowship, Rising Stars in Data Science, and 3 best paper awards. Outside of research, he
+received the Alan J. Perlis Graduate Student Teaching Award for developing new courses on multimodal machine learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tackling Biases In or Using Generative AI @ JSIC&#39;24</title>
+      <link>http://localhost:1313/event/jsic/</link>
+      <pubDate>Wed, 04 Dec 2024 08:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/jsic/</guid>
+      <description>&lt;p&gt;In this talk, I am focusing on several methods based on data perturbation to detect biases in Large Language Models (LLMs) and Large Multimodal Models (LMMs). We have observed cases where these systems leverage gender, race, or even socioeconomic class information inappropriately for task resolution. Instead of employing real causal reasoning, they often rely on spurious correlations—a phenomenon commonly referred to as bias.&lt;/p&gt;
+&lt;p&gt;We will demystify the concept of bias, explaining why biases are ubiquitous, why they can sometimes be useful, and proposing a method to detect harmful biases.&lt;/p&gt;
+&lt;p&gt;First, we will introduce a method we developed to detect biases in LLMs toward different countries using the most common names as proxies. Our findings reveal very negative biases toward certain countries, using widely utilized open-source classifiers for social media analysis. Furthermore, we demonstrate that the same multilingual model tends to favor names from countries that speak the language of the sentence—a phenomenon we call AI Xenophobia. This phenomenon has significant social implications. Our study, which examined the perplexity of language models and classifier outputs, shows that the model reacts differently to completely unknown languages compared to familiar ones and exhibits similar behavior toward names as it does with unfamiliar languages.&lt;/p&gt;
+&lt;p&gt;Second, we present a method to mitigate biases in Vision-Language Models, particularly in image captioning models. By perturbing the training data through data augmentation with a Text-to-Image generative model, we enhance variability in the dataset. This approach not only reduces gender bias but also improves the model&amp;rsquo;s performance in tasks such as counting objects and detecting colors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[FOUND] Data Engineer for Geographic and Remote Sensing data</title>
+      <link>http://localhost:1313/job_offers/data-eng-deepcrop/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/data-eng-deepcrop/</guid>
+      <description>&lt;p&gt;CIREN, in collaboration with CENIA, is looking for a Data Engineer to be part of the FONDEF Advanced Technologies project team: an ai system for nation-wide agricultural production monitoring based on crowd-sourced and remote-sensing data.&lt;/p&gt;
+&lt;h3 id=&#34;what-are-we-looking-for&#34;&gt;What are we looking for?&lt;/h3&gt;
+&lt;p&gt;We are looking for a professional with strong technical competencies and interpersonal skills that include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Professionals in the areas of Computer Engineering, Mathematics, Statistics, Physics, Industrial Engineering or related disciplines, preferably with a Master&amp;rsquo;s degree.&lt;/li&gt;
+&lt;li&gt;1 to 3 years of professional or project experience.&lt;/li&gt;
+&lt;li&gt;Experience in Python, R or SQL&lt;/li&gt;
+&lt;li&gt;Knowledge in Machine Learning libraries (scikit-learn, TensorFlow, PyTorch).&lt;/li&gt;
+&lt;li&gt;Knowledge in tools to manage geographic data: geopandas, postGIS, geoSQL.&lt;/li&gt;
+&lt;li&gt;Knowledge in spatial data processing: Sentinel2, LANDSAT, etc.&lt;/li&gt;
+&lt;li&gt;Familiarity with data visualization tools (Power BI, Tableau, Matplotlib, Seaborn).&lt;/li&gt;
+&lt;li&gt;Experience in data cleansing and data management in large volumes.&lt;/li&gt;
+&lt;li&gt;Knowledge in statistics and advanced probability.&lt;/li&gt;
+&lt;li&gt;Familiarity with relational and non-relational databases (PostgreSQL, MongoDB).&lt;/li&gt;
+&lt;li&gt;Intermediate or advanced technical English (desirable).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-will-you-do&#34;&gt;What will you do?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Design, implement and optimize Machine Learning and predictive analytics models.&lt;/li&gt;
+&lt;li&gt;Collect, clean and structure large volumes of data for analysis.&lt;/li&gt;
+&lt;li&gt;Generate actionable insights to support strategic decision making.&lt;/li&gt;
+&lt;li&gt;Collaborate with cross-functional teams (developers, analysts, business leaders).&lt;/li&gt;
+&lt;li&gt;Visualize data using tools such as Power BI, Tableau or similar.&lt;/li&gt;
+&lt;li&gt;Document processes, methodologies and key findings of the projects.&lt;/li&gt;
+&lt;li&gt;Ensure the quality and security of the data handled.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-do-we-offer&#34;&gt;What do we offer?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Total gross remuneration of &lt;strong&gt;$2.500.000&lt;/strong&gt;. 2 year fixed term project contract with CIREN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Offer in the CENIA website &lt;a href=&#34;https://cenia.cl/2024/12/07/buscamos-ingenieroa-de-datos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[FOUND] Machine Learning Engineer for Geographic and Remote Sensing data</title>
+      <link>http://localhost:1313/job_offers/ml-eng-deepcrop/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/ml-eng-deepcrop/</guid>
+      <description>&lt;p&gt;We are looking for a Machine Learning / Deep Learning research engineer to work on large multi-modal and multi-resolution representation parsing models with satellite data (image sequences).&lt;/p&gt;
+&lt;h3 id=&#34;what-will-you-do&#34;&gt;What will you do?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Participate in FONDEF Advanced Technologies project: an ai system for nation-wide agricultural production monitoring based on crowd-sourced and remote-sensing data.&lt;/li&gt;
+&lt;li&gt;Develop end-to-end AI solutions.&lt;/li&gt;
+&lt;li&gt;Collection of relevant information and design of solutions focused on the optimization of industrial processes.&lt;/li&gt;
+&lt;li&gt;Industrial data processing and analysis.&lt;/li&gt;
+&lt;li&gt;Development and implementation of advanced predictive models to model subsections of the process.&lt;/li&gt;
+&lt;li&gt;Integration and deployment of solutions in production environments.&lt;/li&gt;
+&lt;li&gt;Design and build machine learning pipelines focused on optimization and prediction.&lt;/li&gt;
+&lt;li&gt;Collaborate on projects within asset-intensive industries such as mining, energy, pulp and paper, among others, applying ML techniques to improve efficiency and productivity.&lt;/li&gt;
+&lt;li&gt;Utilize cloud and high performance computing technologies.&lt;/li&gt;
+&lt;li&gt;Continuously improve ML solutions through experimentation and iteration.&lt;/li&gt;
+&lt;li&gt;Keep up to date with the latest trends and developments in ML and optimization technologies.&lt;/li&gt;
+&lt;li&gt;Work closely with the CopernicusLAC team, the European Space Agency&amp;rsquo;s satellite constellation data hub.&lt;/li&gt;
+&lt;li&gt;Work on the creation of a satellite data dataset (Sentinel2, Sentinel3, Sentinel5) throughout Latin America and the Caribbean.&lt;/li&gt;
+&lt;li&gt;Design and create foundational models for satellite data processing in conjunction with researchers from CENIA and profe from the University of Chile:&lt;/li&gt;
+&lt;li&gt;Use multi-scale self-supervised learning techniques on satellite data.&lt;/li&gt;
+&lt;li&gt;Use meta-learning algorithms to learn the model to learn new tasks: crop-land mapping, land-use mapping, drought detection, illegal deforestation, etc.&lt;/li&gt;
+&lt;li&gt;Participate in writing scientific papers on data creation and modeling, participate in presentation at appropriate conferences: CVPR, ICCV, ECCV, WACAV, NeurIPS, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-are-we-looking-for&#34;&gt;What are we looking for?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bachelor&amp;rsquo;s degree in Computer Science, Mathematics, Statistics, Engineering or a related field.&lt;/li&gt;
+&lt;li&gt;1 to 3 years of professional or ML project experience.&lt;/li&gt;
+&lt;li&gt;Verifiable experience in software and/or software development based on machine learning, computer vision and satellite data management.&lt;/li&gt;
+&lt;li&gt;Knowledge and previous experience with Python and some of the following libraries: PyTorch, Huggingface, TensorFlow, Scikit-Learn or other related libraries (Excluded)&lt;/li&gt;
+&lt;li&gt;Knowledge in tools to manage geographic data: geopandas, postGIS, geoSQL, etc&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Knowledge in spatial data processing: Sentinel2 data, LANDSAT, GEE, etc&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Demonstrated experience in the design and construction of machine learning pipelines (Excluded).&lt;/li&gt;
+&lt;li&gt;Demonstrated experience in the use and development of vision projects (Excluding)&lt;/li&gt;
+&lt;li&gt;Familiarity with Machine Learning Operations (MLOps) development practices (Required).&lt;/li&gt;
+&lt;li&gt;Experience in consulting projects (Desirable).&lt;/li&gt;
+&lt;li&gt;Development experience in Cloud platforms (Desirable).&lt;/li&gt;
+&lt;li&gt;Experience with cloud computing platforms, in particular GCP. (Desirable)&lt;/li&gt;
+&lt;li&gt;Knowledge of deploying ML models in production environments (Desirable).&lt;/li&gt;
+&lt;li&gt;Development experience with code versioning in Git (Desirable).&lt;/li&gt;
+&lt;li&gt;Experience with Docker (desirable).&lt;/li&gt;
+&lt;li&gt;Experience with Python packages and environments (desirable).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-do-we-offer&#34;&gt;What do we offer?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Total gross remuneration of &lt;strong&gt;$2.500.000&lt;/strong&gt;. Fixed term project contract 2 years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some of our benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🏡Hybrid work system: Home office combined with face-to-face workday.&lt;/li&gt;
+&lt;li&gt;👣Comfortable offices close to San Joaquín subway station.&lt;/li&gt;
+&lt;li&gt;🚲Access to bike rack and dressing rooms.&lt;/li&gt;
+&lt;li&gt;Parking at preferential price.&lt;/li&gt;
+&lt;li&gt;Casual Dress Code.&lt;/li&gt;
+&lt;li&gt;🎁Birthday free day.&lt;/li&gt;
+&lt;li&gt;🎄Advance disconnection for the holidays.&lt;/li&gt;
+&lt;li&gt;✉️ Day off for Vocal de mesa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CENIA site offer &lt;a href=&#34;https://cenia.cl/2024/12/06/buscamos-igenieroa-en-machine-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aca&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[FOUND] [Tesis pre/postgrado] JAJAJJJJJ -- Deteccion de humor en videos de stand-up comedy</title>
+      <link>http://localhost:1313/job_offers/thesis-jajaja/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/job_offers/thesis-jajaja/</guid>
+      <description>&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+&lt;p&gt;Humour is a key dimension in human-human communication and is used constantly, in a wide variety of contexts. It is used for its pleasing effect as it can help explain complex ideas during important presentations or it can serve as pure entertainment like in movies or stand up comedy. Sometimes, it can also be used in a less deliberate manner, unconsciously, as a way to regulate the inherent stress and tension arising in conversations, by presenting one’s ideas and intentions in an alternate way.&lt;/p&gt;
+&lt;p&gt;While Human-Agent interactions are growing in popularity due to the recent thrive of Large Language Models, the resulting conversations still remain frustrating for the users when they start to use subtle conversational strategies and skills such as irony, euphemism, hyperbolism and humour.&lt;/p&gt;
+&lt;p&gt;Today, when a human is using humour during a human-agent interaction, this tends to interrupt the flow of the interaction. Agents interpret quite literally what a human is saying and as the agent does not react as the human would expect from a fellow conversational partner this leads to rephrasing, repeating and eventually frustration.&lt;/p&gt;
+&lt;p&gt;Our vision for the future of conversational agents is that agents should be able at least to detect humorous attempts and to redirect the flow of the conversation accordingly. In this project, our main objective is to endow conversational agents with the ability to recognize when humour is being used by a human during human-agent interactions. Towards this goal, we will be relying on a multimodal approach and we will investigate how multimodal computational models can achieve this.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-example-taken-from-the-ur-funny-dataset-6&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;UR_FUNNY&#34; srcset=&#34;
+               /job_offers/thesis-jajaja/UR_FUNNY_hu10620972935419908973.webp 400w,
+               /job_offers/thesis-jajaja/UR_FUNNY_hu12261418939102111829.webp 760w,
+               /job_offers/thesis-jajaja/UR_FUNNY_hu2094234890411483346.webp 1200w&#34;
+               src=&#34;http://localhost:1313/job_offers/thesis-jajaja/UR_FUNNY_hu10620972935419908973.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;296&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Example taken from the UR-FUNNY dataset [6]
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;On this project, we will focus on the use of multimodal models with or without interactions [1,2] that can be also multilingual [3]. We would focus on multimodal but also multicultural specific social context [4], showing that multimodal is essential to detect complex human cultural and social phenonema such as sarcasm [5] or humour detection [6]. For group interactions, modelization of the speakers will be done using special architecture such as DialogueRNN [7].&lt;/p&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;p&gt;Here, we will focus on the first brick of this amazing human-machine project, which is the characterization and detection of humor using verbal and non-verbal language. First, we will study this complex phenomena in various languages using stand-up comedy videos. Second, if time allows it, we would focus on dyad or group interactions, such as TV-shows or better, naturalistic interactions.&lt;/p&gt;
+&lt;p&gt;The student will have to work on the several tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collection of a dataset of stand-up comedy videos on youtube&lt;/li&gt;
+&lt;li&gt;Cleaning and analysis of the dataset&lt;/li&gt;
+&lt;li&gt;Multimodal modelization of human verbal and non-verbal language using binary classification&lt;/li&gt;
+&lt;li&gt;Possibility to think about a more fine-grained humour taxonomy (more than just binary, how to propagate laugh, etc…)&lt;/li&gt;
+&lt;li&gt;Collection of a dataset of humor in interactions&lt;/li&gt;
+&lt;li&gt;Modelization more complex of multi-party interactions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h3&gt;
+&lt;p&gt;[1] P. P. Liang, Y. Cheng, R. Salakhutdinov, and L. P. Morency, “Multimodal Fusion Interactions: A Study of Human and Automatic Quantification,” ACM Int. Conf. Proceeding Ser., pp. 425–435, 2023.&lt;/p&gt;
+&lt;p&gt;[2] A. Zadeh, P. P. Liang, N. Mazumder, S. Poria, E. Cambria, and L.-P. Morency, “Memory Fusion Network for Multi-view Sequential Learning,” in AAAI, 2018.&lt;/p&gt;
+&lt;p&gt;[3] A. Zadeh, Y. S. Cao, S. Hessner, P. P. Liang, S. Poria, and L. Morency, “CMU-MOSEAS : A Multimodal Language Dataset for Spanish , Portuguese , German and French,” in EMNLP, 2020, vol. 1, no. 1, pp. 1801–1812.&lt;/p&gt;
+&lt;p&gt;[4] M. Sap, S. Gabriel, L. Qin, D. Jurafsky, N. A. Smith, and Y. Choi, “Social Bias Frames: Reasoning about Social and Power Implications of Language,” Proc. ofthe 58th Annu. Meet. ofthe Assoc. Comput. Linguist., pp. 5477–5490, 2020.&lt;/p&gt;
+&lt;p&gt;[5] P. Desai, T. Chakraborty, and M. S. Akhtar, “Nice perfume. How long did you marinate in it? Multimodal Sarcasm Explanation,” in AAAI, 2022.&lt;/p&gt;
+&lt;p&gt;[6] M. K. Hasan et al., “UR-FUNNY: A Multimodal Language Dataset for Understanding Humor,” 2019.&lt;/p&gt;
+&lt;p&gt;[7] N. Majumder, S. Poria, D. Hazarika, R. Mihalcea, A. Gelbukh, and E. Cambria, “DialogueRNN: An Attentive RNN for Emotion Detection in Conversations,” in AAAI, 2019.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CopernicusLAC🛰️🇪🇺</title>
+      <link>http://localhost:1313/project/copernicus/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/copernicus/</guid>
+      <description>&lt;p&gt;Our project is located in Santiago de Chile and operates as a centre dedicated to the storage, processing, and distribution of satellite data of the Copernicus Programme and the provision of services of regional interest for the benefit of all countries in Latin America and the Caribbean (LAC).&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;I act as &lt;strong&gt;Scientific Advisor and Researcher Artificial Intelligence for Earth Observation&lt;/strong&gt; within the CopernicusLAC project, where I aim to be part of the team developing novel, large-scale, and generalizable vision models for remote sensing data processing.&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.copernicuslac-chile.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copernicus Regional Centre for Latin America and the Caribbean&lt;/a&gt; (CopernicusLAC Chile) is a project funded by the European Union and the University of Chile and implemented by the Center for Mathematical Modeling (CMM).&lt;/p&gt;
+&lt;p&gt;This project provides Copernicus data storage, processing, and distribution services for the region, as well as developing monitoring services in the areas of land use and land cover, urban areas and oceans and coasts, including the coordination of access to in situ data, i.e. data from land-based meteorological stations, ocean buoys and air quality monitoring networks, among others.&lt;/p&gt;
+&lt;p&gt;Our mission is to meet the region’s needs for the storage, processing, and distribution of advanced Earth observation data for both the specialist community and the public. Our commitment is to offer innovative solutions, promoting collaboration and open access to information to drive socio-economic and environmental progress in Latin America and the Caribbean.&lt;/p&gt;
+&lt;p&gt;Our vision is to be recognised as a leader in the Earth observation community for Latin America and the Caribbean. We seek to be a key source of information, contributing significantly to informed decision-making that transforms and promotes meaningful sustainable development for the region.&lt;/p&gt;
+&lt;h3 id=&#34;copernicus-eu&#34;&gt;Copernicus EU&lt;/h3&gt;
+&lt;p&gt;Copernicus is the European Earth observation system, which offers free and open access data and services through its network of Sentinel satellites, providing images of our planet with valuable information to be applied in areas such as agriculture, mining, urban planning, disaster management, environmental protection, among others.&lt;/p&gt;
+&lt;p&gt;The programme is coordinated and managed by the European Commission and implemented in collaboration with the Member States, the European Space Agency (ESA), the European Organisation for the Exploitation of Meteorological Satellites (Eumetsat), the European Centre for Medium-Range Weather Forecasts, EU agencies and Mercator Ocean, among others.&lt;/p&gt;
+&lt;p&gt;It uses vast amounts of global data from satellites and measurement systems on land, air and sea to provide information that helps service providers, public administrations and other international organisations to improve the quality of life of Europe’s citizens. The information services provided are freely and openly accessible to its users.&lt;/p&gt;
+&lt;p&gt;(Source and more information: &lt;a href=&#34;https://www.copernicus.eu/en/about-copernicus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copernicus EU&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DeepCrop🛰️🌾🌽</title>
+      <link>http://localhost:1313/project/deepcrop/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/deepcrop/</guid>
+      <description>&lt;p&gt;We are creating an AI system for nation-wide agricultural production monitoring based on crowd-sourced and remote-sensing.&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I am the Director of this project&lt;/strong&gt;, which is a collaboration between the University of Chile, (the Centre of Artificial Intelligence)[https://www.cenia.cl], (the Center of Natural Ressources)[https://www.ciren.cl] as principal institutions, and the &lt;a href=&#34;https://www.eurocrops.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Technical University of Munich&lt;/a&gt;, the &lt;a href=&#34;https://www.jrc.eu.todo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Commission&amp;rsquo;s Joint Research Center&lt;/a&gt;, and the &lt;a href=&#34;https://www.epfl.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;École Polytechnique Fédérale de Lausanne&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a 4 years &lt;a href=&#34;https://anid.cl/concursos/concurso-idea-id-tecnologias-avanzadas-2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Tecnologia Avanzada&lt;/em&gt;&lt;/a&gt; project funded to the tune of 660,000,000 CLP&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; coming as grant from the National Research and Development Agency (ANID).&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;This project aims to develop a crop map (like land-use but for crop i.e., which crop are cultivated where) at the country-level. To this aim we will leverage the capacity of general purpose model that we will trained over Chile. This is quite fun as Chile is a very long country with many different climates, making it the perfect place to test a model claiming to be general.&lt;/p&gt;
+&lt;p&gt;The objectives are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gathering existing general crop data at the polygon- and pixel-level from open-source and in-house datasets&lt;/li&gt;
+&lt;li&gt;Collecting Chilean crop data at the polygon- and pixel-level, including yield&lt;/li&gt;
+&lt;li&gt;Implementing a parcel delineation model, with a polygon-level crop classifier&lt;/li&gt;
+&lt;li&gt;Pre-training a large vision model on Worldwide, South American, and Chilean multimodal and multiresolution data&lt;/li&gt;
+&lt;li&gt;Train the model to learn to learn various tasks using meta-learning algorithms&lt;/li&gt;
+&lt;li&gt;Implement a dashboard using the model&amp;rsquo;s predictions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;~ 670k dollars&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Boosting crop classification by hierarchically fusing satellite, rotational, and contextual data</title>
+      <link>http://localhost:1313/publication/rse24-boosting/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rse24-boosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Targeted Image Data Augmentation Increases Basic Skills Captioning Robustness</title>
+      <link>http://localhost:1313/publication/gem23-tida/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gem23-tida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinions in Interactions : New Annotations of the SEMAINE Database</title>
+      <link>http://localhost:1313/publication/lrec22-opinions/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec22-opinions/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

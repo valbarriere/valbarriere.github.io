@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spanglish | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/spanglish/</link>
+      <atom:link href="http://localhost:1313/tags/spanglish/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spanglish</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Spanglish</title>
+      <link>http://localhost:1313/tags/spanglish/</link>
+    </image>
+    
+    <item>
+      <title>Introduccion</title>
+      <link>http://localhost:1313/deep/1_introduction/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/1_introduction/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides1_introductionpdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/1_Introduction.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Regularization</title>
+      <link>http://localhost:1313/deep/6_regularization/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/6_regularization/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides6_regularizationpdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/6_Regularization.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computer Vision Architectures</title>
+      <link>http://localhost:1313/deep/9_cnn_architectures/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/9_cnn_architectures/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides9_cnn_architecturespdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/9_CNN_Architectures.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transfer Learning</title>
+      <link>http://localhost:1313/deep/10_transferlearning/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/10_transferlearning/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides10_transferlearningpdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/10_TransferLearning.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object Detection</title>
+      <link>http://localhost:1313/deep/11_computervision/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/11_computervision/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslides11_computervisionpdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/11_ComputerVision.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative LLMs</title>
+      <link>http://localhost:1313/deep/n_generative_llms/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/n_generative_llms/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslidesn_generative_llmspdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/N_Generative_LLMs.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Large Multimodal Models</title>
+      <link>http://localhost:1313/deep/n_multimodal_models/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deep/n_multimodal_models/</guid>
+      <description>&lt;h2 id=&#34;the-slides-are-available-herehttpsgithubcomvalbarrierecc6204-deep-learningrawrefsheadsmainslidesn_multimodal_modelspdf&#34;&gt;The slides are available &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/raw/refs/heads/main/Slides/N_Multimodal_Models.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/teaching/deep/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/deep/</guid>
+      <description>&lt;h3 id=&#34;all-the-different-classes-can-be-found-heredeep-index&#34;&gt;All the different classes can be found &lt;a href=&#34;../../deep-index&#34;&gt;here&lt;/a&gt;!&lt;/h3&gt;
+&lt;p&gt;This is the CC66204 course from the Universidad de Chile. Based on the class of &lt;a href=&#34;https://github.com/ivansipiran&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ivan Sipiran&lt;/a&gt;, I added details in each of the classes, allowing to understand on how we get to the recent large multimodal models. The github is &lt;a href=&#34;https://github.com/valbarriere/CC6204-Deep-Learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;br&gt;
+Here&amp;rsquo;s a summary:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;General introduction&lt;/strong&gt;: Overview of the class, reminders from Machine Learning,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[TODO] Basics&lt;/strong&gt;: Perceptron, Vanilla Gradient Descent, MLP, Backprop,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[TODO] Losses and Activations&lt;/strong&gt;: General losses, Softmax, CE, Activation functions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[TODO] Initialization and Optimization&lt;/strong&gt;: Weights initialization, Complex gradient descents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Regularization&lt;/strong&gt;: Penalization, Dropout, Data augmentation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[TODO] Convolutional Layer&lt;/strong&gt;: Convolution, Padding, Pooling, LeNet&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computer Vision Architectures&lt;/strong&gt;: ImageNet, Revolution of depth, Classical classifiers architectures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transfer Learning&lt;/strong&gt;: Motivation, Principle, Types of TL, Weights unfreezing, Pre-training datasets, SoTA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Object Detection&lt;/strong&gt;: Principle, IoU and mAP, Classical Object Detection, Segmentation and Mask-RCNN, SoTA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[TODO] Recurrent Layer&lt;/strong&gt;: Sequential Modeling, RNN, LSTM, GRU,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[TODO] Attention&lt;/strong&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[TODO] Transformers&lt;/strong&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generative Large Language Models&lt;/strong&gt;: Language Modeling and Temperature, Abilities and In-Context-Learning, Tokenization, Instructions, Alignments, Reasonings, Training and Evaluating in Practice, LLMs as Agents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Large Multimodal Models&lt;/strong&gt;: Multimodality, Fusion, Original tasks and datasets, Early multimodal transformers, CLIP and text2image Diffusion, Frozen encoders, BLIP 1/2/3 and LMM Assistants, Open-source training datasets, LMM evaluation, Video, Multimodal Tokenization&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

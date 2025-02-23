@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article-Journal | Valentin Barriere</title>
+    <link>http://localhost:1313/publication_types/article-journal/</link>
+      <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article-Journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Article-Journal</title>
+      <link>http://localhost:1313/publication_types/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>Fantastic Biases (What are They) and Where to Find Them</title>
+      <link>http://localhost:1313/publication/bits24-biases/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bits24-biases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boosting crop classification by hierarchically fusing satellite, rotational, and contextual data</title>
+      <link>http://localhost:1313/publication/rse24-boosting/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rse24-boosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual Multi-Target Stance Recognition in Online Public Consultations</title>
+      <link>http://localhost:1313/publication/mdpi23-participatory/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mdpi23-participatory/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

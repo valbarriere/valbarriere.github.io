@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dataset | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/dataset/</link>
+      <atom:link href="http://localhost:1313/tags/dataset/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dataset</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Dataset</title>
+      <link>http://localhost:1313/tags/dataset/</link>
+    </image>
+    
+    <item>
+      <title>(Preprint) Scrapping The Web For Early Wildfire Detection: A New Annotated Dataset of Images and Videos of Smoke Plumes In-the-wild</title>
+      <link>http://localhost:1313/publication/preprint-scrapping/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/preprint-scrapping/</guid>
+      <description>&lt;p&gt;This work goes directly in the context of the &lt;a href=&#34;http://localhost:1313/project/fAIrefighter/&#34;&gt;fAIrefighter🧯&lt;/a&gt; project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments</title>
+      <link>http://localhost:1313/publication/lrec24-touche/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec24-touche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoFE: A New Dataset of Intra-Multilingual Multi-target Stance Classification from an Online European Participatory Democracy Platform</title>
+      <link>http://localhost:1313/publication/aacl22-cofe/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/aacl22-cofe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debating Europe: A Multilingual Multi-Target Stance Classification Dataset of Online Debates</title>
+      <link>http://localhost:1313/publication/lrec22-deurope/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec22-deurope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinions in Interactions : New Annotations of the SEMAINE Database</title>
+      <link>http://localhost:1313/publication/lrec22-opinions/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec22-opinions/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

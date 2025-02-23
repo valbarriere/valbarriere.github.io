@@ -331,7 +331,7 @@ En esta clase hemos visto:
 * Un breve vistazo a la regresión logística, esencial para clasificación binaria y multi-clase con softmax.
 * scikit-learn y sus funcionalidades para datasets, entrenamiento, validación y selección de hiperparámetros.
 
-*(Para el orador: concluye enfatizando que, aunque hay modelos más complejos como redes neuronales o ensembles, entender los modelos lineales es clave para la práctica de Machine Learning y la interpretación de resultados. ¡Hasta la próxima clase!)*
+*(Para el orador: concluye enfatizando que, aunque hay modelos más complejos como redes neuronales o ensembles, entender los modelos lineales es clave para la práctica de Machine Learning y la interpretación de resultados.)*
 
 
 # See you in the classroom!

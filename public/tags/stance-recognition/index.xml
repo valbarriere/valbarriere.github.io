@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stance Recognition | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/stance-recognition/</link>
+      <atom:link href="http://localhost:1313/tags/stance-recognition/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stance Recognition</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 04 Dec 2024 08:30:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Stance Recognition</title>
+      <link>http://localhost:1313/tags/stance-recognition/</link>
+    </image>
+    
+    <item>
+      <title>Tackling Biases In or Using Generative AI @ JSIC&#39;24</title>
+      <link>http://localhost:1313/event/jsic/</link>
+      <pubDate>Wed, 04 Dec 2024 08:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/jsic/</guid>
+      <description>&lt;p&gt;In this talk, I am focusing on several methods based on data perturbation to detect biases in Large Language Models (LLMs) and Large Multimodal Models (LMMs). We have observed cases where these systems leverage gender, race, or even socioeconomic class information inappropriately for task resolution. Instead of employing real causal reasoning, they often rely on spurious correlations—a phenomenon commonly referred to as bias.&lt;/p&gt;
+&lt;p&gt;We will demystify the concept of bias, explaining why biases are ubiquitous, why they can sometimes be useful, and proposing a method to detect harmful biases.&lt;/p&gt;
+&lt;p&gt;First, we will introduce a method we developed to detect biases in LLMs toward different countries using the most common names as proxies. Our findings reveal very negative biases toward certain countries, using widely utilized open-source classifiers for social media analysis. Furthermore, we demonstrate that the same multilingual model tends to favor names from countries that speak the language of the sentence—a phenomenon we call AI Xenophobia. This phenomenon has significant social implications. Our study, which examined the perplexity of language models and classifier outputs, shows that the model reacts differently to completely unknown languages compared to familiar ones and exhibits similar behavior toward names as it does with unfamiliar languages.&lt;/p&gt;
+&lt;p&gt;Second, we present a method to mitigate biases in Vision-Language Models, particularly in image captioning models. By perturbing the training data through data augmentation with a Text-to-Image generative model, we enhance variability in the dataset. This approach not only reduces gender bias but also improves the model&amp;rsquo;s performance in tasks such as counting objects and detecting colors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments</title>
+      <link>http://localhost:1313/publication/lrec24-touche/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec24-touche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual Multi-Target Stance Recognition in Online Public Consultations</title>
+      <link>http://localhost:1313/publication/mdpi23-participatory/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mdpi23-participatory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoFE: A New Dataset of Intra-Multilingual Multi-target Stance Classification from an Online European Participatory Democracy Platform</title>
+      <link>http://localhost:1313/publication/aacl22-cofe/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/aacl22-cofe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debating Europe: A Multilingual Multi-Target Stance Classification Dataset of Online Debates</title>
+      <link>http://localhost:1313/publication/lrec22-deurope/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec22-deurope/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

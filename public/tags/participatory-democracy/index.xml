@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Participatory Democracy | Valentin Barriere</title>
+    <link>http://localhost:1313/tags/participatory-democracy/</link>
+      <atom:link href="http://localhost:1313/tags/participatory-democracy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Participatory Democracy</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Participatory Democracy</title>
+      <link>http://localhost:1313/tags/participatory-democracy/</link>
+    </image>
+    
+    <item>
+      <title>The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments</title>
+      <link>http://localhost:1313/publication/lrec24-touche/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lrec24-touche/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Not_useds | Valentin Barriere</title>
+    <link>http://localhost:1313/not_used/</link>
+      <atom:link href="http://localhost:1313/not_used/index.xml" rel="self" type="application/rss+xml" />
+    <description>Not_useds</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2024 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Not_useds</title>
+      <link>http://localhost:1313/not_used/</link>
+    </image>
+    
+    <item>
+      <title>CEDS 24 Conferencia Internacional del Espacio y Desarollo Sostenible</title>
+      <link>http://localhost:1313/not_used/ceds24/</link>
+      <pubDate>Wed, 27 Nov 2024 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/not_used/ceds24/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La Conferencia Internacional Espacio y Desarrollo Sostenible (CEDS2024)&lt;/strong&gt; ha sido concebida como un espacio de conocimiento e intercambio de experiencias e ideas en torno a los desafíos y oportunidades que se presentan en los temas del espacio y a la búsqueda de estrategias y alternativas de acción que posibiliten su uso de manera sostenible. Con este objetivo se abordarán los ámbitos científico-tecnológicos, el desarrollo industrial y las estrategias nacionales incluyendo los marcos jurídicos y de colaboración necesarios para su uso en un mundo globalizado, único posible cuando de espacio se trata.&lt;/p&gt;
+&lt;h2 id=&#34;ceds-y-la-universidad-de-chile&#34;&gt;CEDS y la Universidad de Chile&lt;/h2&gt;
+&lt;p&gt;La Universidad de Chile, ha estado estrechamente vinculada a estos temas, desde que firmara el acuerdo en 1958 para apoyar los programas de la NASA y crear el Centro de Estudios Espaciales, o en 2017 cuando, a través del Programa SUCHAI de nano-satélites lanzara el primer nano-satélite chileno, base de la actual constelación de nano-satélites de Chile y, actualmente llevando cabo el proyecto &lt;a href=&#34;https://www.copernicuslac-chile.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centro Regional Copernicus para América Latina y el Caribe: CopernicusLAC Chile&lt;/a&gt;, en el marco del acuerdo firmado con la Unión Europea, el que está desplegando una poderosa infraestructura para el almacenamiento y procesamiento de datos, entregando servicios a la región que beneficiarán la toma de decisiones en diversos ámbitos que afectan hoy a la sociedad. Por estas y otras razones, junto a instituciones nacionales e internacionales, tanto públicas como privadas, han decidido organizar la Conferencia Internacional Espacio y Desarrollo Sostenible (CEDS2024).&lt;/p&gt;
+&lt;h2 id=&#34;ejes-temáticos&#34;&gt;Ejes temáticos&lt;/h2&gt;
+&lt;p&gt;CEDS2024 es un espacio donde se analizará y discutirá acerca de:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Oportunidades y Desafíos en el desarrollo espacial&lt;/li&gt;
+&lt;li&gt;Promoción del desarrollo de la Ciencia y Tecnología Espacial&lt;/li&gt;
+&lt;li&gt;Promover la Innovación y el Desarrollo industrial en materia Espacial&lt;/li&gt;
+&lt;li&gt;El Espacio en los Grandes Desafíos Globales&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

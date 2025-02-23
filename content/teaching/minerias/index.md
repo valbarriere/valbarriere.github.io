@@ -11,7 +11,7 @@ image:
   caption: ''
 ---
 
-### All the different classes can be found [here](../../minerias-index)! 
+### All the different classes can be found [here](../../minerias)! 
 
 This is the CC5205 course from the Universidad de Chile. I restructured it so that it is more adapted to nowadays techniques and more machine learning oriented, it is heavily based on [scikit](https://scikit-learn.org/)! 
 

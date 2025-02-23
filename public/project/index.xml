@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Valentin Barriere</title>
+    <link>http://localhost:1313/project/</link>
+      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6033596820838205990.png</url>
+      <title>Projects</title>
+      <link>http://localhost:1313/project/</link>
+    </image>
+    
+    <item>
+      <title>Fondecyt de Iniciacion🗣️💬🤖</title>
+      <link>http://localhost:1313/project/mmodal_eca/</link>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/mmodal_eca/</guid>
+      <description>&lt;p&gt;Multimodal Argumentation Mining in Groups Assisted by an Embodied Conversational Agent&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I am the Principal Investigator of this project&lt;/strong&gt;. This is a 3 years &lt;a href=&#34;https://anid.cl/concursos/concurso-de-proyectos-fondecyt-de-iniciacion-en-investigacion-2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fondecyt&lt;/a&gt; grant of of 90.000.000,00 CLP&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; from the Chilean National Research Agency. This is a colaboration with the Université Paris Saclay, the European Commission&amp;rsquo;s DGIT, Sorbonne Université and Bamberg University.&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;Interactions and Multimodality are crucial in the development of intelligent AI models that can understand human-like communication. Human learning occurs through interactions with the environment and other humans, which involves the integration of information from multiple modalities such as vision, language but also touch and hearing that enable us to understand the subtle social meanings behind communication.&lt;/p&gt;
+&lt;p&gt;Therefore, to create intelligent machines that can understand human non-verbal communication, it is essential to train them on &lt;strong&gt;multimodal interactions that mimic those of humans to ensure that they can understand and respond appropriately to complex social phenomena&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The recent computational boom has seen the emergence of seminal studies focusing on Multimodal data (Cho, Lu, Schwenk, Hajishirzi, &amp;amp; Kembhavi, 2020; Hasan et al., 2019; Jaegle et al., 2021; J. Li, Li, Xiong, &amp;amp; Hoi, 2022; J. Wang et al., 2022; Zadeh, Chan, Liang, Tong, &amp;amp; Morency, 2019)⁠ and Interactions, whether these ones are textual like OpenIA&amp;rsquo;s InstructGPT or Anthropic&amp;rsquo;s Claude  (Bai et al., 2022; Ouyang et al., 2022; Schulman et al., 2022)⁠, or multimodal like Google&amp;rsquo;s PaLM (Chowdhery et al., n.d.; Chung et al., 2022; Schick, Lomeli, Dwivedi-yu, &amp;amp; Dessì, 2022)⁠ or GPT-4 (Bubeck et al., 2023; OpenAI, 2023; Wu et al., 2023)⁠.&lt;/p&gt;
+&lt;p&gt;These advancements show the potential for machines to learn from multimodal interactions and understand human communication, which could revolutionize the way humans socially interact with machines in the future. &lt;strong&gt;Nevertheless, nowadays generative agents are restraint to unimodal data or not using the full time-series of every modality of a real human-machine social interaction&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Interaction and multimodality are vital contexts in many social situations. They are also mandatory to make a machine understand the world and get commonsense knowledge, which is essential when tackling human-related complex tasks. Indeed, &lt;strong&gt;humans are social animals&lt;/strong&gt; and they interact with one another. In a general way, the integration of more context is the key to a deep understanding of many phenomena, in order to disambiguate a situation or to reinforce the current estimation: interaction is a crucial context in many social situations. Multimodal interactions allow understanding in a deeper way human behavior. In this particular setting, it is possible to understand a broader part of the multimodal natural language (see Figure 1). Studying the affective and &lt;strong&gt;social phenomena like Opinions, Emotions, Empathy, Distress, Stances, Persuasiveness or speaker traits allows to greatly improves the response from the machine&lt;/strong&gt; (Pelachaud, Busso, &amp;amp; Heylen, 2021; Zhao, Sinha, Black, &amp;amp; Cassell, 2016)⁠, but this task is difficult even using multimodal data. My research focuses on designing and developing methods that integrate the multimodal context and how humans influence each other in discussion situations. The research goals of this project fall into this general research area: &lt;strong&gt;how to use interactions and multimodality of non-verbal language to enhance social AI systems&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-examples-of-non-verbal-language-involved-in-a-social-interaction-from-vinciarelli-2009&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;interaction&#34; srcset=&#34;
+               /project/mmodal_eca/interaction_hu15794327103315274671.webp 400w,
+               /project/mmodal_eca/interaction_hu15612226579774470620.webp 760w,
+               /project/mmodal_eca/interaction_hu8198735632516945012.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/mmodal_eca/interaction_hu15794327103315274671.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;386&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Examples of non-verbal language involved in a social interaction from Vinciarelli (2009)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;multimodality&#34;&gt;Multimodality:&lt;/h4&gt;
+&lt;p&gt;Communication is not just limited to language, and it is essential to consider other modalities such as vision or audio when building natural language processing (NLP) systems (Baltrušaitis, Ahuja, &amp;amp; Morency, 2017; Liang, Zadeh, &amp;amp; Morency, 2022)⁠. &lt;strong&gt;Incorporating multiple modalities, or multimodality, is critical in creating more human-like interactions between humans and machines&lt;/strong&gt;. For instance, while language is the primary means of communication for humans, it is often supplemented by visual and auditory cues such as facial expressions, tone of voice, and gestures. Therefore, it is important building multimodal machine learning systems that can interpret and respond to these cues in a human-like manner.&lt;/p&gt;
+&lt;p&gt;According to (Fröhlich, Sievers, Townsend, Gruber, &amp;amp; van Schaik, 2019)⁠, both human and non-human primate communication is inherently multimodal. As an example, (Mehrabian, 1971)⁠ even states that 55% of the emotional content is in the visual signal (facial expressions and body language), 38% in the vocal signal (intonation and sound of the voice) and 7% in the verbal signal (through the meaning of the words and the arrangement of the sentence).&lt;/p&gt;
+&lt;h4 id=&#34;interactions-dynamics&#34;&gt;Interactions dynamics:&lt;/h4&gt;
+&lt;p&gt;It is essential to consider the interactive nature of human communication and incorporate it into natural language processing (NLP) systems. By allowing the machine to understand the context and flow of the conversation, it can provide a more natural and seamless interaction with users (Sutskever, Vinyals, &amp;amp; Le, 2014)⁠. (Z. Li, Wallace, Shen, &amp;amp; Lin, 2020)⁠ suggested that these systems can provide tailored content and services based on the user&amp;rsquo;s interests and preferences, leading to more engaging and personalized interactions with the user. &lt;strong&gt;As humans, we are not learnig by looking at or enviroment, but by interacting with it and with our peers&lt;/strong&gt;. By considering the interactive nature of human communication and incorporating it into NLP systems, machines can learn to communicate in a way that is more similar to humans, making interactions more engaging and effective.&lt;/p&gt;
+&lt;h4 id=&#34;proposed-research-project&#34;&gt;Proposed research project:&lt;/h4&gt;
+&lt;p&gt;This research project aims at studying the complex phenomena characterizing social interactions between humans using different media, implying different modalities and data domains. My research objective is to design adaptive models that take as a starting point the specificities of the multimodal interaction: the media used to communicate, the interactants&amp;rsquo; social relationship, and the communication modalities used to transfer the information. &lt;strong&gt;The general goals stand to: understand what the users are trying to achieve as a group, what is the output of this interaction, how a social agent helps reaching it&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-beatrice-bianccardihttpsbeatricebiancardigitlabio-interacting-with-the-virtual-agent-greta&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;beatrice_eca&#34; srcset=&#34;
+               /project/mmodal_eca/beatrice_eca_hu9343440991652273668.webp 400w,
+               /project/mmodal_eca/beatrice_eca_hu1100368193974869717.webp 760w,
+               /project/mmodal_eca/beatrice_eca_hu13291684369485421113.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/mmodal_eca/beatrice_eca_hu9343440991652273668.webp&#34;
+               width=&#34;430&#34;
+               height=&#34;279&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;a href=&#34;https://beatricebiancardi.gitlab.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Beatrice Bianccardi&lt;/a&gt; interacting with the virtual agent Greta
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In particlar, this project aims to explore the dynamics of how a group of individuals with polarized opinions can reach a consensus. In this work, within groups of individuals debating hot societal topics and issues, the aim will be to automatically detect and retrieve stances and arguments towards the debate question and to ultimately moderate the debate using a human-computer interface that would be specific to such an interaction. To this aim, we think that an &lt;strong&gt;Embodied Conversational Agent&lt;/strong&gt; (Cassell, 2001; Pelachaud, 2005)⁠ like the one illustrated in Figure 2, would be the most relevant. Indeed bodily representations structure the way humans perceive the world and the way they perceive other people. Cognitive sciences and social sciences altogether have stressed &lt;strong&gt;the importance of embodiment in social interaction, highlighting how interacting with others influences how we behave, perceive and think&lt;/strong&gt; (Smith &amp;amp; Neff, 2018; Tieri, Morone, Paolucci, &amp;amp; Iosa, 2018)⁠, including our social behaviors with embodied intelligent agents such as virtual humans and robots (Holz, Dragone, &amp;amp; O’Hare, 2009)⁠.&lt;/p&gt;
+&lt;p&gt;Another goal is to explore the polarization of society&amp;rsquo;s attitudes towards hot political topics and study the &lt;strong&gt;difference in terms of the difficulty of finding a consensus&lt;/strong&gt; regarding the type of topics, and the human values involved in classical argumentation (Kiesel, Weimar, Handke, &amp;amp; Weimar, 2022; Mirzakhmedova et al., 2023)⁠. In today&amp;rsquo;s society, the polarization of opinions on political topics is a common phenomenon that can be observed in many different areas. Debates about societal topics and issues can be especially polarizing and lead to a lack of understanding and cooperation between groups with different perspectives (Livingstone, Fernández Rodriguez, &amp;amp; Rothers, 2020)⁠. Therefore, &lt;strong&gt;it is crucial to understand how individuals with polarized opinions can reach a consensus&lt;/strong&gt;, and this is the aim of this research project. To achieve it, this project plans to develop an automatic approach to &lt;strong&gt;detect and retrieve the stance and arguments&lt;/strong&gt; of individuals involved in real-time multimodal debates about hot societal topics.&lt;/p&gt;
+&lt;p&gt;This research aims to delve into the complexities of group dynamics in polarized debates on societal issues. To achieve this, we will not only automatically detect and retrieve stances and their arguments toward the debate question, but also take into account the multimodal aspects of the debate, such as &lt;strong&gt;body language, facial expressions and acoustics&lt;/strong&gt;, which are shown to be important for persuasion in a Vlog (Nojavanasghari, Gopinath, Koushik, Baltrušaitis, &amp;amp; Morency, 2016; S. Park, Shim, Chatterjee, Sagae, &amp;amp; Morency, 2014; Siddiquie, Chisholm, &amp;amp; Divakaran, 2015)⁠ or within a debate (Brilman &amp;amp; Scherer, 2015; Mestre et al., 2021)⁠. Real-time interaction within the group will be analyzed to understand &lt;strong&gt;how individuals respond to each other and how the group as whole moves toward a consensus&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;~ 100k dollars&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>XenophoBias🏳️‍🌈</title>
+      <link>http://localhost:1313/project/xenophobias/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/xenophobias/</guid>
+      <description>&lt;p&gt;Multicultural Bias Recognition to Detect and Mitigate Racism, Xenophobia and Geographic Inequalities in Multilingual Large Language Models.&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I am the Principal Investigator of this project&lt;/strong&gt;. This is a 2 years &lt;a href=&#34;https://uchile.cl/convocatorias/216327/concurso-u-inicia-2024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;U-inicia&lt;/a&gt; grant from the University with a total budget of 8,000,000 CLP.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;Classical bias detection methods used in Machine Learning and Natural Language Processing (NLP) are themselves biased because of the different confounding variables implied in the assessment of the initial biases. First they are using templates that are syntactically simple and distant from the target data on which the model will be applied. Second, current methods are assessing biases in pre-trained language models or in dataset, but not directly on the fine-tuned classifier that can actually produce harms.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;counfounding&#34; srcset=&#34;
+               /project/xenophobias/featured_hu4709178623435340922.webp 400w,
+               /project/xenophobias/featured_hu2414093935314123718.webp 760w,
+               /project/xenophobias/featured_hu9909048982336450453.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/xenophobias/featured_hu4709178623435340922.webp&#34;
+               width=&#34;449&#34;
+               height=&#34;587&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We propose a simple method to detect the biases of a specific fine-tuned classifier on any type of unlabeled data. The idea is to study the classifier behavior by creating counterfactual examples directly on the target data distribution and quantify the amount of changes. We focus on named entity perturbations by applying a &lt;strong&gt;Named Entity Recognition&lt;/strong&gt; (NER) on target-domain data and modifying them accordingly to most common names or location of a target group (gender and/or country), and this for several morphosynctactically different languages spoken in relation with the countries of the target groups. &lt;strong&gt;The idea is that perturbing the input data with a non-causal change should not impact the output distribution of a model&lt;/strong&gt;, but it actually does with respect to the languages and the country of provenance of the added entity perturbing the sentence. An analysis of the changes helps practitioners getting a deeper understanding of how a model can react to different target groups.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-use-the-target-domain-data-to-create-templates&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;overall&#34; srcset=&#34;
+               /project/xenophobias/figure_v9_1_hu1431973182623297372.webp 400w,
+               /project/xenophobias/figure_v9_1_hu5426821930535034716.webp 760w,
+               /project/xenophobias/figure_v9_1_hu13032372178332810117.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/xenophobias/figure_v9_1_hu1431973182623297372.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;386&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We use the target-domain data to create templates.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Here is an example with two sentences, $S^n$
+ being ambiguous and $S^1$
+ obvious hate speech. The model output of the perturbated versions is highly variable for the multilingual variations of &lt;em&gt;Alexander&lt;/em&gt;. With some name variations, such as the Turkish or Indian, the models classify the sentences as more negative or detect less hate speech. Meaning it will not moderate the content of an insult toward this person (see below):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-templates-obtained-from-target-domain-data-are-filled-with-common-names-from-various-countries-the-difference-in-the-models-output-is-significative-of-a-bias-regarding-the-names&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;overall&#34; srcset=&#34;
+               /project/xenophobias/figure_v9_2_hu5969773204992941524.webp 400w,
+               /project/xenophobias/figure_v9_2_hu408390470316705406.webp 760w,
+               /project/xenophobias/figure_v9_2_hu4458702702344355493.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/xenophobias/figure_v9_2_hu5969773204992941524.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;334&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The templates obtained from target-domain data are filled with common names from various countries. The difference in the model&amp;rsquo;s output is significative of a bias regarding the names.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We will then focus on &lt;strong&gt;how to leverage LLM in order to create sentences from the target-domain data distribution&lt;/strong&gt;, with entites, then with more fine-grained named concepts related to the countries, such as local meals, celebrations, or regional slang.
+We want first to use our method on models available in open-source that are likely to be deployed by industry, i.e., widely used classifiers for subjectivity analysis, including sentiment, emotion, hate speech, and offensive text using Twitter data. &lt;strong&gt;We will assess the bias of a variety of models&lt;/strong&gt; such as an open-source multilingual sentiment analysis model trained over multiple-languages tweets, a multilingual stance recognition model trained over several languages and assessed over English language, an English hate speech classifier, an English large language model, and a multilingual large language model such as Llama-3.
+Our work offers a fine-grained analysis of the interactions between names and languages, aiming to reveal significant biases in multilingual models, but also strong biases towards some countries’ names. &lt;strong&gt;We want to link this with the pre-training data used to pre-train the LLM, by the mean of the Language Model’s (pseudo-)likelihood&lt;/strong&gt;. We hope to find out very socially interesting/impacting results such as a sentence containing a name from an arabic or slavic country will more likely to be tagged as negative, and less likely to be tagged as hate speech.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;In other words we want to answer the questions:&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Are LLM xenophobic?&lt;/li&gt;
+&lt;li&gt;How to quantify it?&lt;/li&gt;
+&lt;li&gt;How to remove this bias?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;schedule&#34;&gt;Schedule&lt;/h3&gt;
+&lt;p&gt;Milestones will follow the project objectives and milestones are defined as a group of objectives with a publication at an A(*)-ranked conference or in a journal to complete the milestone.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Milestone 1&lt;/strong&gt; consists of objectives 1 and 2 as well as the publication of a paper at an A(*) conference. The method developed above will be applied to different types of classifiers and generative models. A perplexity analysis will be performed to try to quantify the visible bias of the internal states of neural networks. I plan 5 months to adapt the method that already exists for LLM and use perplexity to find lassos between frequencies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Milestone 2&lt;/strong&gt; consists of objectives 3 and 4, as well as the publication of a paper in a conference A. I plan 4 months for the artificial data generation because it is not so straightforward and we will have to work on the generation in the target distribution per se, and also on the collection and how to add in the generation the socio-cultural attributes of the different countries (2 months + 2 months).&lt;/p&gt;
+&lt;p&gt;The last &lt;strong&gt;Milestone 3&lt;/strong&gt; contains the final objective concerning the reduction of bias, with the aggregation of all previous results in a journal publication.  Working on bias reduction based on our method will be quite straightforward. The writing of a journal paper where we will have all the results of the project will be longer than the previous conference papers, which will have more specific and limited contents. For that I plan 4 months for the reduction and 3 months for the writing, with 2 overlapping months.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;gantt&#34; srcset=&#34;
+               /project/xenophobias/gantt_hu3088727843124199660.webp 400w,
+               /project/xenophobias/gantt_hu11767512201186597748.webp 760w,
+               /project/xenophobias/gantt_hu16173524106031046137.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/xenophobias/gantt_hu3088727843124199660.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;272&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;~ 8k dollars&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>CopernicusLAC🛰️🇪🇺</title>
+      <link>http://localhost:1313/project/copernicus/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/copernicus/</guid>
+      <description>&lt;p&gt;Our project is located in Santiago de Chile and operates as a centre dedicated to the storage, processing, and distribution of satellite data of the Copernicus Programme and the provision of services of regional interest for the benefit of all countries in Latin America and the Caribbean (LAC).&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;I act as &lt;strong&gt;Scientific Advisor and Researcher Artificial Intelligence for Earth Observation&lt;/strong&gt; within the CopernicusLAC project, where I aim to be part of the team developing novel, large-scale, and generalizable vision models for remote sensing data processing.&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.copernicuslac-chile.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copernicus Regional Centre for Latin America and the Caribbean&lt;/a&gt; (CopernicusLAC Chile) is a project funded by the European Union and the University of Chile and implemented by the Center for Mathematical Modeling (CMM).&lt;/p&gt;
+&lt;p&gt;This project provides Copernicus data storage, processing, and distribution services for the region, as well as developing monitoring services in the areas of land use and land cover, urban areas and oceans and coasts, including the coordination of access to in situ data, i.e. data from land-based meteorological stations, ocean buoys and air quality monitoring networks, among others.&lt;/p&gt;
+&lt;p&gt;Our mission is to meet the region’s needs for the storage, processing, and distribution of advanced Earth observation data for both the specialist community and the public. Our commitment is to offer innovative solutions, promoting collaboration and open access to information to drive socio-economic and environmental progress in Latin America and the Caribbean.&lt;/p&gt;
+&lt;p&gt;Our vision is to be recognised as a leader in the Earth observation community for Latin America and the Caribbean. We seek to be a key source of information, contributing significantly to informed decision-making that transforms and promotes meaningful sustainable development for the region.&lt;/p&gt;
+&lt;h3 id=&#34;copernicus-eu&#34;&gt;Copernicus EU&lt;/h3&gt;
+&lt;p&gt;Copernicus is the European Earth observation system, which offers free and open access data and services through its network of Sentinel satellites, providing images of our planet with valuable information to be applied in areas such as agriculture, mining, urban planning, disaster management, environmental protection, among others.&lt;/p&gt;
+&lt;p&gt;The programme is coordinated and managed by the European Commission and implemented in collaboration with the Member States, the European Space Agency (ESA), the European Organisation for the Exploitation of Meteorological Satellites (Eumetsat), the European Centre for Medium-Range Weather Forecasts, EU agencies and Mercator Ocean, among others.&lt;/p&gt;
+&lt;p&gt;It uses vast amounts of global data from satellites and measurement systems on land, air and sea to provide information that helps service providers, public administrations and other international organisations to improve the quality of life of Europe’s citizens. The information services provided are freely and openly accessible to its users.&lt;/p&gt;
+&lt;p&gt;(Source and more information: &lt;a href=&#34;https://www.copernicus.eu/en/about-copernicus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copernicus EU&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DeepCrop🛰️🌾🌽</title>
+      <link>http://localhost:1313/project/deepcrop/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/deepcrop/</guid>
+      <description>&lt;p&gt;We are creating an AI system for nation-wide agricultural production monitoring based on crowd-sourced and remote-sensing.&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I am the Director of this project&lt;/strong&gt;, which is a collaboration between the University of Chile, (the Centre of Artificial Intelligence)[https://www.cenia.cl], (the Center of Natural Ressources)[https://www.ciren.cl] as principal institutions, and the &lt;a href=&#34;https://www.eurocrops.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Technical University of Munich&lt;/a&gt;, the &lt;a href=&#34;https://www.jrc.eu.todo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Commission&amp;rsquo;s Joint Research Center&lt;/a&gt;, and the &lt;a href=&#34;https://www.epfl.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;École Polytechnique Fédérale de Lausanne&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a 4 years &lt;a href=&#34;https://anid.cl/concursos/concurso-idea-id-tecnologias-avanzadas-2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Tecnologia Avanzada&lt;/em&gt;&lt;/a&gt; project funded to the tune of 660,000,000 CLP&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; coming as grant from the National Research and Development Agency (ANID).&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;This project aims to develop a crop map (like land-use but for crop i.e., which crop are cultivated where) at the country-level. To this aim we will leverage the capacity of general purpose model that we will trained over Chile. This is quite fun as Chile is a very long country with many different climates, making it the perfect place to test a model claiming to be general.&lt;/p&gt;
+&lt;p&gt;The objectives are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gathering existing general crop data at the polygon- and pixel-level from open-source and in-house datasets&lt;/li&gt;
+&lt;li&gt;Collecting Chilean crop data at the polygon- and pixel-level, including yield&lt;/li&gt;
+&lt;li&gt;Implementing a parcel delineation model, with a polygon-level crop classifier&lt;/li&gt;
+&lt;li&gt;Pre-training a large vision model on Worldwide, South American, and Chilean multimodal and multiresolution data&lt;/li&gt;
+&lt;li&gt;Train the model to learn to learn various tasks using meta-learning algorithms&lt;/li&gt;
+&lt;li&gt;Implement a dashboard using the model&amp;rsquo;s predictions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;~ 670k dollars&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>fAIrefighter🧯</title>
+      <link>http://localhost:1313/project/fairefighter/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/fairefighter/</guid>
+      <description>&lt;p&gt;A wildfire early detection and spread prediction AI-driven decision support tool.&lt;/p&gt;
+&lt;h4 id=&#34;my-role&#34;&gt;My role&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I am the Director of this project&lt;/strong&gt;, which is a collaboration between the University of Chile, the &lt;a href=&#34;https://www.cenia.cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centre of Artificial Intelligence&lt;/a&gt;, the &lt;a href=&#34;https://www.puc.cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Catholic University&lt;/a&gt;, the &lt;a href=&#34;https://www.conaf.cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Forestry Corporation&lt;/a&gt;, and the Non-Governmental Organization &lt;a href=&#34;https://pyronear.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyroNear&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a 2 years &lt;a href=&#34;https://anid.cl/concursos/concurso-idea-id-2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;IDeA&lt;/em&gt;&lt;/a&gt; project project funded to the tune of 220,000,000 CLP&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; coming as grant from the National Research and Development Agency (ANID).&lt;/p&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The project&lt;/h3&gt;
+&lt;p&gt;In Chile, there are no technologies to perform early wildfire detection based on on computer vision. Moreover there is no decision support tool to inform authorities regarding predictive propagation of ongoing wildfires. However, there are huge consequences of not containing wildfires: economical, ecological, and societal.&lt;/p&gt;
+&lt;p&gt;We propose a two-level plan to fight wildfire at different levels that are complementary. The first one to tackle the wildfire as soon as possible, the second to get information in order to distribute human, machine and water resources efficiently:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Early Wildfire Prediction (EWD): Perform early wildfire detection using computer vision&lt;/li&gt;
+&lt;li&gt;Wildfire Spread Prediction (WSP): If the wildfire is getting out of control, an AI-based tool predict the wildfire spread using remote sensing and physics informed neural networks (PINNs).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A global overview of both the systems and how they are interacting is visible below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image_all&#34; srcset=&#34;
+               /project/fairefighter/fAIrefighter_all_hu1213781944679647980.webp 400w,
+               /project/fairefighter/fAIrefighter_all_hu5711198834479959995.webp 760w,
+               /project/fairefighter/fAIrefighter_all_hu17062598067408856427.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/fairefighter/fAIrefighter_all_hu1213781944679647980.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;422&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;: The first part consists in installing stations that detect smoke plumes in the wild. The algorithms are frugal Computer Vision methods such as small neural networks implemented on mini-computers, in order to process the information locally and send flags and data when a wildfire is detected. It is necessary to install stations on the watchtowers, collect data, annotate them, and train the models in order to achieve this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image_all&#34; srcset=&#34;
+               /project/fairefighter/fAIrefighter_ewd_hu15059260110091567817.webp 400w,
+               /project/fairefighter/fAIrefighter_ewd_hu17704182685406066860.webp 760w,
+               /project/fairefighter/fAIrefighter_ewd_hu8766366730088195042.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/fairefighter/fAIrefighter_ewd_hu15059260110091567817.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;422&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 0.1: Gather training set: Gather smoke plume images from open-source platforms from everywhere in the world, and train a first version on the model.&lt;/li&gt;
+&lt;li&gt;Step 0.2: Train a model: Train a first version of the EWD, using a YoloV5.&lt;/li&gt;
+&lt;li&gt;Step 1: Putting cameras on the watchtowers. Gather data for detection and annotation purposes.&lt;/li&gt;
+&lt;li&gt;Step 2: Process chilean images on the annotation platform. The images where potential
+smoke plumes are automatically detected by the model trained on phase 0 will be manually validated by humans, in order to enhance the quality of the dataset by adapting the model to in-domain images and reducing the number of false positives.&lt;/li&gt;
+&lt;li&gt;Step 3: Gather in-domain training set: Combine the initial training set with the annotated chilean data in order to adapt the model to the environment.&lt;/li&gt;
+&lt;li&gt;Step 4.1: Fine-tune the smoke plume detection model images: First, the model will be trained using available data that we are collecting, then it will be fine-tuned on multimodal Chilean data&lt;/li&gt;
+&lt;li&gt;Step 4.2: Apply the model on new images in real time&lt;/li&gt;
+&lt;li&gt;Step 5: Visualize the alerts on a web platform: using an interface to see where the watchtower is and where the camera is looking at, but also what are the images from the camera that triggered the alert. The platform will also have an interface allowing for validation or rejection of the smoke plumes detected, in order to enhance the quality of the model.&lt;/li&gt;
+&lt;li&gt;Step Final: Resource deployment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;: The second part consists in prediction of wildfire propagation using physics-informed machine learning model. It is necessary to collect a wildfire scar dataset, create a physical model of wildifre propgation based on it, to generate artificial data. On this generated data, a PINN can be trained and then fine-tuned on real chilean wildfires, and compared to reality.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image_all&#34; srcset=&#34;
+               /project/fairefighter/fAIrefighter_wsp_hu13840030640784380258.webp 400w,
+               /project/fairefighter/fAIrefighter_wsp_hu10695992529765654606.webp 760w,
+               /project/fairefighter/fAIrefighter_wsp_hu13493718214921426331.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/fairefighter/fAIrefighter_wsp_hu13840030640784380258.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;422&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 0: Gather data from various sources, like wildfire scars, meteorological data, and more. This data forms the basis for studying wildfire patterns.&lt;/li&gt;
+&lt;li&gt;Step 1: Use of the open-source tool called Cell2Fire to simulate how wildfires spread. This helps us understand fire behavior and make predictions.&lt;/li&gt;
+&lt;li&gt;Step 2: Creation of artificial training data using simulator. We select specific wildfires and replicate their growth using Cell2Fire. This gives us data to analyze.&lt;/li&gt;
+&lt;li&gt;Step3:Combinationofdataandscientificmodels.Byintegratingphysics-basedequations into neural networks we build a strong model for wildfire spread. This blends real data with scientific knowledge.&lt;/li&gt;
+&lt;li&gt;Steps 4.1/4.2: Fine-tune the model and apply it on new remote sensing data: first, the model will be trained using available data that we are collecting, then it will be fine-tuned on Chilean data.&lt;/li&gt;
+&lt;li&gt;Step 5: Visualize on a web platform.&lt;/li&gt;
+&lt;li&gt;Step Final: Resource deployment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Overall&lt;/strong&gt;: There is no notion of intellectual property in our project. We will base our technology on open-source knowledge like published papers that we will re-implement ourselves or by using available online code without restrictive license. Subsequently, all our models and datasets will be published as open-source resources for the research community.&lt;/p&gt;
+&lt;h3 id=&#34;objectives&#34;&gt;Objectives&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Main&lt;/strong&gt;:
+Integrated, technology-driven wildfire management system active at two levels: &lt;em&gt;(i)&lt;/em&gt; to proactively detect early wildfire foci, &lt;em&gt;(ii)&lt;/em&gt; accurately predict wildfire spread in order to &lt;em&gt;(iii)&lt;/em&gt; facilitate real-time decision-making by allowing forest guards, firemen and policy-makers to get more information when allocating resources such as manpower, material and water or when planning evacuation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Specific&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Early Wildfire Detection&lt;/li&gt;
+&lt;li&gt;Wildfire Spread Prediction&lt;/li&gt;
+&lt;li&gt;Decision Support Tool&lt;/li&gt;
+&lt;li&gt;Impact Assessment&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;~ 220k dollars&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
