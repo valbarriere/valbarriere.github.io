@@ -1,5 +1,5 @@
 ---
-title: Dimensionality Reduction
+title: Disminucion de dimensiones
 summary: Principal Component Analysis, Independant Component Analysis, t-SNE, UMAP,...
 date: 2024-03-20
 type: docs
