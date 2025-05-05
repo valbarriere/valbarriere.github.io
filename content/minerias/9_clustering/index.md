@@ -54,12 +54,12 @@ Separar los datos en \(K\) grupos usando “centroides” (medias de cada clúst
 
 ### Minimizar la SSE (Sum of Squared Errors)
 
-K-means particiona los datos \(\Xb_i\) en \(K\) clústeres \(\{\mathcal{C}_1,\dots,\mathcal{C}_K\}\) para **minimizar**:
+K-means particiona los datos \(\mathbf{X}_i\) en \(K\) clústeres \(\{\mathcal{C}_1,\dots,\mathcal{C}_K\}\) para **minimizar**:
 
 \[
 G(\mathcal{C}_1,\dots,\mathcal{C}_K)
 = \sum_{k=1}^K 
-  \sum_{i\in\mathcal{C}_k} \|\Xb_i - \mu_k\|^2,
+  \sum_{i\in\mathcal{C}_k} \|\mathbf{X}_i - \mu_k\|^2,
 \]
 
 donde \(\mu_k\) es el **centroide** del clúster \(k\). Cada punto se asigna al \(\mu_k\) más cercano en norma Euclídea.
@@ -123,8 +123,7 @@ El número de clústeres debe fijarse antes. Se puede explorar varios valores y 
 - Si la densidad varía drásticamente, un único \(\texttt{eps}\) no es apropiado.
 - Difícil en alta dimensionalidad.
 
-![Mal ajuste con eps grande/pequeño](figures/dbscan_disvantages_2.png "Mal ajuste con eps grande/pequeño")
-![Ruido o clusters?](figures/dbscan_disvantages_1.png "Ruido o clusters?")
+![Mal ajuste con eps grande/pequeño](figures/dbscan_disvantages.png "Algoritmo sensible a la densidad: $\varepsilon=9.92$ en la izquierda y $\varepsilon=9.75$ en la derecha")
 
 ### Elección de \(\texttt{minPts}\) y \(\varepsilon\)
 
@@ -213,7 +212,7 @@ Se define la “distancia” entre dos grupos:
 
 Existen varias alternativas según forma de los clústeres, ruido, densidad variable, etc.
 
-![Galería de métodos de clustering](clustering_examples.png)
+![Galería de métodos de clustering](figures/clustering_examples.png)
 
 Tabla de referencia (Scikit-learn):
 

@@ -12,9 +12,7 @@ tags:
 
 ## The slides are available [here](DM_Intro_SL.pdf)!
 
-This class is pretty cool as you will discover the basics of the knowledge used to build Machine Learning, Deep Learning and Artifical Intelligence in general: Supervised Learning! This is a simple setting where a **model will learn its own parameters using examples and associated labels**. We will revise all the important concepts of supervised learning, which are very useful for anybody who wants to become data scientist. 
-
-Esta clase es bastante bacan ya que descubriran las bases del conocimiento utilizado para construir Machine Learning, Deep Learning e Inteligencia Artificial en general: Aprendizaje Supervisado! Se trata de un entorno sencillo en el que un **modelo aprenderá sus propios parámetros utilizando ejemplos y etiquetas asociadas**. Revisaremos todos los conceptos importantes del aprendizaje supervisado, que son muy útiles para cualquiera que quiera trabajar como data scientist. 
+In this class you will discover the basics of the knowledge used to build Machine Learning, Deep Learning and Artifical Intelligence in general: Supervised Learning! This is a simple setting where a **model will learn its own parameters using examples and associated labels**. We will revise all the important concepts of supervised learning, which are very useful for anybody who wants to become data scientist. 
 
 ## Generalidades
 

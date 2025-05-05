@@ -16,7 +16,7 @@ We are creating an AI system for nation-wide agricultural production monitoring 
 
 #### My role
 
-**I am the Director of this project**, which is a collaboration between the University of Chile, (the Centre of Artificial Intelligence)[https://www.cenia.cl], (the Center of Natural Ressources)[https://www.ciren.cl] as principal institutions, and the [Technical University of Munich](https://www.eurocrops.tum.de/), the [European Commission's Joint Research Center](https://www.jrc.eu.todo), and the [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch). 
+**I am the Director of this project**, which is a collaboration between the University of Chile, [the Centre of Artificial Intelligence](https://www.cenia.cl), [the Center of Natural Ressources](https://www.ciren.cl) as principal institutions, and the [Technical University of Munich](https://www.eurocrops.tum.de/), the [European Commission's Joint Research Center](https://www.jrc.eu.todo), and the [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch). 
 
 This is a 4 years [*Tecnologia Avanzada*](https://anid.cl/concursos/concurso-idea-id-tecnologias-avanzadas-2024/) project funded to the tune of 660,000,000 CLP[^1] coming as grant from the National Research and Development Agency (ANID). 
 

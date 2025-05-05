@@ -11,20 +11,20 @@ image:
   caption: ''
 ---
 
-### All the different classes can be found [here](../../minerias)! 
+### Todas las diferentes clases se pueden encontrar [aquí](../../minerias)! 
 
-This is the CC5205 course from the Universidad de Chile. I restructured it so that it is more adapted to nowadays techniques and more machine learning oriented, it is heavily based on [scikit](https://scikit-learn.org/)! 
+Este es el curso CC5205 de la Universidad de Chile. Lo reestructuré para que esté más adaptado a las técnicas actuales y más orientado al aprendizaje automático, ¡está fuertemente basado en [scikit](https://scikit-learn.org/)! 
 
-Here's a summary: 
-1. **General introduction**: Definitions of Data Mining, Data Science, and content of the class
-2. **Data**: (Un)structured data, Representation, Normalization, Noise removal, ... 
-3. **Data Exploration**: Basic statistics for data exploration.
-4. **Intro to Supervised Learning**: Basics of Machine Learning and supervised learning.
-5. **[TODO] Intro to Fairness and Biases**: How to avoid making bad models.
-6. **Linear Models**: A very simple model, which is the base of deep neural networks!
-7. **[TODO] Classifiers**: KNN, Naive Bayes, Decision Tree, Boosting, Bagging, Random Forests.
-8. **Dimensionality Reduction**: Principal Component Analysis, Independant Component Analysis, t-SNE, UMAP,... 
-9. **Clustering methods**: Clustering methods and associated metrics 
-10. **SVM, SVR**: Hinge loss, Lagrangian, KKT conditions, non-linear SVM, Kernel trick, SV Regressor  
-11. **Introduction to Neural Nets**: Basics of Deep Learning
-12. **Introduction to NLP** (Invited Speaker: Juan Jose Alegria): How to deal with natural language.
+Aquí un resumen: 
+1. **Introducción general**: Definiciones de Minería de Datos, Ciencia de Datos y contenido de la clase.
+2. **Datos**: Datos (des)estructurados, Representación, Normalización, Eliminación de ruido, ... 
+3. **Exploración de datos**: Estadística básica para la exploración de datos.
+4. **Introducción al Aprendizaje Supervisado**: Conceptos básicos de aprendizaje automático y aprendizaje supervisado.
+5. **[TODO] Introducción a la imparcialidad y los sesgos**: Cómo evitar hacer malos modelos.
+6. **Modelos lineales**: Un modelo muy simple, ¡que es la base de las redes neuronales profundas!
+7. **Clasificadores**: KNN, Naive Bayes, Decision Tree, Boosting, Bagging, Random Forests.
+8. **Reducción de dimensionalidad**: Análisis de Componentes Principales, Análisis de Componentes Independientes, t-SNE, UMAP,... 
+9. **Métodos de clustering**: Métodos de clustering y métricas asociadas. 
+10. **SVM, SVR**: Pérdida bisagra, Lagrangiano, condiciones KKT, SVM no lineal, truco Kernel, SV Regressor  
+11. **Introducción a las Redes Neuronales**: Fundamentos del aprendizaje profundo
+12. **Introducción a la PNL** (Ponente invitado: Juan José Alegría): Cómo tratar el lenguaje natural.
