@@ -21,7 +21,7 @@ Here's a summary:
 2. **Data**: (Un)structured data, Representation, Normalization, Noise removal, ... 
 3. **Data Exploration**: Basic statistics for data exploration.
 4. **Intro to Supervised Learning**: Basics of Machine Learning and supervised learning.
-5. **[TODO] Intro to Fairness and Biases**: How to avoid making bad models.
+5. **Intro to Fairness and Biases**: How to avoid making bad models.
 6. **Linear Models**: A very simple model, which is the base of deep neural networks!
 7. **Classifiers**: KNN, Naive Bayes, Decision Tree, Boosting, Bagging, Random Forests.
 8. **Dimensionality Reduction**: Principal Component Analysis, Independant Component Analysis, t-SNE, UMAP,... 

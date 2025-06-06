@@ -20,7 +20,7 @@ Aquí un resumen:
 2. **Datos**: Datos (des)estructurados, Representación, Normalización, Eliminación de ruido, ... 
 3. **Exploración de datos**: Estadística básica para la exploración de datos.
 4. **Introducción al Aprendizaje Supervisado**: Conceptos básicos de aprendizaje automático y aprendizaje supervisado.
-5. **[TODO] Introducción a la imparcialidad y los sesgos**: Cómo evitar hacer malos modelos.
+5. **Introducción a la imparcialidad y los sesgos**: Cómo evitar hacer modelos malos.
 6. **Modelos lineales**: Un modelo muy simple, ¡que es la base de las redes neuronales profundas!
 7. **Clasificadores**: KNN, Naive Bayes, Decision Tree, Boosting, Bagging, Random Forests.
 8. **Reducción de dimensionalidad**: Análisis de Componentes Principales, Análisis de Componentes Independientes, t-SNE, UMAP,... 
