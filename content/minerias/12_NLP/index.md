@@ -12,4 +12,4 @@ tags:
 
 This is a class from an invited speaker, [Juan Jose Alegria](https://cl.linkedin.com/in/juanjo-alegria)! 
 
-## The slides are available [here](https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/c12_introducción_nlp.pdf)!
+## The slides are available [here](https://github.com/valbarriere/CC5205-Mineria-Datos-Content/raw/refs/heads/main/slides_es/c12_introduccion_nlp.pdf)!
