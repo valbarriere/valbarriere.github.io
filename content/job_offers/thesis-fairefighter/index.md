@@ -1,5 +1,5 @@
 ---
-title: '[Tesis postgrado] [Pagada] Deteccion de Fuego en la naturaleza usando IA'
+title: '[FOUND] [Tesis postgrado] [Pagada] Deteccion de Fuego en la naturaleza usando IA'
 
 date: '2025-01-01T00:00:00Z'
 

@@ -1,5 +1,5 @@
 ---
-title: '[Tesis pre/postgrado] [Pagada] Xenophobias -- Deteccion y reduccion de sesgos etnicos en LLM'
+title: '[FOUND] [Tesis pre/postgrado] [Pagada] Xenophobias -- Deteccion y reduccion de sesgos etnicos en LLM'
 
 date: '2025-01-01T00:00:00Z'
 

@@ -1,5 +1,5 @@
 ---
-title: '[Tesis pre/postgrado] [Pagada] Aprender a aprender -- IA y Meta-learning para datos Satelitales'
+title: '[FOUND] [Tesis pre/postgrado] [Pagada] Aprender a aprender -- IA y Meta-learning para datos Satelitales'
 
 date: '2025-01-01T00:00:00Z'
 
