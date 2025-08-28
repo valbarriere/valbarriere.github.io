@@ -1,5 +1,5 @@
 ---
-title: "(Preprint) StandUp4AI: A New Multilingual Dataset for Humor Detection in Stand-up Comedy Videos"
+title: "StandUp4AI: A New Multilingual Dataset for Humor Detection in Stand-up Comedy Videos"
 authors:
 - admin
 - Nahuel Gomez
@@ -19,8 +19,8 @@ publishDate: "2025-06-01T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Arxiv (submitted)"
-publication_short: "Arxiv (submitted)"
+publication: "Findings of EMNLP25"
+publication_short: "EMNLP25"
 
 abstract: "Aiming towards improving current computational models of humor detection, we propose a new multimodal dataset of stand-up comedies, in seven languages: English, French, Spanish, Italian, Portuguese, Hungarian and Czech. Our dataset of more than 330 hours, is at the time of writing the biggest available for this type of task, and the most diverse. The whole dataset is automatically annotated in laughter (from the audience), and the subpart left for model validation is manually annotated. Contrary to contemporary approaches, we do not frame the task of humor detection as a binary sequence classification, but as word-level sequence labeling, in order to take into account all the context of the sequence and to capture the continuous joke tagging mechanism typically occurring in natural conversations. As par with unimodal baselines results, we propose a method for e propose a method to enhance the automatic laughter detection based on Audio Speech Recognition errors. Our code and data are available online."
 

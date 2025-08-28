@@ -56,4 +56,4 @@ The last **Milestone 3** contains the final objective concerning the reduction o
 
 ![gantt](gantt.png)
 
-[^1]: ~ 8k dollars
+[^1]: ~ 8k US dollars
