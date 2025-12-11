@@ -38,7 +38,7 @@ links:
 # url_pdf: https://arxiv.org/pdf/2505.18903
 # url_code: 'https://github.com/Standup4AI/dataset'
 # url_dataset: 'https://github.com/Standup4AI/dataset'
-# url_poster: 'poster.pdf'
+url_poster: 'poster.pdf'
 url_project: 'xenophobias'
 url_slides: ''
 url_source: ''
